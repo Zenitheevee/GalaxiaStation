@@ -20,3 +20,12 @@
 	allow_duplicates = FALSE
 	never_spawn_with = list(/datum/map_template/ruin/lavaland/nova/interdyne_base)
 	always_place = TRUE
+
+/datum/map_template/ruin/icemoon/underground/nova/lost_colonist
+	name = "Ice-ruin Lost Colonist Underground"
+	id = "colonist-underground"
+	description = "A colonist lost from their pack fell down into the depths of the icemoon, hunkered down with their supplies and little luck."
+	prefix = "_maps/RandomRuins/IceRuins/nova/"
+	suffix = "icemoon_underground_lost_colonist.dmm"
+	never_spawn_with = list(/datum/map_template/ruin/icemoon/underground/hermit)
+

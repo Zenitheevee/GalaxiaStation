@@ -1,0 +1,468 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/template_noop,
+/area/template_noop)
+"b" = (
+/obj/structure/table/reinforced/rglass,
+/obj/machinery/reagentgrinder,
+/obj/machinery/light/warm/directional/west,
+/turf/open/floor/iron/colony,
+/area/ruin/powered/hermit)
+"e" = (
+/obj/structure/sink/directional/south,
+/turf/open/floor/iron/colony,
+/area/ruin/powered/hermit)
+"f" = (
+/obj/structure/rack/wooden,
+/obj/item/seeds/plump,
+/obj/item/seeds/plump,
+/obj/item/seeds/tower,
+/obj/item/seeds/reishi,
+/obj/item/food/grown/mushroom/glowshroom,
+/obj/item/cultivator,
+/turf/open/floor/iron/colony,
+/area/ruin/powered/hermit)
+"h" = (
+/obj/structure/closet/secure_closet/freezer/fridge/all_access,
+/turf/open/floor/iron/colony/bolts,
+/area/ruin/powered/hermit)
+"j" = (
+/obj/structure/rack/wooden,
+/obj/item/gun/energy/laser/musket/prime,
+/obj/item/pickaxe/drill/compact,
+/turf/open/floor/iron/colony,
+/area/ruin/powered/hermit)
+"l" = (
+/obj/structure/mineral_door/manual_colony_door,
+/turf/open/floor/iron/colony/texture,
+/area/ruin/powered/hermit)
+"m" = (
+/turf/open/floor/grass/fairy,
+/area/ruin/powered/hermit)
+"n" = (
+/obj/machinery/rnd/production/colony_lathe,
+/obj/item/flatpacked_machine/ore_silo,
+/obj/item/flatpacked_machine/arc_furnace,
+/turf/open/floor/iron/colony,
+/area/ruin/powered/hermit)
+"o" = (
+/turf/open/floor/iron/colony/texture,
+/area/ruin/powered/hermit)
+"p" = (
+/obj/structure/flora/tree/pine/style_random,
+/turf/open/misc/asteroid/snow/icemoon,
+/area/icemoon/underground/explored)
+"q" = (
+/turf/open/misc/ice,
+/area/ruin/powered/hermit)
+"s" = (
+/obj/structure/cable,
+/obj/structure/railing/wooden_fencing/gate,
+/turf/open/misc/asteroid/snow/icemoon,
+/area/icemoon/underground/explored)
+"t" = (
+/obj/machinery/light/warm/directional/east,
+/turf/open/floor/iron/colony,
+/area/ruin/powered/hermit)
+"u" = (
+/obj/machinery/oven/range_frontier,
+/turf/open/floor/iron/colony,
+/area/ruin/powered/hermit)
+"v" = (
+/turf/closed/mineral/snowmountain/icemoon,
+/area/icemoon/underground/explored)
+"w" = (
+/obj/item/flashlight/lantern,
+/turf/open/misc/asteroid/snow/icemoon,
+/area/icemoon/underground/explored)
+"x" = (
+/obj/machinery/light_switch/directional/south,
+/turf/open/floor/iron/colony,
+/area/ruin/powered/hermit)
+"y" = (
+/obj/machinery/power/terminal{
+	dir = 1
+	},
+/obj/structure/cable,
+/turf/open/floor/iron/colony/bolts,
+/area/ruin/powered/hermit)
+"z" = (
+/obj/machinery/power/apc/auto_name/directional/east,
+/obj/machinery/power/terminal{
+	dir = 4
+	},
+/obj/structure/cable,
+/turf/open/floor/iron/colony,
+/area/ruin/powered/hermit)
+"B" = (
+/obj/structure/rack/wooden,
+/obj/item/aquarium_upgrade/bioelec_gen,
+/obj/item/aquarium_kit,
+/obj/item/storage/toolbox/fishing/small,
+/turf/open/floor/grass/fairy,
+/area/ruin/powered/hermit)
+"C" = (
+/turf/closed/wall/prefab_plastic,
+/area/ruin/powered/hermit)
+"D" = (
+/obj/structure/flora/tree/jungle/small/style_random,
+/turf/open/floor/grass/fairy,
+/area/ruin/powered/hermit)
+"F" = (
+/obj/machinery/hydroponics/soil,
+/turf/open/misc/asteroid/snow/icemoon,
+/area/icemoon/underground/explored)
+"G" = (
+/obj/structure/rack/wooden,
+/obj/item/storage/bag/ore,
+/obj/item/mining_scanner,
+/turf/open/floor/iron/colony,
+/area/ruin/powered/hermit)
+"H" = (
+/obj/structure/cable,
+/turf/open/misc/asteroid/snow/icemoon,
+/area/icemoon/underground/explored)
+"J" = (
+/turf/open/floor/iron/colony,
+/area/ruin/powered/hermit)
+"L" = (
+/obj/structure/chair/plastic{
+	dir = 1
+	},
+/turf/open/floor/grass/fairy,
+/area/ruin/powered/hermit)
+"M" = (
+/obj/effect/mob_spawn/ghost_role/human/hermit/icemoon,
+/turf/open/floor/iron/colony/bolts,
+/area/ruin/powered/hermit)
+"N" = (
+/obj/machinery/cell_charger_multi/wall_mounted/directional/west,
+/turf/open/floor/iron/colony,
+/area/ruin/powered/hermit)
+"O" = (
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/turf/open/floor/iron/colony/bolts,
+/area/ruin/powered/hermit)
+"P" = (
+/obj/structure/cable,
+/turf/closed/wall/prefab_plastic,
+/area/ruin/powered/hermit)
+"Q" = (
+/turf/closed/wall/prefab_plastic,
+/area/icemoon/underground/explored)
+"R" = (
+/obj/structure/window/fulltile/colony_fabricator,
+/obj/machinery/door/poddoor/shutters/colony_fabricator,
+/turf/open/floor/iron/colony,
+/area/ruin/powered/hermit)
+"S" = (
+/turf/open/water/beach,
+/area/ruin/powered/hermit)
+"T" = (
+/obj/structure/table/reinforced/rglass,
+/obj/item/reagent_containers/condiment/flour/small_ration,
+/obj/item/reagent_containers/condiment/flour/small_ration,
+/obj/item/knife/combat,
+/turf/open/floor/iron/colony,
+/area/ruin/powered/hermit)
+"U" = (
+/obj/machinery/power/smes/battery_pack/precharged,
+/obj/structure/cable,
+/turf/open/floor/iron/colony,
+/area/ruin/powered/hermit)
+"V" = (
+/turf/open/misc/asteroid/snow/icemoon,
+/area/icemoon/underground/explored)
+"Z" = (
+/obj/structure/mineral_door/manual_colony_door,
+/turf/open/floor/iron/colony,
+/area/ruin/powered/hermit)
+
+(1,1,1) = {"
+a
+v
+v
+v
+v
+v
+v
+v
+v
+v
+a
+a
+a
+a
+a
+a
+"}
+(2,1,1) = {"
+v
+v
+v
+v
+v
+v
+v
+v
+V
+V
+V
+V
+p
+V
+a
+a
+"}
+(3,1,1) = {"
+v
+Q
+C
+C
+C
+C
+C
+C
+C
+C
+F
+V
+V
+V
+a
+a
+"}
+(4,1,1) = {"
+v
+Q
+h
+T
+b
+N
+J
+J
+O
+C
+V
+V
+V
+V
+a
+a
+"}
+(5,1,1) = {"
+v
+Q
+e
+J
+J
+J
+J
+J
+j
+R
+F
+V
+V
+V
+a
+a
+"}
+(6,1,1) = {"
+v
+C
+u
+J
+J
+J
+J
+J
+G
+R
+V
+V
+V
+p
+a
+a
+"}
+(7,1,1) = {"
+v
+C
+D
+m
+J
+J
+J
+J
+J
+C
+F
+V
+V
+V
+a
+a
+"}
+(8,1,1) = {"
+v
+C
+q
+m
+m
+J
+J
+J
+f
+C
+R
+C
+V
+V
+a
+a
+"}
+(9,1,1) = {"
+v
+C
+S
+q
+L
+J
+J
+J
+o
+l
+o
+Z
+V
+V
+a
+a
+"}
+(10,1,1) = {"
+v
+C
+q
+m
+m
+J
+J
+J
+x
+C
+R
+C
+V
+V
+a
+a
+"}
+(11,1,1) = {"
+v
+C
+D
+B
+J
+J
+J
+J
+n
+C
+V
+V
+V
+V
+a
+a
+"}
+(12,1,1) = {"
+v
+C
+J
+J
+J
+J
+J
+J
+J
+R
+F
+V
+V
+p
+a
+a
+"}
+(13,1,1) = {"
+v
+Q
+M
+J
+J
+t
+z
+U
+y
+C
+V
+w
+V
+V
+a
+a
+"}
+(14,1,1) = {"
+v
+Q
+C
+C
+C
+C
+C
+C
+P
+C
+F
+V
+V
+V
+a
+a
+"}
+(15,1,1) = {"
+v
+v
+v
+v
+v
+v
+v
+H
+s
+V
+V
+V
+V
+V
+a
+a
+"}
+(16,1,1) = {"
+a
+v
+v
+v
+v
+v
+v
+v
+v
+a
+a
+a
+a
+a
+a
+a
+"}
