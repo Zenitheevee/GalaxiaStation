@@ -41,3 +41,12 @@
 	suffix = "lavaland_surface_prefab_homestead.dmm"
 	allow_duplicates = FALSE
 	cost = 5
+
+/datum/map_template/ruin/lavaland/nova/sole_colonist
+	name = "Lava-Ruin Sole Colonist Bunker"
+	id = "sole_colonist"
+	description = "A caravan had their eyes on this planet. \"Cauldera Ferous\", they'd plan their outpost name. The sole survivor through means unknown managed to make a bunker much dimishished from the intended plan, alone to their selfish hell."
+	prefix = "_maps/RandomRuins/LavaRuins/nova/"
+	suffix = "lavaland_surface_sole_colonist.dmm"
+	allow_duplicates = FALSE
+	never_spawn_with = /datum/map_template/ruin/lavaland/hermit

@@ -147,9 +147,6 @@
 /obj/structure/cable,
 /turf/closed/wall/prefab_plastic,
 /area/ruin/powered/hermit)
-"Q" = (
-/turf/closed/wall/prefab_plastic,
-/area/icemoon/underground/explored)
 "R" = (
 /obj/structure/window/fulltile/colony_fabricator,
 /obj/machinery/door/poddoor/shutters/colony_fabricator,
@@ -216,7 +213,7 @@ a
 "}
 (3,1,1) = {"
 v
-Q
+C
 C
 C
 C
@@ -234,7 +231,7 @@ a
 "}
 (4,1,1) = {"
 v
-Q
+C
 h
 T
 b
@@ -252,7 +249,7 @@ a
 "}
 (5,1,1) = {"
 v
-Q
+C
 e
 J
 J
@@ -396,7 +393,7 @@ a
 "}
 (13,1,1) = {"
 v
-Q
+C
 M
 J
 J
@@ -414,7 +411,7 @@ a
 "}
 (14,1,1) = {"
 v
-Q
+C
 C
 C
 C
