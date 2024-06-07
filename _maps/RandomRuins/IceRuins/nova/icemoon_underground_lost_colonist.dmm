@@ -7,11 +7,11 @@
 /obj/machinery/reagentgrinder,
 /obj/machinery/light/warm/directional/west,
 /turf/open/floor/iron/colony,
-/area/ruin/powered/hermit)
+/area/ruin/colonist_bunker)
 "e" = (
 /obj/structure/sink/directional/south,
 /turf/open/floor/iron/colony,
-/area/ruin/powered/hermit)
+/area/ruin/colonist_bunker)
 "f" = (
 /obj/structure/rack/wooden,
 /obj/item/seeds/plump,
@@ -20,54 +20,73 @@
 /obj/item/seeds/reishi,
 /obj/item/food/grown/mushroom/glowshroom,
 /obj/item/cultivator,
+/obj/item/seeds/wheat,
+/obj/item/seeds/wheat,
+/obj/item/storage/bag/plants/portaseeder,
+/obj/item/seeds/corn,
+/obj/item/seeds/corn,
+/obj/item/seeds/cotton,
+/obj/item/seeds/cotton,
+/obj/item/seeds/carrot,
+/obj/item/seeds/carrot,
+/obj/item/seeds/tomato,
+/obj/item/seeds/tomato,
+/obj/item/seeds/eggplant,
 /turf/open/floor/iron/colony,
-/area/ruin/powered/hermit)
+/area/ruin/colonist_bunker)
 "h" = (
 /obj/structure/closet/secure_closet/freezer/fridge/all_access,
 /turf/open/floor/iron/colony/bolts,
-/area/ruin/powered/hermit)
+/area/ruin/colonist_bunker)
 "j" = (
 /obj/structure/rack/wooden,
 /obj/item/gun/energy/laser/musket/prime,
 /obj/item/pickaxe/drill/compact,
 /turf/open/floor/iron/colony,
-/area/ruin/powered/hermit)
+/area/ruin/colonist_bunker)
 "l" = (
 /obj/structure/mineral_door/manual_colony_door,
 /turf/open/floor/iron/colony/texture,
-/area/ruin/powered/hermit)
+/area/ruin/colonist_bunker)
 "m" = (
 /turf/open/floor/grass/fairy,
-/area/ruin/powered/hermit)
+/area/ruin/colonist_bunker)
 "n" = (
-/obj/machinery/rnd/production/colony_lathe,
-/obj/item/flatpacked_machine/ore_silo,
-/obj/item/flatpacked_machine/arc_furnace,
+/obj/structure/cable,
 /turf/open/floor/iron/colony,
-/area/ruin/powered/hermit)
+/area/ruin/colonist_bunker)
 "o" = (
 /turf/open/floor/iron/colony/texture,
-/area/ruin/powered/hermit)
+/area/ruin/colonist_bunker)
 "p" = (
 /obj/structure/flora/tree/pine/style_random,
 /turf/open/misc/asteroid/snow/icemoon,
 /area/icemoon/underground/explored)
 "q" = (
-/turf/open/misc/ice,
-/area/ruin/powered/hermit)
+/turf/open/misc/ice/icehut,
+/area/ruin/colonist_bunker)
 "s" = (
 /obj/structure/cable,
 /obj/structure/railing/wooden_fencing/gate,
-/turf/open/misc/asteroid/snow/icemoon,
-/area/icemoon/underground/explored)
+/turf/open/floor/plating/snowed/smoothed/icemoon,
+/area/ruin/colonist_bunker)
 "t" = (
 /obj/machinery/light/warm/directional/east,
+/obj/structure/rack/wooden,
+/obj/item/aquarium_kit,
+/obj/item/aquarium_kit,
+/obj/item/aquarium_upgrade/bioelec_gen,
+/obj/item/aquarium_upgrade/bioelec_gen,
+/obj/item/aquarium_kit,
+/obj/machinery/power/apc/auto_name/directional/east,
+/obj/structure/cable,
+/obj/effect/mapping_helpers/apc/unlocked,
 /turf/open/floor/iron/colony,
-/area/ruin/powered/hermit)
+/area/ruin/colonist_bunker)
 "u" = (
 /obj/machinery/oven/range_frontier,
 /turf/open/floor/iron/colony,
-/area/ruin/powered/hermit)
+/area/ruin/colonist_bunker)
 "v" = (
 /turf/closed/mineral/snowmountain/icemoon,
 /area/icemoon/underground/explored)
@@ -77,37 +96,47 @@
 /area/icemoon/underground/explored)
 "x" = (
 /obj/machinery/light_switch/directional/south,
+/obj/structure/rack/wooden,
+/obj/item/knife/combat,
+/obj/item/clothing/suit/hooded/explorer,
+/obj/item/tank/internals/oxygen/yellow,
 /turf/open/floor/iron/colony,
-/area/ruin/powered/hermit)
+/area/ruin/colonist_bunker)
 "y" = (
 /obj/machinery/power/terminal{
 	dir = 1
 	},
 /obj/structure/cable,
+/obj/machinery/power/energy_accumulator/tesla_coil,
 /turf/open/floor/iron/colony/bolts,
-/area/ruin/powered/hermit)
+/area/ruin/colonist_bunker)
 "z" = (
-/obj/machinery/power/apc/auto_name/directional/east,
-/obj/machinery/power/terminal{
-	dir = 4
-	},
 /obj/structure/cable,
+/obj/item/flatpacked_machine/arc_furnace,
+/obj/machinery/rnd/production/colony_lathe,
 /turf/open/floor/iron/colony,
-/area/ruin/powered/hermit)
+/area/ruin/colonist_bunker)
 "B" = (
 /obj/structure/rack/wooden,
-/obj/item/aquarium_upgrade/bioelec_gen,
-/obj/item/aquarium_kit,
-/obj/item/storage/toolbox/fishing/small,
-/turf/open/floor/grass/fairy,
-/area/ruin/powered/hermit)
+/obj/item/stack/sheet/glass/fifty,
+/obj/item/stack/sheet/iron/fifty,
+/obj/item/stack/sheet/plastic/fifty,
+/obj/item/storage/toolbox/fishing,
+/obj/item/storage/box/fishing_lines,
+/turf/open/floor/iron/colony,
+/area/ruin/colonist_bunker)
 "C" = (
 /turf/closed/wall/prefab_plastic,
-/area/ruin/powered/hermit)
+/area/ruin/colonist_bunker)
 "D" = (
 /obj/structure/flora/tree/jungle/small/style_random,
 /turf/open/floor/grass/fairy,
-/area/ruin/powered/hermit)
+/area/ruin/colonist_bunker)
+"E" = (
+/obj/structure/cable,
+/obj/machinery/power/energy_accumulator/grounding_rod,
+/turf/open/floor/iron/colony,
+/area/ruin/colonist_bunker)
 "F" = (
 /obj/machinery/hydroponics/soil,
 /turf/open/misc/asteroid/snow/icemoon,
@@ -117,63 +146,63 @@
 /obj/item/storage/bag/ore,
 /obj/item/mining_scanner,
 /turf/open/floor/iron/colony,
-/area/ruin/powered/hermit)
+/area/ruin/colonist_bunker)
 "H" = (
 /obj/structure/cable,
-/turf/open/misc/asteroid/snow/icemoon,
-/area/icemoon/underground/explored)
+/turf/open/floor/plating/snowed/smoothed/icemoon,
+/area/ruin/colonist_bunker)
 "J" = (
 /turf/open/floor/iron/colony,
-/area/ruin/powered/hermit)
+/area/ruin/colonist_bunker)
 "L" = (
 /obj/structure/chair/plastic{
 	dir = 1
 	},
 /turf/open/floor/grass/fairy,
-/area/ruin/powered/hermit)
+/area/ruin/colonist_bunker)
 "M" = (
 /obj/effect/mob_spawn/ghost_role/human/hermit/icemoon,
 /turf/open/floor/iron/colony/bolts,
-/area/ruin/powered/hermit)
+/area/ruin/colonist_bunker)
 "N" = (
 /obj/machinery/cell_charger_multi/wall_mounted/directional/west,
 /turf/open/floor/iron/colony,
-/area/ruin/powered/hermit)
+/area/ruin/colonist_bunker)
 "O" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /turf/open/floor/iron/colony/bolts,
-/area/ruin/powered/hermit)
+/area/ruin/colonist_bunker)
 "P" = (
 /obj/structure/cable,
 /turf/closed/wall/prefab_plastic,
-/area/ruin/powered/hermit)
+/area/ruin/colonist_bunker)
 "R" = (
 /obj/structure/window/fulltile/colony_fabricator,
 /obj/machinery/door/poddoor/shutters/colony_fabricator,
 /turf/open/floor/iron/colony,
-/area/ruin/powered/hermit)
+/area/ruin/colonist_bunker)
 "S" = (
-/turf/open/water/beach,
-/area/ruin/powered/hermit)
+/turf/open/water/ice_lake,
+/area/ruin/colonist_bunker)
 "T" = (
 /obj/structure/table/reinforced/rglass,
 /obj/item/reagent_containers/condiment/flour/small_ration,
 /obj/item/reagent_containers/condiment/flour/small_ration,
-/obj/item/knife/combat,
+/obj/item/kitchen/rollingpin,
 /turf/open/floor/iron/colony,
-/area/ruin/powered/hermit)
+/area/ruin/colonist_bunker)
 "U" = (
 /obj/machinery/power/smes/battery_pack/precharged,
 /obj/structure/cable,
 /turf/open/floor/iron/colony,
-/area/ruin/powered/hermit)
+/area/ruin/colonist_bunker)
 "V" = (
 /turf/open/misc/asteroid/snow/icemoon,
 /area/icemoon/underground/explored)
 "Z" = (
 /obj/structure/mineral_door/manual_colony_door,
 /turf/open/floor/iron/colony,
-/area/ruin/powered/hermit)
+/area/ruin/colonist_bunker)
 
 (1,1,1) = {"
 a
@@ -359,7 +388,7 @@ a
 v
 C
 D
-B
+m
 J
 J
 J
@@ -382,7 +411,7 @@ J
 J
 J
 J
-J
+E
 R
 F
 V
@@ -396,7 +425,7 @@ v
 C
 M
 J
-J
+B
 t
 z
 U
@@ -434,7 +463,7 @@ v
 v
 v
 v
-v
+C
 H
 s
 V
@@ -452,9 +481,9 @@ v
 v
 v
 v
-v
-v
-v
+C
+C
+C
 a
 a
 a

@@ -28,4 +28,3 @@
 	prefix = "_maps/RandomRuins/IceRuins/nova/"
 	suffix = "icemoon_underground_lost_colonist.dmm"
 	never_spawn_with = list(/datum/map_template/ruin/icemoon/underground/hermit)
-

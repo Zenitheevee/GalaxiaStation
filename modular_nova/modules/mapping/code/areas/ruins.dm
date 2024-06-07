@@ -19,3 +19,7 @@
 	name = "Jungle Biodome"
 	icon_state = "dk_yellow"
 
+/area/ruin/colonist_bunker
+	name = "Colonist Bunker"
+	icon_state = "ruins"
+	ambientsounds = list('sound/ambience/ambicha1.ogg', 'sound/ambience/ambicha2.ogg', 'sound/ambience/ambicha3.ogg')
