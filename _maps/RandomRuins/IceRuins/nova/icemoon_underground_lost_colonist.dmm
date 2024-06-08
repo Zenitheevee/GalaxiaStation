@@ -42,21 +42,23 @@
 /obj/structure/rack/wooden,
 /obj/item/gun/energy/laser/musket/prime,
 /obj/item/pickaxe/drill/compact,
+/obj/item/wallframe/frontier_medstation,
 /turf/open/floor/iron/colony,
 /area/ruin/colonist_bunker)
 "l" = (
 /obj/structure/mineral_door/manual_colony_door,
-/turf/open/floor/iron/colony/texture,
+/obj/structure/cable,
+/turf/open/floor/catwalk_floor/colony_fabricator,
 /area/ruin/colonist_bunker)
 "m" = (
 /turf/open/floor/grass/fairy,
 /area/ruin/colonist_bunker)
 "n" = (
 /obj/structure/cable,
-/turf/open/floor/iron/colony,
-/area/ruin/colonist_bunker)
-"o" = (
-/turf/open/floor/iron/colony/texture,
+/obj/machinery/button/door/directional/south{
+	id = "hermit3"
+	},
+/turf/open/floor/catwalk_floor/colony_fabricator,
 /area/ruin/colonist_bunker)
 "p" = (
 /obj/structure/flora/tree/pine/style_random,
@@ -64,6 +66,12 @@
 /area/icemoon/underground/explored)
 "q" = (
 /turf/open/misc/ice/icehut,
+/area/ruin/colonist_bunker)
+"r" = (
+/obj/machinery/button/door/directional/south{
+	id = "hermit1"
+	},
+/turf/open/floor/iron/colony,
 /area/ruin/colonist_bunker)
 "s" = (
 /obj/structure/cable,
@@ -81,7 +89,7 @@
 /obj/machinery/power/apc/auto_name/directional/east,
 /obj/structure/cable,
 /obj/effect/mapping_helpers/apc/unlocked,
-/turf/open/floor/iron/colony,
+/turf/open/floor/catwalk_floor/colony_fabricator,
 /area/ruin/colonist_bunker)
 "u" = (
 /obj/machinery/oven/range_frontier,
@@ -100,20 +108,26 @@
 /obj/item/knife/combat,
 /obj/item/clothing/suit/hooded/explorer,
 /obj/item/tank/internals/oxygen/yellow,
-/turf/open/floor/iron/colony,
+/obj/structure/cable,
+/turf/open/floor/catwalk_floor/colony_fabricator,
 /area/ruin/colonist_bunker)
 "y" = (
-/obj/machinery/power/terminal{
-	dir = 1
-	},
 /obj/structure/cable,
 /obj/machinery/power/energy_accumulator/tesla_coil,
-/turf/open/floor/iron/colony/bolts,
+/turf/open/floor/catwalk_floor/colony_fabricator,
 /area/ruin/colonist_bunker)
 "z" = (
 /obj/structure/cable,
 /obj/item/flatpacked_machine/arc_furnace,
 /obj/machinery/rnd/production/colony_lathe,
+/obj/item/flatpacked_machine/station_battery,
+/turf/open/floor/catwalk_floor/colony_fabricator,
+/area/ruin/colonist_bunker)
+"A" = (
+/obj/structure/window/fulltile/colony_fabricator,
+/obj/machinery/door/poddoor/shutters/colony_fabricator{
+	id = "hermit1"
+	},
 /turf/open/floor/iron/colony,
 /area/ruin/colonist_bunker)
 "B" = (
@@ -135,7 +149,7 @@
 "E" = (
 /obj/structure/cable,
 /obj/machinery/power/energy_accumulator/grounding_rod,
-/turf/open/floor/iron/colony,
+/turf/open/floor/catwalk_floor/colony_fabricator,
 /area/ruin/colonist_bunker)
 "F" = (
 /obj/machinery/hydroponics/soil,
@@ -152,6 +166,13 @@
 /turf/open/floor/plating/snowed/smoothed/icemoon,
 /area/ruin/colonist_bunker)
 "J" = (
+/turf/open/floor/iron/colony,
+/area/ruin/colonist_bunker)
+"K" = (
+/obj/structure/window/fulltile/colony_fabricator,
+/obj/machinery/door/poddoor/shutters/colony_fabricator{
+	id = "hermit3"
+	},
 /turf/open/floor/iron/colony,
 /area/ruin/colonist_bunker)
 "L" = (
@@ -178,7 +199,9 @@
 /area/ruin/colonist_bunker)
 "R" = (
 /obj/structure/window/fulltile/colony_fabricator,
-/obj/machinery/door/poddoor/shutters/colony_fabricator,
+/obj/machinery/door/poddoor/shutters/colony_fabricator{
+	id = "hermit2"
+	},
 /turf/open/floor/iron/colony,
 /area/ruin/colonist_bunker)
 "S" = (
@@ -192,16 +215,19 @@
 /turf/open/floor/iron/colony,
 /area/ruin/colonist_bunker)
 "U" = (
-/obj/machinery/power/smes/battery_pack/precharged,
 /obj/structure/cable,
-/turf/open/floor/iron/colony,
+/turf/open/floor/catwalk_floor/colony_fabricator,
 /area/ruin/colonist_bunker)
 "V" = (
 /turf/open/misc/asteroid/snow/icemoon,
 /area/icemoon/underground/explored)
-"Z" = (
-/obj/structure/mineral_door/manual_colony_door,
-/turf/open/floor/iron/colony,
+"W" = (
+/obj/machinery/button/door/directional/west{
+	pixel_y = -25;
+	id = "hermit2"
+	},
+/obj/structure/cable,
+/turf/open/floor/catwalk_floor/colony_fabricator,
 /area/ruin/colonist_bunker)
 
 (1,1,1) = {"
@@ -286,7 +312,7 @@ J
 J
 J
 j
-R
+A
 F
 V
 V
@@ -304,7 +330,7 @@ J
 J
 J
 G
-R
+A
 V
 V
 V
@@ -321,7 +347,7 @@ J
 J
 J
 J
-J
+r
 C
 F
 V
@@ -357,10 +383,10 @@ L
 J
 J
 J
-o
+U
 l
-o
-Z
+W
+l
 V
 V
 a
@@ -412,7 +438,7 @@ J
 J
 J
 E
-R
+K
 F
 V
 V

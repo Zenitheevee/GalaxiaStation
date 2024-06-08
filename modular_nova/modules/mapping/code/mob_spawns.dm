@@ -492,6 +492,39 @@
 		id_card.registered_account = offstation_bank_account
 	return
 
+//LOST/SOLE COLONIST: A colonist that for one reason or another lost their group and has to now bunker down alone with only what they have on them.
+
+/obj/effect/mob_spawn/ghost_role/human/lost_colonist
+	name = "lost colonist pod"
+	prompt_name = "a lost colonist"
+	desc = "A humming cryo pod. You see someone who needs to fish inside."
+	mob_name = "lost colonist" // god i'm realizing how boring it is to type it all the time
+	outfit = /datum/outfit/lone_colonist
+	spawner_job_path = /datum/job/lone_colonist // Its more RP-allowing hermit, so we shouldn't taint hermit stats with it.
+	icon = 'icons/obj/machines/sleeper.dmi'
+	icon_state = "sleeper"
+	mob_species = /datum/species/human
+	you_are_text = "You are a traveling colonist, roaming with your pack to establish a new base camp for settlement and survival needs. The equipment you carry is important to both you and the colonists you traveled with."
+	flavour_text = "You were traveling along the planet's surface to move camp when the ground cave under you. Your equipment came with you, but the rest of the colonists kept going after re-assuring to return after setting base. With luck on your side, you must now survive."
+	important_text = "Your loadout is very important to consider when spawning. Certain items may be hard to get outside of station visits or loadout. Try to not abandon the post."
+	random_appearance = FALSE
+	quirks_enabled = TRUE
+	loadout_enabled = TRUE
+
+/datum/outfit/lone_colonist
+	name = "Lone Colonist"
+	uniform = /obj/item/clothing/under/frontier_colonist
+	shoes = /obj/item/clothing/shoes/jackboots/frontier_colonist
+	back = /obj/item/storage/backpack/industrial/frontier_colonist
+	ears = /obj/item/radio/headset/headset_frontier_colonist
+	suit = /obj/item/clothing/suit/jacket/frontier_colonist
+	gloves = /obj/item/clothing/gloves/frontier_colonist
+
+/obj/effect/mob_spawn/ghost_role/human/lost_colonist/sole
+	prompt_name = "a sole colonist"
+	desc = "a humming cryo pod. You see some unfortunate soul inside."
+	flavour_text = "You were planning to make a colony on this planet, but after several dying to pirates in transit and what other survivors perishing to the harsh wasteland you made but a meager bunker. Luck was never on your side, and now you're alone in this selfish hell your colony deigned \"Ferrous Caldera\"."
+
 //ITEMS//
 /obj/item/radio/headset/cybersun
 	keyslot = new /obj/item/encryptionkey/headset_syndicate/cybersun

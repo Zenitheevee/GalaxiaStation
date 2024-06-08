@@ -43,6 +43,20 @@
 /obj/structure/sink/directional/south,
 /turf/open/floor/iron/colony,
 /area/ruin/colonist_bunker)
+"p" = (
+/obj/structure/window/fulltile/colony_fabricator,
+/obj/machinery/door/poddoor/shutters/colony_fabricator{
+	id = "hermit3"
+	},
+/turf/open/floor/iron/colony,
+/area/ruin/colonist_bunker)
+"r" = (
+/obj/machinery/button/door/directional/west{
+	pixel_y = -25;
+	id = "hermit2"
+	},
+/turf/open/floor/iron/colony/texture,
+/area/ruin/colonist_bunker)
 "s" = (
 /turf/open/water/lava_lake,
 /area/ruin/colonist_bunker)
@@ -50,6 +64,12 @@
 /obj/structure/rack/wooden,
 /obj/item/storage/bag/ore,
 /obj/item/mining_scanner,
+/turf/open/floor/iron/colony,
+/area/ruin/colonist_bunker)
+"u" = (
+/obj/machinery/button/door/directional/south{
+	id = "hermit1"
+	},
 /turf/open/floor/iron/colony,
 /area/ruin/colonist_bunker)
 "v" = (
@@ -157,6 +177,9 @@
 /area/ruin/colonist_bunker)
 "L" = (
 /obj/structure/cable,
+/obj/machinery/button/door/directional/south{
+	id = "hermit3"
+	},
 /turf/open/floor/iron/colony,
 /area/ruin/colonist_bunker)
 "M" = (
@@ -167,9 +190,18 @@
 "N" = (
 /turf/closed/mineral,
 /area/icemoon/underground/explored)
+"P" = (
+/obj/structure/window/fulltile/colony_fabricator,
+/obj/machinery/door/poddoor/shutters/colony_fabricator{
+	id = "hermit1"
+	},
+/turf/open/floor/iron/colony,
+/area/ruin/colonist_bunker)
 "Q" = (
 /obj/structure/window/fulltile/colony_fabricator,
-/obj/machinery/door/poddoor/shutters/colony_fabricator,
+/obj/machinery/door/poddoor/shutters/colony_fabricator{
+	id = "hermit2"
+	},
 /turf/open/floor/iron/colony,
 /area/ruin/colonist_bunker)
 "R" = (
@@ -287,7 +319,7 @@ a
 a
 a
 n
-Q
+P
 x
 y
 y
@@ -305,7 +337,7 @@ a
 a
 a
 t
-Q
+P
 y
 y
 y
@@ -322,7 +354,7 @@ a
 a
 a
 a
-a
+u
 R
 x
 y
@@ -360,7 +392,7 @@ a
 a
 w
 e
-w
+r
 d
 y
 y
@@ -413,7 +445,7 @@ a
 a
 a
 U
-Q
+p
 x
 y
 y

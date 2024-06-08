@@ -33,6 +33,7 @@ GLOBAL_LIST_INIT(exp_specialmap, list(
 		ROLE_FREIGHTER_CREW,
 		ROLE_GHOST_CAFE,
 		ROLE_PORT_TARKON,
+		ROLE_LONE_COLONIST,
 		//NOVA EDIT Start - End Custom Ghost roles
 		), // Ghost roles
 	EXP_TYPE_GHOST = list() // dead people, observers
