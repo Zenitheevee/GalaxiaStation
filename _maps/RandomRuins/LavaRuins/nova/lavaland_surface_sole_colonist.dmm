@@ -5,16 +5,13 @@
 "b" = (
 /turf/open/space/basic,
 /area/template_noop)
-"d" = (
-/obj/structure/mineral_door/manual_colony_door,
-/turf/open/floor/iron/colony,
-/area/ruin/colonist_bunker)
 "e" = (
 /obj/structure/mineral_door/manual_colony_door,
-/turf/open/floor/iron/colony/texture,
+/obj/structure/cable,
+/turf/open/floor/catwalk_floor/colony_fabricator,
 /area/ruin/colonist_bunker)
 "f" = (
-/obj/effect/mob_spawn/ghost_role/human/hermit/icemoon,
+/obj/effect/mob_spawn/ghost_role/human/lost_colonist/sole,
 /turf/open/floor/iron/colony/bolts,
 /area/ruin/colonist_bunker)
 "i" = (
@@ -55,7 +52,8 @@
 	pixel_y = -25;
 	id = "hermit2"
 	},
-/turf/open/floor/iron/colony/texture,
+/obj/structure/cable,
+/turf/open/floor/catwalk_floor/colony_fabricator,
 /area/ruin/colonist_bunker)
 "s" = (
 /turf/open/water/lava_lake,
@@ -79,7 +77,8 @@
 /turf/open/floor/grass,
 /area/ruin/colonist_bunker)
 "w" = (
-/turf/open/floor/iron/colony/texture,
+/obj/machinery/biogenerator/medstation/directional/west,
+/turf/open/floor/iron/colony,
 /area/ruin/colonist_bunker)
 "x" = (
 /obj/machinery/hydroponics/soil,
@@ -99,15 +98,12 @@
 /obj/item/aquarium_upgrade/bioelec_gen,
 /obj/item/aquarium_upgrade/bioelec_gen,
 /obj/effect/mapping_helpers/apc/unlocked,
-/turf/open/floor/iron/colony,
+/turf/open/floor/catwalk_floor/colony_fabricator,
 /area/ruin/colonist_bunker)
 "A" = (
-/obj/machinery/power/terminal{
-	dir = 1
-	},
 /obj/structure/cable,
 /obj/machinery/power/energy_accumulator/tesla_coil,
-/turf/open/floor/iron/colony/bolts,
+/turf/open/floor/catwalk_floor/colony_fabricator,
 /area/ruin/colonist_bunker)
 "B" = (
 /obj/machinery/light_switch/directional/south,
@@ -115,7 +111,8 @@
 /obj/item/knife/combat,
 /obj/item/clothing/suit/hooded/explorer,
 /obj/item/tank/internals/oxygen/yellow,
-/turf/open/floor/iron/colony,
+/obj/structure/cable,
+/turf/open/floor/catwalk_floor/colony_fabricator,
 /area/ruin/colonist_bunker)
 "C" = (
 /obj/structure/rack/wooden,
@@ -173,14 +170,15 @@
 /obj/structure/cable,
 /obj/item/flatpacked_machine/arc_furnace,
 /obj/machinery/rnd/production/colony_lathe,
-/turf/open/floor/iron/colony,
+/obj/item/flatpacked_machine/station_battery,
+/turf/open/floor/catwalk_floor/colony_fabricator,
 /area/ruin/colonist_bunker)
 "L" = (
 /obj/structure/cable,
 /obj/machinery/button/door/directional/south{
 	id = "hermit3"
 	},
-/turf/open/floor/iron/colony,
+/turf/open/floor/catwalk_floor/colony_fabricator,
 /area/ruin/colonist_bunker)
 "M" = (
 /obj/structure/cable,
@@ -219,7 +217,7 @@
 "U" = (
 /obj/structure/cable,
 /obj/machinery/power/energy_accumulator/grounding_rod,
-/turf/open/floor/iron/colony,
+/turf/open/floor/catwalk_floor/colony_fabricator,
 /area/ruin/colonist_bunker)
 "V" = (
 /obj/structure/closet/secure_closet/freezer/fridge/all_access,
@@ -232,9 +230,8 @@
 /turf/open/misc/beach/sand,
 /area/ruin/colonist_bunker)
 "Y" = (
-/obj/machinery/power/smes/battery_pack/precharged,
 /obj/structure/cable,
-/turf/open/floor/iron/colony,
+/turf/open/floor/catwalk_floor/colony_fabricator,
 /area/ruin/colonist_bunker)
 
 (1,1,1) = {"
@@ -298,7 +295,7 @@ V
 G
 H
 J
-a
+w
 a
 k
 R
@@ -390,10 +387,10 @@ v
 a
 a
 a
-w
+Y
 e
 r
-d
+e
 y
 y
 b

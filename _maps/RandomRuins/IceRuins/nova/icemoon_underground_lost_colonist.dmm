@@ -42,7 +42,6 @@
 /obj/structure/rack/wooden,
 /obj/item/gun/energy/laser/musket/prime,
 /obj/item/pickaxe/drill/compact,
-/obj/item/wallframe/frontier_medstation,
 /turf/open/floor/iron/colony,
 /area/ruin/colonist_bunker)
 "l" = (
@@ -59,6 +58,10 @@
 	id = "hermit3"
 	},
 /turf/open/floor/catwalk_floor/colony_fabricator,
+/area/ruin/colonist_bunker)
+"o" = (
+/obj/machinery/biogenerator/medstation/directional/west,
+/turf/open/floor/iron/colony,
 /area/ruin/colonist_bunker)
 "p" = (
 /obj/structure/flora/tree/pine/style_random,
@@ -182,7 +185,7 @@
 /turf/open/floor/grass/fairy,
 /area/ruin/colonist_bunker)
 "M" = (
-/obj/effect/mob_spawn/ghost_role/human/hermit/icemoon,
+/obj/effect/mob_spawn/ghost_role/human/lost_colonist,
 /turf/open/floor/iron/colony/bolts,
 /area/ruin/colonist_bunker)
 "N" = (
@@ -291,7 +294,7 @@ h
 T
 b
 N
-J
+o
 J
 O
 C
