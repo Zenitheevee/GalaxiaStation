@@ -3,8 +3,12 @@
 /turf/open/floor/iron/colony,
 /area/ruin/colonist_bunker)
 "b" = (
-/turf/open/space/basic,
+/turf/template_noop,
 /area/template_noop)
+"c" = (
+/obj/structure/flora/ash/fireblossom,
+/turf/open/misc/basalt,
+/area/lavaland/surface/outdoors)
 "e" = (
 /obj/structure/mineral_door/manual_colony_door,
 /obj/structure/cable,
@@ -14,13 +18,21 @@
 /obj/effect/mob_spawn/ghost_role/human/lost_colonist/sole,
 /turf/open/floor/iron/colony/bolts,
 /area/ruin/colonist_bunker)
-"i" = (
-/obj/structure/flora/rock/style_random,
+"g" = (
+/obj/structure/flora/ash/cacti,
 /turf/open/misc/basalt,
-/area/icemoon/underground/explored)
+/area/lavaland/surface/outdoors)
+"h" = (
+/obj/structure/flora/ash/chilly,
+/turf/open/misc/basalt,
+/area/lavaland/surface/outdoors)
+"i" = (
+/obj/structure/flora/ash/cap_shroom,
+/turf/open/misc/basalt,
+/area/lavaland/surface/outdoors)
 "j" = (
 /obj/structure/cable,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/ruin/colonist_bunker)
 "k" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
@@ -30,6 +42,10 @@
 /obj/structure/flora/tree/jungle/small/style_random,
 /turf/open/floor/grass,
 /area/ruin/colonist_bunker)
+"m" = (
+/obj/structure/flora/ash/tall_shroom,
+/turf/open/misc/basalt,
+/area/lavaland/surface/outdoors)
 "n" = (
 /obj/structure/rack/wooden,
 /obj/item/gun/energy/laser/musket/prime,
@@ -47,6 +63,10 @@
 	},
 /turf/open/floor/iron/colony,
 /area/ruin/colonist_bunker)
+"q" = (
+/obj/structure/flora/ash/stem_shroom,
+/turf/open/misc/basalt,
+/area/lavaland/surface/outdoors)
 "r" = (
 /obj/machinery/button/door/directional/west{
 	pixel_y = -25;
@@ -83,10 +103,10 @@
 "x" = (
 /obj/machinery/hydroponics/soil,
 /turf/open/misc/basalt,
-/area/icemoon/underground/explored)
+/area/lavaland/surface/outdoors)
 "y" = (
 /turf/open/misc/basalt,
-/area/icemoon/underground/explored)
+/area/lavaland/surface/outdoors)
 "z" = (
 /obj/machinery/light/warm/directional/east,
 /obj/machinery/power/apc/auto_name/directional/east,
@@ -136,6 +156,10 @@
 /obj/item/seeds/eggplant,
 /turf/open/floor/iron/colony,
 /area/ruin/colonist_bunker)
+"D" = (
+/obj/structure/flora/ash/seraka,
+/turf/open/misc/basalt,
+/area/lavaland/surface/outdoors)
 "F" = (
 /obj/structure/rack/wooden,
 /obj/item/stack/sheet/glass/fifty,
@@ -187,7 +211,7 @@
 /area/ruin/colonist_bunker)
 "N" = (
 /turf/closed/mineral,
-/area/icemoon/underground/explored)
+/area/lavaland/surface/outdoors)
 "P" = (
 /obj/structure/window/fulltile/colony_fabricator,
 /obj/machinery/door/poddoor/shutters/colony_fabricator{
@@ -208,12 +232,12 @@
 "S" = (
 /obj/structure/cable,
 /obj/structure/fence/door,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/ruin/colonist_bunker)
 "T" = (
 /obj/item/flashlight/lantern,
 /turf/open/misc/basalt,
-/area/icemoon/underground/explored)
+/area/lavaland/surface/outdoors)
 "U" = (
 /obj/structure/cable,
 /obj/machinery/power/energy_accumulator/grounding_rod,
@@ -233,6 +257,10 @@
 /obj/structure/cable,
 /turf/open/floor/catwalk_floor/colony_fabricator,
 /area/ruin/colonist_bunker)
+"Z" = (
+/obj/structure/flora/ash/leaf_shroom,
+/turf/open/misc/basalt,
+/area/lavaland/surface/outdoors)
 
 (1,1,1) = {"
 N
@@ -245,12 +273,12 @@ N
 N
 N
 N
-b
-b
-b
-b
-b
-b
+N
+N
+N
+N
+N
+N
 "}
 (2,1,1) = {"
 N
@@ -261,14 +289,14 @@ N
 N
 N
 N
+h
 y
 y
-y
-y
-y
-y
-b
-b
+Z
+N
+N
+N
+N
 "}
 (3,1,1) = {"
 N
@@ -284,9 +312,9 @@ R
 x
 y
 y
-y
-b
-b
+N
+N
+N
 "}
 (4,1,1) = {"
 N
@@ -299,12 +327,12 @@ w
 a
 k
 R
+c
 y
 y
-i
 y
-b
-b
+N
+N
 "}
 (5,1,1) = {"
 N
@@ -319,10 +347,10 @@ n
 P
 x
 y
+g
 y
-y
-b
-b
+N
+N
 "}
 (6,1,1) = {"
 N
@@ -339,8 +367,8 @@ y
 y
 y
 y
-b
-b
+N
+N
 "}
 (7,1,1) = {"
 N
@@ -356,9 +384,9 @@ R
 x
 y
 y
+q
 y
-b
-b
+N
 "}
 (8,1,1) = {"
 N
@@ -375,7 +403,7 @@ Q
 R
 y
 y
-b
+y
 b
 "}
 (9,1,1) = {"
@@ -393,7 +421,7 @@ r
 e
 y
 y
-b
+D
 b
 "}
 (10,1,1) = {"
@@ -410,8 +438,8 @@ R
 Q
 R
 y
-i
-b
+y
+y
 b
 "}
 (11,1,1) = {"
@@ -429,7 +457,7 @@ y
 y
 y
 y
-b
+y
 b
 "}
 (12,1,1) = {"
@@ -447,8 +475,8 @@ x
 y
 y
 y
-b
-b
+m
+N
 "}
 (13,1,1) = {"
 N
@@ -461,12 +489,12 @@ K
 Y
 A
 R
-y
+c
 T
 y
 y
-b
-b
+y
+N
 "}
 (14,1,1) = {"
 N
@@ -483,8 +511,8 @@ x
 y
 i
 y
-b
-b
+N
+N
 "}
 (15,1,1) = {"
 N
@@ -500,9 +528,9 @@ y
 y
 y
 y
-y
-b
-b
+N
+N
+N
 "}
 (16,1,1) = {"
 N
@@ -514,11 +542,11 @@ N
 R
 R
 R
-b
-b
-b
-b
-b
-b
-b
+N
+N
+N
+N
+N
+N
+N
 "}
