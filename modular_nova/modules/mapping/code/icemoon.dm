@@ -30,7 +30,8 @@
 	description = "A colonist lost from their pack fell down into the depths of the icemoon, hunkered down with their supplies and little luck."
 	prefix = "_maps/RandomRuins/IceRuins/nova/"
 	suffix = "icemoon_underground_lost_colonist.dmm"
-	never_spawn_with = list(/datum/map_template/ruin/icemoon/underground/hermit)
+	never_spawn_with = list(/datum/map_template/ruin/icemoon/underground/hermit) //this doesn't do anything besides makes sure that both hermits wont appear on the same Z
+
 /datum/map_template/ruin/icemoon/underground/nova/magic_hotsprings
 	name = "Magic Hotsprings"
 	id = "magic-hotsprings"
