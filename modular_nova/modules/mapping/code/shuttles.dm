@@ -187,33 +187,18 @@
 		/obj/item/megaphone/command,
 	)
 
-/*----- Tarkon Shuttle Datum + related code -----*/
+/*----- Tarkon Shuttle Datum -----*/
 /datum/map_template/shuttle/ruin/tarkon_driver
 	prefix = "_maps/shuttles/nova/"
 	suffix = "tarkon_driver"
 	name = "Tarkon Drill Driver"
 
-/obj/machinery/computer/shuttle/tarkon_driver
-	name = "Tarkon Driver Control"
-	desc = "Used to control the Tarkon Driver."
-	circuit = /obj/item/circuitboard/computer/tarkon_driver
-	shuttleId = "tarkon_driver"
-	possible_destinations = "tarkon_driver_custom;port_tarkon;whiteship_home"
+/datum/map_template/shuttle/ruin/tarkon_salvageskiff
+	prefix = "_maps/shuttles/nova/"
+	suffix = "tarkon_salvageskiff"
+	name = "Tarkon Salvage Skiff"
 
-/obj/machinery/computer/camera_advanced/shuttle_docker/tarkon_driver
-	name = "Tarkon Driver Navigation Computer"
-	desc = "The Navigation console for the Tarkon Driver. A broken \"Engage Drill\" button seems to dimly blink in a yellow colour"
-	shuttleId = "tarkon_driver"
-	lock_override = NONE
-	shuttlePortId = "tarkon_driver_custom"
-	jump_to_ports = list("port_tarkon" = 1, "whiteship_home" = 1)
-	view_range = 0
-
-/obj/item/circuitboard/computer/tarkon_driver
-	name = "Tarkon Driver Control Console (Computer Board)"
-	build_path = /obj/machinery/computer/shuttle/tarkon_driver
-
-/*----- End of Tarkon Shuttle Code -----*/
+/*----- End of Tarkon Shuttle Datum -----*/
 
 /*----- SerenityStation Shuttle Code -----*/
 /datum/map_template/shuttle/planetary

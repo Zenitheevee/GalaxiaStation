@@ -162,13 +162,22 @@
 	name = "Turret Factory"
 	description = "A turret factory that was forgotten. Maybe abandoned. Idk. Goodluck."
 
-/datum/map_template/ruin/space/nova/escapefromtarkon
-	id = "escapefromtarkon"
+/datum/map_template/ruin/space/nova/porttarkon
+	id = "porttarkon"
 	suffix = "port_tarkon.dmm"
 	name = "Space-Ruin Port Tarkon"
 	description = "An ambitious goal, A step forward, A trial run for the Tarkon drill, ment to implant mining stations within meteors. Decades of disaster have, however, left this one... Unattended for far too long."
-	always_place = TRUE
+	never_spawn_with = list(/datum/map_template/ruin/space/nova/colonyecho)
 
 /obj/modular_map_root/port_tarkon
 	config_file = "strings/modular_maps/nova/PortTarkon.toml"
 
+/datum/map_template/ruin/space/nova/colonyecho
+	id = "colonyecho"
+	suffix = "colony_echo.dmm"
+	name = "Space-Ruin Colony Echo"
+	description = "After the Tarkon drills reigning success, Tarkon Industries started more ventures. But in this far future, the colony is but 4 grim survivors, while 4 of tarkons salvage crew try to regain control."
+	never_spawn_with = list(/datum/map_template/ruin/space/nova/escapefromtarkon)
+
+/obj/modular_map_root/colonyecho
+	config_file = "strings/modular_maps/nova/ColonyEcho.toml"
