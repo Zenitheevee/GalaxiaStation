@@ -1,26 +1,29 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "aq" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/lattice/catwalk,
-/turf/template_noop,
-/area/template_noop)
+/obj/machinery/suit_storage_unit/industrial/tarkon,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/port_tarkon/cargo)
 "ar" = (
 /obj/effect/turf_decal/stripes{
 	dir = 1
 	},
 /turf/open/floor/engine,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "bp" = (
 /obj/machinery/atmospherics/miner/n2o,
 /turf/open/floor/engine/n2o,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
+"bz" = (
+/obj/effect/mob_spawn/ghost_role/human/tarkon/cargo,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/port_tarkon/cargo)
 "bW" = (
 /obj/structure/cable,
 /obj/effect/turf_decal/stripes{
 	dir = 1
 	},
 /turf/open/floor/engine,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "ct" = (
 /obj/machinery/door/poddoor,
 /obj/structure/fans/tiny/forcefield,
@@ -30,32 +33,31 @@
 /obj/effect/spawner/structure/window/reinforced/plasma,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden,
 /turf/open/floor/plating,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "cW" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/turf_decal/tile/yellow/half,
 /turf/open/floor/iron,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "eg" = (
 /obj/machinery/air_sensor/tarkon/mix_tank{
 	pixel_x = -26
 	},
 /turf/open/floor/engine/vacuum,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "em" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "fn" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/lattice/catwalk,
-/obj/structure/lattice/catwalk,
-/turf/template_noop,
-/area/template_noop)
+/obj/item/t_scanner/adv_mining_scanner,
+/obj/item/t_scanner/adv_mining_scanner,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/port_tarkon/cargo)
 "fz" = (
 /turf/open/misc/asteroid/airless,
 /area/template_noop)
@@ -63,7 +65,7 @@
 /obj/machinery/airalarm/directional/west,
 /obj/effect/mapping_helpers/airalarm/all_access,
 /turf/open/floor/engine,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "gt" = (
 /obj/machinery/atmospherics/components/unary/passive_vent/layer2{
 	dir = 1
@@ -77,20 +79,23 @@
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
+"hd" = (
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/port_tarkon/cargo)
 "he" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/siphon/monitored/plasma_output/tarkon{
 	dir = 8
 	},
 /turf/open/floor/engine/plasma,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "hn" = (
 /obj/effect/spawner/structure/window/reinforced/no_firelock,
 /obj/machinery/atmospherics/pipe/layer_manifold/green/hidden{
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "hN" = (
 /obj/machinery/light/directional/west,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
@@ -99,7 +104,7 @@
 	},
 /obj/machinery/door/firedoor/solid,
 /turf/open/floor/iron,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "iS" = (
 /obj/machinery/atmospherics/components/unary/passive_vent/layer2{
 	dir = 4
@@ -118,14 +123,14 @@
 "jj" = (
 /obj/machinery/door/poddoor/incinerator_atmos_aux,
 /turf/open/floor/engine/vacuum,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "ju" = (
 /obj/machinery/atmospherics/components/binary/pump/off/general{
 	dir = 4
 	},
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "jG" = (
 /obj/structure/grille,
 /turf/open/misc/asteroid/airless,
@@ -134,7 +139,7 @@
 /obj/machinery/door/poddoor/incinerator_atmos_aux,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/engine/vacuum,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "jO" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/door/airlock/external/glass{
@@ -143,22 +148,22 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/plating,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "kh" = (
 /obj/machinery/atmospherics/miner/plasma,
 /turf/open/floor/engine/plasma,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "kk" = (
 /obj/machinery/airlock_sensor/incinerator_tarkon{
 	pixel_x = 6;
 	pixel_y = 23
 	},
 /turf/open/floor/engine/vacuum,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "kv" = (
 /obj/machinery/atmospherics/miner/nitrogen,
 /turf/open/floor/engine/n2,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "kC" = (
 /obj/structure/table/reinforced,
 /obj/item/construction/rcd/tarkon,
@@ -167,16 +172,15 @@
 	dir = 8
 	},
 /turf/open/floor/iron,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "kU" = (
 /obj/effect/spawner/structure/window/reinforced/no_firelock,
 /obj/machinery/atmospherics/pipe/layer_manifold/yellow/hidden{
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "lf" = (
-/obj/structure/lattice/catwalk,
 /obj/structure/lattice/catwalk,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -184,7 +188,7 @@
 /area/template_noop)
 "lp" = (
 /turf/open/floor/plating,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "lR" = (
 /obj/effect/spawner/structure/window/reinforced/plasma,
 /obj/structure/lattice,
@@ -193,13 +197,13 @@
 "me" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "mh" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "mP" = (
 /obj/machinery/atmospherics/components/unary/portables_connector/visible{
 	dir = 8
@@ -207,19 +211,19 @@
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/machinery/portable_atmospherics/canister,
 /turf/open/floor/iron,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "nQ" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/door/airlock/atmos/glass,
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/plating,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "nT" = (
 /obj/machinery/power/turbine/core_rotor,
 /obj/structure/cable,
 /turf/open/floor/engine/vacuum,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "oc" = (
 /obj/machinery/light/directional/east,
 /obj/effect/turf_decal/tile/purple/fourcorners,
@@ -228,14 +232,14 @@
 	},
 /obj/machinery/door/firedoor/solid,
 /turf/open/floor/iron,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "od" = (
 /obj/effect/spawner/structure/window/reinforced/no_firelock,
 /obj/machinery/atmospherics/pipe/layer_manifold/purple/hidden{
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "pz" = (
 /obj/effect/turf_decal/vg_decals/atmos/oxygen,
 /obj/machinery/light/small/directional/west,
@@ -243,27 +247,27 @@
 	pixel_x = -26
 	},
 /turf/open/floor/engine/o2,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "pH" = (
 /obj/machinery/atmospherics/components/unary/outlet_injector/monitored/plasma_input/tarkon{
 	dir = 8
 	},
 /turf/open/floor/engine/plasma,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "pS" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/layer2{
 	dir = 8
 	},
 /turf/open/floor/engine/vacuum,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "qu" = (
 /obj/structure/cable,
 /turf/open/floor/engine,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "ry" = (
 /obj/structure/cable,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "rA" = (
 /turf/open/floor/iron,
 /area/template_noop)
@@ -273,20 +277,20 @@
 	},
 /obj/effect/turf_decal/tile/dark/fourcorners,
 /turf/open/floor/iron,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "rZ" = (
 /obj/machinery/atmospherics/components/unary/outlet_injector/monitored/nitrous_input/tarkon{
 	dir = 8
 	},
 /turf/open/floor/engine/n2o,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "si" = (
 /obj/structure/cable,
 /obj/machinery/door/airlock/external/glass{
 	name = "Turbine Maintenance Door"
 	},
 /turf/open/floor/engine,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "sH" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
@@ -295,7 +299,7 @@
 	dir = 8
 	},
 /turf/open/floor/iron,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "sN" = (
 /obj/structure/lattice,
 /obj/structure/grille,
@@ -307,16 +311,16 @@
 	pixel_y = 5
 	},
 /turf/closed/wall/r_wall,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "tA" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/engine/vacuum,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "tD" = (
 /obj/machinery/power/turbine/inlet_compressor,
 /obj/structure/cable,
 /turf/open/floor/engine/vacuum,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "uj" = (
 /obj/machinery/atmospherics/components/unary/portables_connector/visible{
 	dir = 8
@@ -324,7 +328,7 @@
 /obj/effect/turf_decal/tile/blue/fourcorners,
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /turf/open/floor/iron,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "uu" = (
 /obj/effect/turf_decal/vg_decals/atmos/nitrous_oxide,
 /obj/machinery/light/small/directional/east,
@@ -332,22 +336,22 @@
 	pixel_x = 26
 	},
 /turf/open/floor/engine/n2o,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "uJ" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 1
 	},
 /turf/open/floor/iron,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "vl" = (
 /obj/effect/turf_decal/stripes{
 	dir = 1
 	},
 /turf/open/floor/iron/dark,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "vE" = (
 /turf/open/floor/engine,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "vH" = (
 /turf/closed/mineral/random/high_chance,
 /area/template_noop)
@@ -355,45 +359,48 @@
 /obj/effect/turf_decal/vg_decals/atmos/mix,
 /obj/machinery/light/small/directional/west,
 /turf/open/floor/engine/vacuum,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "wV" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 4
 	},
 /turf/open/floor/iron,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "xz" = (
 /obj/machinery/suit_storage_unit/engine,
 /obj/effect/turf_decal/tile/yellow/anticorner{
 	dir = 1
 	},
 /turf/open/floor/iron,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "xP" = (
 /obj/machinery/atmospherics/components/binary/pump/off/general{
 	dir = 8
 	},
 /obj/effect/turf_decal/tile/yellow/fourcorners,
 /turf/open/floor/iron,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "ya" = (
 /obj/machinery/power/turbine/turbine_outlet,
 /obj/structure/cable,
 /turf/open/floor/engine/vacuum,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
+"yp" = (
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "yH" = (
 /obj/machinery/door/airlock/mining,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 1
 	},
 /turf/open/floor/iron,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/cargo)
 "za" = (
 /obj/machinery/computer/atmos_control/tarkon/incinerator{
 	dir = 4
 	},
 /turf/open/floor/engine,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "zq" = (
 /obj/item/shard/plasma,
 /turf/template_noop,
@@ -401,31 +408,34 @@
 "Ae" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden,
 /turf/open/floor/engine/vacuum,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "Af" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /turf/open/floor/iron/dark,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "Ai" = (
 /obj/machinery/atmospherics/components/unary/outlet_injector/monitored/air_input/tarkon{
 	dir = 4
 	},
 /turf/open/floor/engine/vacuum,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "AG" = (
 /obj/effect/spawner/structure/window/reinforced/no_firelock,
 /obj/machinery/atmospherics/pipe/layer_manifold/brown/hidden{
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "AR" = (
 /obj/effect/spawner/structure/window/reinforced/no_firelock,
 /obj/machinery/atmospherics/pipe/layer_manifold/cyan/hidden{
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
+"By" = (
+/turf/closed/wall/r_wall,
+/area/ruin/space/has_grav/port_tarkon/cargo)
 "BB" = (
 /obj/effect/turf_decal/tile/red/fourcorners{
 	color = "#DE3A3A"
@@ -435,7 +445,7 @@
 	},
 /obj/machinery/camera/autoname/tarkon/directional/west,
 /turf/open/floor/iron,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "BF" = (
 /obj/effect/spawner/structure/window/reinforced/plasma,
 /obj/structure/lattice,
@@ -448,7 +458,7 @@
 	dir = 1
 	},
 /turf/open/floor/iron,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "CB" = (
 /obj/machinery/atmospherics/components/binary/pump/off/general{
 	dir = 4
@@ -457,7 +467,7 @@
 	color = "#DE3A3A"
 	},
 /turf/open/floor/iron,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "CD" = (
 /obj/machinery/light/directional/east,
 /obj/machinery/computer/atmos_control/tarkon/nitrous_tank{
@@ -465,37 +475,37 @@
 	},
 /obj/effect/turf_decal/tile/yellow/fourcorners,
 /turf/open/floor/iron,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "CK" = (
 /obj/effect/turf_decal/tile/yellow/anticorner{
 	dir = 4
 	},
 /obj/machinery/suit_storage_unit/open,
 /turf/open/floor/iron,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "CR" = (
 /obj/effect/spawner/structure/window/reinforced/no_firelock,
 /obj/machinery/atmospherics/pipe/layer_manifold/pink/hidden{
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "CV" = (
 /obj/effect/turf_decal/stripes{
 	dir = 1
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/dark/visible,
 /turf/open/floor/engine,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "CX" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "Di" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /turf/open/floor/iron/dark,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "Dy" = (
 /obj/structure/lattice/catwalk,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -509,7 +519,7 @@
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "DH" = (
 /obj/structure/lattice,
 /turf/open/misc/asteroid/airless,
@@ -521,7 +531,7 @@
 	pixel_x = -26
 	},
 /turf/open/floor/engine/n2,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "Ea" = (
 /turf/closed/wall/r_wall,
 /area/template_noop)
@@ -530,20 +540,17 @@
 	dir = 8
 	},
 /turf/open/floor/engine/co2,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "Eq" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/lattice/catwalk,
-/obj/structure/lattice/catwalk,
-/obj/structure/lattice/catwalk,
-/turf/template_noop,
+/obj/docking_port/stationary/colony_echo,
+/turf/open/misc/asteroid/airless,
 /area/template_noop)
 "EK" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/siphon/monitored/oxygen_output/tarkon{
 	dir = 4
 	},
 /turf/open/floor/engine/o2,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "EQ" = (
 /obj/structure/lattice/catwalk,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -559,13 +566,13 @@
 	dir = 4
 	},
 /turf/open/floor/iron,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "Fp" = (
 /obj/machinery/atmospherics/components/unary/outlet_injector/monitored/oxygen_input/tarkon{
 	dir = 4
 	},
 /turf/open/floor/engine/o2,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "FY" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/door/airlock/external/glass{
@@ -574,7 +581,7 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "Gq" = (
 /obj/machinery/atmospherics/components/unary/portables_connector/visible{
 	dir = 4
@@ -583,7 +590,7 @@
 /obj/structure/cable,
 /obj/machinery/portable_atmospherics/canister/plasma,
 /turf/open/floor/iron,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "Gt" = (
 /obj/structure/lattice,
 /turf/template_noop,
@@ -594,37 +601,40 @@
 	pixel_x = 8
 	},
 /turf/closed/wall/r_wall,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "Hp" = (
 /obj/effect/turf_decal/tile/yellow/anticorner{
 	dir = 1
 	},
 /turf/open/floor/iron,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "Hs" = (
 /obj/effect/spawner/structure/window/reinforced/plasma,
 /turf/template_noop,
 /area/template_noop)
 "HH" = (
 /turf/open/floor/engine/vacuum,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "IR" = (
 /obj/machinery/computer/atmos_control/tarkon/oxygen_tank{
 	dir = 4
 	},
 /obj/effect/turf_decal/tile/blue/fourcorners,
 /turf/open/floor/iron,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "IT" = (
 /obj/machinery/light/small/directional/north,
 /turf/open/floor/engine/vacuum,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
+"IV" = (
+/turf/closed/wall/r_wall,
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "IZ" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/siphon/monitored/nitrous_output/tarkon{
 	dir = 8
 	},
 /turf/open/floor/engine/n2o,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "JK" = (
 /obj/item/shard/plasma,
 /obj/structure/lattice/catwalk,
@@ -636,14 +646,14 @@
 	},
 /obj/effect/turf_decal/tile/blue/fourcorners,
 /turf/open/floor/iron,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "Kx" = (
 /turf/closed/wall,
 /area/template_noop)
 "LW" = (
 /obj/machinery/door/poddoor/incinerator_atmos_main,
 /turf/open/floor/engine/vacuum,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "LZ" = (
 /obj/machinery/atmospherics/components/unary/portables_connector/visible{
 	dir = 8
@@ -653,7 +663,7 @@
 	},
 /obj/machinery/portable_atmospherics/canister/nitrogen,
 /turf/open/floor/iron,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "Mo" = (
 /obj/machinery/door/airlock/external/ruin{
 	name = "Engineering External Access"
@@ -666,7 +676,7 @@
 	},
 /obj/effect/turf_decal/tile/dark/fourcorners,
 /turf/open/floor/iron,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "Nd" = (
 /obj/structure/grille,
 /turf/template_noop,
@@ -676,7 +686,7 @@
 	dir = 4
 	},
 /turf/open/floor/iron,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "Og" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/belt/utility/full,
@@ -685,7 +695,7 @@
 	dir = 8
 	},
 /turf/open/floor/iron,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "OI" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
@@ -700,15 +710,15 @@
 /obj/effect/turf_decal/tile/purple/fourcorners,
 /obj/structure/cable,
 /turf/open/floor/iron,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "Pg" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/lattice/catwalk,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/structure/cable,
-/turf/template_noop,
-/area/template_noop)
+/obj/item/tank/internals/oxygen/yellow,
+/obj/item/tank/internals/oxygen/yellow,
+/obj/item/tank/internals/oxygen/yellow,
+/obj/item/tank/internals/oxygen/yellow,
+/obj/item/tank/internals/oxygen/yellow,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/port_tarkon/cargo)
 "Pr" = (
 /obj/machinery/door/airlock/public/glass/incinerator/tarkon_interior,
 /obj/effect/mapping_helpers/airlock/locked,
@@ -716,7 +726,7 @@
 	dir = 8
 	},
 /turf/open/floor/plating,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "PJ" = (
 /obj/effect/turf_decal/vg_decals/atmos/plasma,
 /obj/machinery/light/small/directional/east,
@@ -724,7 +734,7 @@
 	pixel_x = 26
 	},
 /turf/open/floor/engine/plasma,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "Qg" = (
 /obj/machinery/atmospherics/components/unary/portables_connector/visible{
 	dir = 4
@@ -732,15 +742,15 @@
 /obj/effect/turf_decal/tile/dark/fourcorners,
 /obj/machinery/portable_atmospherics/canister/carbon_dioxide,
 /turf/open/floor/iron,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "Qx" = (
 /obj/machinery/door/firedoor/solid,
 /turf/open/floor/plating,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "QF" = (
 /obj/machinery/atmospherics/miner/carbon_dioxide,
 /turf/open/floor/engine/co2,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "Rb" = (
 /obj/machinery/button/door/incinerator_vent_atmos_main{
 	pixel_x = -31;
@@ -754,7 +764,7 @@
 	req_one_access = list("tarkon")
 	},
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "Rc" = (
 /obj/effect/turf_decal/vg_decals/atmos/carbon_dioxide,
 /obj/machinery/light/small/directional/east,
@@ -762,7 +772,7 @@
 	pixel_x = 26
 	},
 /turf/open/floor/engine/co2,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "Rp" = (
 /obj/machinery/atmospherics/components/unary/portables_connector/visible{
 	dir = 4
@@ -770,31 +780,31 @@
 /obj/effect/turf_decal/tile/yellow/fourcorners,
 /obj/machinery/portable_atmospherics/canister/nitrous_oxide,
 /turf/open/floor/iron,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "Ru" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/siphon/monitored/carbon_output/tarkon{
 	dir = 8
 	},
 /turf/open/floor/engine/co2,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "Rv" = (
 /obj/effect/spawner/structure/window/reinforced/plasma,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/dark/visible,
 /turf/open/floor/engine,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "Rw" = (
 /turf/open/floor/iron/dark,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "Sb" = (
 /obj/machinery/power/smes,
 /obj/structure/cable,
 /turf/open/floor/engine,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "SN" = (
 /turf/closed/mineral/random,
 /area/template_noop)
 "Te" = (
-/obj/structure/ore_vent,
+/obj/structure/ore_vent/tarkon_mining,
 /turf/open/misc/asteroid/airless,
 /area/template_noop)
 "Tw" = (
@@ -805,7 +815,7 @@
 /obj/structure/cable,
 /obj/machinery/power/smes,
 /turf/open/floor/engine,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "TN" = (
 /obj/structure/lattice/catwalk,
 /turf/template_noop,
@@ -815,26 +825,26 @@
 	dir = 4
 	},
 /turf/open/floor/engine,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "Ug" = (
 /obj/machinery/atmospherics/miner/oxygen,
 /turf/open/floor/engine/o2,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "Vb" = (
 /obj/machinery/igniter/incinerator_tarkon,
 /turf/open/floor/engine/vacuum,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "Vd" = (
 /obj/machinery/door/airlock/mining,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /turf/open/floor/iron,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/cargo)
 "Vs" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/high_volume/siphon/monitored/air_output/tarkon{
 	dir = 4
 	},
 /turf/open/floor/engine/vacuum,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "Vu" = (
 /obj/item/electronics/apc,
 /obj/item/electronics/apc,
@@ -858,19 +868,19 @@
 /obj/item/circuitboard/machine/thermoelectric_generator,
 /obj/effect/turf_decal/tile/yellow/anticorner,
 /turf/open/floor/iron,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "VN" = (
 /obj/machinery/atmospherics/components/binary/dp_vent_pump/high_volume/incinerator_tarkon{
 	dir = 8
 	},
 /turf/open/floor/engine/vacuum,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "WJ" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/siphon/monitored/nitrogen_output/tarkon{
 	dir = 4
 	},
 /turf/open/floor/engine/n2,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "Xo" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -884,29 +894,32 @@
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "XB" = (
 /obj/machinery/atmospherics/components/unary/outlet_injector/monitored/nitrogen_input/tarkon{
 	dir = 4
 	},
 /turf/open/floor/engine/n2,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "XI" = (
 /turf/open/floor/carpet,
 /area/template_noop)
 "Yn" = (
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "YL" = (
 /obj/effect/spawner/structure/window/reinforced/plasma,
 /turf/open/floor/engine,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
+"Zb" = (
+/turf/closed/wall,
+/area/ruin/space/has_grav/port_tarkon/atmos)
 "Zd" = (
 /obj/machinery/atmospherics/components/unary/outlet_injector/monitored/incinerator_input/tarkon{
 	dir = 4
 	},
 /turf/open/floor/engine/vacuum,
-/area/template_noop)
+/area/ruin/space/has_grav/port_tarkon/atmos)
 
 (1,1,1) = {"
 jh
@@ -1247,27 +1260,27 @@ Ea
 lR
 lR
 lR
-Ea
-Ea
-Ea
-Ea
-Ea
-Ea
-Ea
-Ea
-Ea
-Ea
+IV
+IV
+IV
+IV
+IV
+IV
+IV
+IV
+IV
+IV
 sV
 gT
 cK
-Ea
+IV
 jj
 jj
 jI
-Ea
-Ea
-Ea
-Ea
+IV
+IV
+IV
+IV
 jh
 jh
 jh
@@ -1317,23 +1330,23 @@ fz
 fz
 fz
 Ea
-aq
 TN
-aq
-Ea
+TN
+TN
+IV
 pz
 Ug
-Ea
+IV
 DX
 kv
-Ea
+IV
 wp
 eg
-Ea
+IV
 kk
 HH
 Ae
-Ea
+IV
 HH
 HH
 tA
@@ -1393,27 +1406,27 @@ Ea
 TN
 jh
 TN
-Ea
+IV
 EK
 Fp
-Ea
+IV
 WJ
 XB
-Ea
+IV
 Vs
 Ai
-Ea
+IV
 IT
 HH
 VN
-Ea
+IV
 Zd
 Vb
 pS
-Ea
+IV
 si
-Ea
-Ea
+IV
+IV
 jh
 jh
 jh
@@ -1466,16 +1479,16 @@ Ea
 TN
 jh
 TN
-Ea
+IV
 AR
 DB
-Ea
+IV
 hn
 DB
-Ea
+IV
 od
 DB
-Ea
+IV
 sV
 Pr
 Xq
@@ -1483,9 +1496,9 @@ GK
 Rv
 YL
 YL
-Ea
+IV
 qu
-Ea
+IV
 vH
 jh
 jh
@@ -1539,7 +1552,7 @@ Ea
 TN
 jh
 TN
-Kx
+Zb
 Kf
 uj
 IR
@@ -1558,7 +1571,7 @@ za
 Ua
 gd
 qu
-Ea
+IV
 vH
 fz
 jh
@@ -1612,7 +1625,7 @@ Ea
 TN
 jh
 TN
-Kx
+Zb
 lp
 lp
 lp
@@ -1631,7 +1644,7 @@ vE
 vE
 vE
 qu
-Ea
+IV
 vH
 vH
 jh
@@ -1685,7 +1698,7 @@ Ea
 TN
 jh
 TN
-Kx
+Zb
 lp
 lp
 lp
@@ -1704,7 +1717,7 @@ vE
 vE
 vE
 qu
-Ea
+IV
 SN
 vH
 fz
@@ -1758,7 +1771,7 @@ Ea
 TN
 jh
 TN
-Kx
+Zb
 lp
 lp
 lp
@@ -1777,7 +1790,7 @@ vE
 vE
 vE
 qu
-Ea
+IV
 SN
 vH
 vH
@@ -1831,7 +1844,7 @@ Ea
 TN
 jh
 TN
-Kx
+Zb
 lp
 lp
 lp
@@ -1850,7 +1863,7 @@ vE
 vE
 vE
 qu
-Ea
+IV
 SN
 vH
 SN
@@ -1904,7 +1917,7 @@ Ea
 TN
 jh
 TN
-Kx
+Zb
 lp
 lp
 lp
@@ -1923,7 +1936,7 @@ vE
 vE
 vE
 qu
-Ea
+IV
 SN
 vH
 SN
@@ -1977,7 +1990,7 @@ Ea
 TN
 jh
 TN
-Kx
+Zb
 lp
 lp
 lp
@@ -1996,7 +2009,7 @@ vE
 vE
 vE
 qu
-Ea
+IV
 SN
 vH
 SN
@@ -2050,7 +2063,7 @@ Ea
 TN
 jh
 TN
-Kx
+Zb
 lp
 lp
 lp
@@ -2069,7 +2082,7 @@ vE
 vE
 vE
 qu
-Ea
+IV
 vH
 vH
 vH
@@ -2123,7 +2136,7 @@ Ea
 TN
 jh
 TN
-Kx
+Zb
 lp
 lp
 lp
@@ -2142,7 +2155,7 @@ vE
 qu
 qu
 qu
-Ea
+IV
 vH
 SN
 fz
@@ -2196,7 +2209,7 @@ Ea
 TN
 jh
 TN
-Kx
+Zb
 lp
 lp
 lp
@@ -2215,7 +2228,7 @@ qu
 Sb
 Sb
 Ty
-Ea
+IV
 SN
 SN
 fz
@@ -2269,7 +2282,7 @@ Ea
 TN
 jh
 TN
-Kx
+Zb
 Rp
 xP
 CD
@@ -2279,16 +2292,16 @@ rJ
 Gq
 OM
 oc
-Ea
-Ea
+IV
+IV
 nQ
-Ea
-Ea
-Ea
-Ea
-Ea
-Ea
-Ea
+IV
+IV
+IV
+IV
+IV
+IV
+IV
 vH
 vH
 jh
@@ -2342,26 +2355,26 @@ Ea
 TN
 jh
 TN
-Ea
+IV
 DB
 kU
-Ea
+IV
 DB
 AG
-Ea
+IV
 DB
 CR
-Ea
-Ea
+IV
+IV
 Hp
 sH
 Og
 kC
-Ea
-rA
+IV
+yp
 wV
-rA
-Ea
+yp
+IV
 SN
 fz
 jh
@@ -2415,16 +2428,16 @@ Ea
 TN
 jh
 TN
-Ea
+IV
 rZ
 IZ
-Ea
+IV
 Ep
 Ru
-Ea
+IV
 pH
 he
-Ea
+IV
 xz
 BN
 mh
@@ -2434,7 +2447,7 @@ FY
 mh
 mh
 uJ
-Ea
+IV
 SN
 fz
 jh
@@ -2488,26 +2501,26 @@ Ea
 JK
 jh
 TN
-Ea
+IV
 uu
 bp
-Ea
+IV
 Rc
 QF
-Ea
+IV
 PJ
 kh
-Ea
+IV
 CK
 NK
 NK
 Fh
 Vu
-Ea
-rA
+IV
+yp
 mh
-rA
-Ea
+yp
+IV
 fz
 jh
 jh
@@ -2561,26 +2574,26 @@ Ea
 TN
 jh
 TN
-Ea
-Ea
-Ea
-Ea
-Ea
-Ea
-Ea
-Ea
-Ea
-Ea
-Ea
-Ea
-Ea
-Ea
-Ea
-Ea
-Ea
+IV
+IV
+IV
+IV
+IV
+IV
+IV
+IV
+IV
+IV
+IV
+IV
+IV
+IV
+IV
+IV
+IV
 jO
-Ea
-Ea
+IV
+IV
 fz
 jh
 jh
@@ -2633,7 +2646,7 @@ fz
 Ea
 TN
 jh
-fn
+TN
 TN
 TN
 TN
@@ -2706,7 +2719,7 @@ fz
 Ea
 TN
 jh
-aq
+TN
 TN
 TN
 TN
@@ -2779,7 +2792,7 @@ fz
 Ea
 TN
 jh
-aq
+TN
 TN
 TN
 TN
@@ -2850,9 +2863,9 @@ fz
 fz
 fz
 Ea
-aq
+TN
 JK
-Eq
+TN
 TN
 Dy
 Dy
@@ -2871,7 +2884,7 @@ Dy
 Dy
 Dy
 Dy
-Pg
+EQ
 lR
 jh
 jh
@@ -5745,12 +5758,12 @@ vH
 SN
 SN
 SN
-Ea
-Ea
-Ea
-Ea
-Ea
-Ea
+By
+By
+By
+By
+By
+By
 jh
 jh
 Ea
@@ -5817,13 +5830,13 @@ SN
 vH
 SN
 SN
-Ea
-Ea
-Ea
-rA
-rA
-rA
-Ea
+By
+By
+By
+bz
+hd
+hd
+By
 jh
 jh
 Ea
@@ -5891,12 +5904,12 @@ fz
 fz
 fz
 Vd
-rA
+hd
 yH
-rA
-rA
-rA
-Ea
+hd
+hd
+hd
+By
 jh
 jh
 Ea
@@ -5964,12 +5977,12 @@ fz
 fz
 fz
 Vd
-rA
+hd
 yH
-rA
-rA
-rA
-Ea
+hd
+hd
+hd
+By
 jh
 jh
 Ea
@@ -6009,7 +6022,7 @@ rA
 rA
 rA
 Mo
-fz
+Eq
 fz
 fz
 fz
@@ -6036,13 +6049,13 @@ fz
 SN
 SN
 SN
-Ea
-Ea
-Ea
-rA
-rA
-rA
-Ea
+By
+By
+By
+bz
+hd
+hd
+By
 jh
 jh
 Ea
@@ -6110,12 +6123,12 @@ SN
 vH
 SN
 SN
-Ea
-rA
-rA
-rA
-rA
-Ea
+By
+aq
+hd
+hd
+hd
+By
 jh
 jh
 Ea
@@ -6183,12 +6196,12 @@ vH
 vH
 SN
 SN
-Ea
-rA
-rA
-rA
-rA
-Ea
+By
+aq
+hd
+hd
+hd
+By
 jh
 jh
 Ea
@@ -6256,12 +6269,12 @@ SN
 vH
 vH
 SN
-Ea
-rA
-rA
-rA
-rA
-Ea
+By
+Pg
+hd
+hd
+hd
+By
 jh
 jh
 Ea
@@ -6329,12 +6342,12 @@ vH
 vH
 SN
 SN
-Ea
-rA
-rA
-rA
-rA
-Ea
+By
+fn
+hd
+hd
+hd
+By
 jh
 jh
 Ea
@@ -6402,12 +6415,12 @@ vH
 SN
 SN
 SN
-Ea
-Ea
-Ea
-Ea
-Ea
-Ea
+By
+By
+By
+By
+By
+By
 lR
 lR
 Ea

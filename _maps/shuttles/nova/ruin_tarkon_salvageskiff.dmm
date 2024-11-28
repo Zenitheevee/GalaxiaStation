@@ -158,6 +158,7 @@
 /obj/machinery/door/airlock/highsecurity,
 /obj/structure/fans/tiny,
 /obj/structure/cable,
+/obj/docking_port/mobile/tarkon_salvageskiff,
 /turf/open/floor/iron/shuttle/cargo,
 /area/space)
 "G" = (

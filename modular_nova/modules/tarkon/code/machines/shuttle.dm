@@ -60,12 +60,12 @@
 
 /obj/docking_port/stationary/colony_echo
 	dir = SOUTH
-	dwidth = 9
-	height = 7
+	dheight = 11
+	height = 17
 	name = "Colony Echo"
 	roundstart_template = /datum/map_template/shuttle/ruin/tarkon_salvageskiff
 	shuttle_id = "colony_echo"
-	width = 17
+	width = 7
 
 /obj/docking_port/mobile/tarkon_salvageskiff
 	name = "T.I. Salvage Skiff"
