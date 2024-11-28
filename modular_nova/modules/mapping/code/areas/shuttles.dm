@@ -22,6 +22,10 @@
 	name = "Tarkon Driver"
 	requires_power = TRUE
 
+/area/shuttle/salvage_skiff
+	name = "T.I. Salvage Skiff"
+	requires_power = TRUE
+
 /area/shuttle/trader/bridge
 	name = "Trader Ship Bridge"
 

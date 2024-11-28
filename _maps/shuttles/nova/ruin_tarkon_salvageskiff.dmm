@@ -6,12 +6,12 @@
 /obj/structure/window/reinforced/plasma/spawner/directional/west,
 /obj/structure/window/reinforced/plasma/spawner/directional/east,
 /turf/open/floor/iron/shuttle/cargo,
-/area/space)
+/area/shuttle/salvage_skiff)
 "b" = (
 /obj/structure/table/reinforced/titaniumglass,
 /obj/machinery/microwave/frontier_printed,
 /turf/open/floor/iron/shuttle/cargo,
-/area/space)
+/area/shuttle/salvage_skiff)
 "c" = (
 /obj/structure/window/reinforced/spawner/directional/west,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
@@ -21,10 +21,10 @@
 	pixel_y = -29
 	},
 /turf/open/floor/iron/shuttle/cargo,
-/area/space)
+/area/shuttle/salvage_skiff)
 "d" = (
 /turf/open/floor/iron/shuttle/cargo,
-/area/space)
+/area/shuttle/salvage_skiff)
 "e" = (
 /obj/structure/cable,
 /obj/machinery/portable_atmospherics/canister/air,
@@ -32,7 +32,7 @@
 	dir = 4
 	},
 /turf/open/floor/iron/shuttle/cargo,
-/area/space)
+/area/shuttle/salvage_skiff)
 "f" = (
 /obj/structure/cable,
 /obj/machinery/portable_atmospherics/canister,
@@ -40,173 +40,173 @@
 	dir = 4
 	},
 /turf/open/floor/iron/shuttle/cargo,
-/area/space)
+/area/shuttle/salvage_skiff)
 "g" = (
 /obj/structure/table/reinforced,
 /obj/effect/spawner/random/medical/medkit,
 /turf/open/floor/iron/shuttle/cargo,
-/area/space)
+/area/shuttle/salvage_skiff)
 "h" = (
 /turf/closed/wall/mineral/titanium/spaceship,
-/area/space)
+/area/shuttle/salvage_skiff)
 "i" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/shuttle/salvage_skiff)
 "j" = (
 /obj/machinery/door/poddoor/preopen,
 /turf/open/floor/plating/reinforced,
-/area/space)
+/area/shuttle/salvage_skiff)
 "k" = (
 /obj/structure/tank_dispenser,
 /obj/machinery/airalarm/directional/south,
 /obj/effect/mapping_helpers/airalarm/all_access,
 /turf/open/floor/iron/shuttle/cargo,
-/area/space)
+/area/shuttle/salvage_skiff)
 "l" = (
 /obj/structure/cable,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/shuttle/salvage_skiff)
 "m" = (
 /obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
 /turf/open/floor/plating/reinforced,
-/area/space)
+/area/shuttle/salvage_skiff)
 "n" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/shuttle/cargo,
-/area/space)
+/area/shuttle/salvage_skiff)
 "o" = (
 /obj/structure/window/reinforced/plasma/spawner/directional/west,
 /turf/open/floor/engine,
-/area/space)
+/area/shuttle/salvage_skiff)
 "q" = (
 /obj/structure/rack/shelf,
 /obj/item/crowbar/red,
 /obj/item/crowbar/red,
 /turf/open/floor/iron/shuttle/cargo,
-/area/space)
+/area/shuttle/salvage_skiff)
 "r" = (
 /obj/structure/window/reinforced/plasma/spawner/directional/east,
 /turf/open/floor/engine,
-/area/space)
+/area/shuttle/salvage_skiff)
 "s" = (
 /obj/machinery/suit_storage_unit/industrial/tarkon,
 /turf/open/floor/iron/shuttle/cargo,
-/area/space)
+/area/shuttle/salvage_skiff)
 "t" = (
 /obj/structure/cable,
 /obj/machinery/space_heater/wall_mounted/directional/south,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/shuttle/salvage_skiff)
 "u" = (
 /obj/machinery/door/window/brigdoor/left/directional/west,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/shuttle/salvage_skiff)
 "v" = (
 /obj/machinery/power/apc/auto_name/directional/north,
 /obj/structure/cable,
 /turf/open/floor/iron/shuttle/cargo,
-/area/space)
+/area/shuttle/salvage_skiff)
 "w" = (
 /obj/structure/cable,
 /turf/open/floor/iron/shuttle/cargo,
-/area/space)
+/area/shuttle/salvage_skiff)
 "x" = (
 /turf/template_noop,
-/area/space)
+/area/template_noop)
 "z" = (
 /obj/machinery/computer/camera_advanced/tarkon_cam{
 	dir = 8
 	},
 /turf/open/floor/iron/shuttle/cargo,
-/area/space)
+/area/shuttle/salvage_skiff)
 "A" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 1
 	},
 /turf/open/floor/iron/shuttle/cargo,
-/area/space)
+/area/shuttle/salvage_skiff)
 "B" = (
 /obj/structure/table/reinforced,
 /obj/item/reagent_containers/condiment/milk/small_ration,
 /obj/item/food/cookie,
 /turf/open/floor/iron/shuttle/cargo,
-/area/space)
+/area/shuttle/salvage_skiff)
 "C" = (
 /obj/structure/window/reinforced/plasma/spawner/directional/west,
 /obj/effect/turf_decal/stripes{
 	dir = 1
 	},
 /turf/open/floor/engine,
-/area/space)
+/area/shuttle/salvage_skiff)
 "D" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/shuttle/salvage_skiff)
 "E" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 4
 	},
 /turf/open/floor/iron/shuttle/cargo,
-/area/space)
+/area/shuttle/salvage_skiff)
 "F" = (
 /obj/machinery/door/airlock/highsecurity,
 /obj/structure/fans/tiny,
 /obj/structure/cable,
 /obj/docking_port/mobile/tarkon_salvageskiff,
 /turf/open/floor/iron/shuttle/cargo,
-/area/space)
+/area/shuttle/salvage_skiff)
 "G" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 4
 	},
 /turf/open/floor/iron/shuttle/cargo,
-/area/space)
+/area/shuttle/salvage_skiff)
 "H" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/shuttle/salvage_skiff)
 "I" = (
 /obj/structure/table/reinforced/titaniumglass,
 /obj/effect/spawner/random/food_or_drink/donkpockets,
 /obj/effect/spawner/random/food_or_drink/donkpockets,
 /turf/open/floor/iron/shuttle/cargo,
-/area/space)
+/area/shuttle/salvage_skiff)
 "J" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 1
 	},
 /turf/open/floor/iron/shuttle/cargo,
-/area/space)
+/area/shuttle/salvage_skiff)
 "K" = (
 /obj/structure/window/reinforced/plasma/spawner/directional/east,
 /obj/effect/turf_decal/stripes{
 	dir = 1
 	},
 /turf/open/floor/engine,
-/area/space)
+/area/shuttle/salvage_skiff)
 "L" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/shuttle/salvage_skiff)
 "M" = (
 /obj/structure/window/reinforced/spawner/directional/west,
 /turf/open/floor/iron/shuttle/cargo,
-/area/space)
+/area/shuttle/salvage_skiff)
 "N" = (
 /obj/machinery/power/shuttle_engine/propulsion/burst{
 	dir = 8
 	},
 /turf/template_noop,
-/area/space)
+/area/shuttle/salvage_skiff)
 "O" = (
 /obj/structure/window/reinforced/spawner/directional/west,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
@@ -215,50 +215,50 @@
 	},
 /obj/item/oxygen_candle,
 /turf/open/floor/iron/shuttle/cargo,
-/area/space)
+/area/shuttle/salvage_skiff)
 "P" = (
 /obj/machinery/power/smes/battery_pack/large,
 /obj/structure/cable,
 /turf/open/floor/iron/shuttle/cargo,
-/area/space)
+/area/shuttle/salvage_skiff)
 "R" = (
 /obj/machinery/computer/shuttle/tarkon_driver{
 	dir = 8
 	},
 /turf/open/floor/iron/shuttle/cargo,
-/area/space)
+/area/shuttle/salvage_skiff)
 "T" = (
 /obj/machinery/cell_charger_multi/wall_mounted/directional/north,
 /turf/open/floor/iron/shuttle/cargo,
-/area/space)
+/area/shuttle/salvage_skiff)
 "U" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/shuttle/cargo,
-/area/space)
+/area/shuttle/salvage_skiff)
 "V" = (
 /obj/structure/chair/comfy/shuttle,
 /turf/open/floor/iron/shuttle/cargo,
-/area/space)
+/area/shuttle/salvage_skiff)
 "X" = (
 /obj/machinery/power/terminal{
 	dir = 8
 	},
 /obj/structure/cable,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/shuttle/salvage_skiff)
 "Y" = (
 /obj/machinery/computer/camera_advanced/shuttle_docker/tarkon_driver{
 	dir = 8
 	},
 /turf/open/floor/iron/shuttle/cargo,
-/area/space)
+/area/shuttle/salvage_skiff)
 "Z" = (
 /obj/structure/window/reinforced/spawner/directional/west,
 /obj/structure/chair/comfy/shuttle{
 	dir = 4
 	},
 /turf/open/floor/iron/shuttle/cargo,
-/area/space)
+/area/shuttle/salvage_skiff)
 
 (1,1,1) = {"
 x

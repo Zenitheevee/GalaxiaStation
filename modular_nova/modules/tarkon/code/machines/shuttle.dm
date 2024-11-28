@@ -44,7 +44,7 @@
 //---- The main reason i made this file: DOCK ROOTS GOD FUCKING FINALLY ----//
 
 /obj/docking_port/stationary/port_tarkon
-	dir = 4
+	dir = EAST
 	dwidth = 6
 	height = 16
 	name = "Port Tarkon"
@@ -60,15 +60,16 @@
 
 /obj/docking_port/stationary/colony_echo
 	dir = SOUTH
-	dheight = 11
-	height = 17
 	name = "Colony Echo"
+	dwidth = 6
+	width = 17
+	height = 7
 	roundstart_template = /datum/map_template/shuttle/ruin/tarkon_salvageskiff
 	shuttle_id = "colony_echo"
-	width = 7
 
 /obj/docking_port/mobile/tarkon_salvageskiff
 	name = "T.I. Salvage Skiff"
-	port_direction = NORTH
+	dir = SOUTH
+	port_direction = WEST
 	preferred_direction = EAST
 	shuttle_id = "tarkon_salvageskiff"
