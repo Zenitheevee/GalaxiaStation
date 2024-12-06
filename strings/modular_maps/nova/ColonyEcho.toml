@@ -1,0 +1,4 @@
+directory = "_maps/RandomRuins/SpaceRuins/nova/colony_echo/"
+
+[rooms.colony_sponsor]
+modules = ["colony_sol.dmm", "colony_cin.dmm"]

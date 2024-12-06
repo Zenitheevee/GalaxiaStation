@@ -20,15 +20,59 @@
 	name = "default port tarkon outfit"
 	uniform = /obj/item/clothing/under/tarkon
 	head = /obj/item/clothing/head/utility/welding/hat
-	back = /obj/item/storage/backpack
 	shoes = /obj/item/clothing/shoes/winterboots
 	gloves = /obj/item/clothing/gloves/combat
+	back = /obj/item/storage/backpack
 	id = /obj/item/card/id/advanced/tarkon
 	id_trim = /datum/id_trim/away/tarkon
 	ears = /obj/item/radio/headset/tarkon
 	backpack_contents = list(
 		/obj/item/crowbar = 1
 		)
+	var/backpack = /obj/item/storage/backpack/industrial/frontier_colonist
+	var/satchel = /obj/item/storage/backpack/industrial/frontier_colonist/satchel
+	var/duffelbag = /obj/item/storage/backpack/duffelbag/engineering/frontier_colonist
+	var/messenger = /obj/item/storage/backpack/industrial/frontier_colonist/messenger
+
+/datum/outfit/tarkon/pre_equip(mob/living/carbon/human/tarkon, visuals_only = FALSE)
+	if(ispath(back, /obj/item/storage/backpack)) //we just steal this from the job outfit datum.
+		switch(tarkon.backpack)
+			if(GBACKPACK)
+				back = /obj/item/storage/backpack //Grey backpack
+			if(GSATCHEL)
+				back = /obj/item/storage/backpack/satchel //Grey satchel
+			if(GDUFFELBAG)
+				back = /obj/item/storage/backpack/duffelbag //Grey Duffel bag
+			if(LSATCHEL)
+				back = /obj/item/storage/backpack/satchel/leather //Leather Satchel
+			if(GMESSENGER)
+				back = /obj/item/storage/backpack/messenger //Grey messenger bag
+			if(DSATCHEL)
+				back = satchel //Department satchel
+			if(DMESSENGER)
+				back = messenger //Messenger Bags
+			if(DDUFFELBAG)
+				back = duffelbag //Department duffel bag
+			if(DMESSENGER)
+				back = messenger //Department messenger bag
+			else
+				back = backpack //Department backpack
+
+	var/client/client = GLOB.directory[ckey(tarkon.mind?.key)]
+
+	if(isplasmaman(tarkon))
+		uniform = /obj/item/clothing/under/plasmaman
+		gloves = /obj/item/clothing/gloves/color/plasmaman
+		head = /obj/item/clothing/head/helmet/space/plasmaman
+		r_hand = /obj/item/tank/internals/plasmaman/belt/full
+		internals_slot = ITEM_SLOT_HANDS
+	if(isvox(tarkon) || isvoxprimalis(tarkon))
+		r_hand = /obj/item/tank/internals/nitrogen/belt/full
+		mask = /obj/item/clothing/mask/breath/vox
+		internals_slot = ITEM_SLOT_HANDS
+
+	if(client?.is_veteran() && client?.prefs.read_preference(/datum/preference/toggle/playtime_reward_cloak))
+		neck = /obj/item/clothing/neck/cloak/skill_reward/playing
 
 /datum/outfit/tarkon/post_equip(mob/living/carbon/human/tarkon, visualsOnly = FALSE)
 	var/obj/item/card/id/id_card = tarkon.wear_id
@@ -157,6 +201,24 @@
 	id_trim = /datum/id_trim/away/tarkon/director
 	neck = /obj/item/clothing/neck/security_cape/tarkon
 	r_pocket = /obj/item/card/id/away/tarkonrobo
+
+//---- Colony Echo: 4 colonists held up in the colony's prison, planning a recapture, while 4 Salvage techs enter from the port to assist. ----//
+
+/obj/effect/mob_spawn/ghost_role/human/echo_colonist
+	name = "Colony Echo Colonist"
+	prompt_name = "an echo colonist"
+	icon = 'icons/obj/machines/sleeper.dmi'
+	icon_state = "sleeper"
+	you_are_text = "You are a colonist from Tarkon Industries established \"Colony Echo\". The Colony Director is your superior"
+	flavour_text = "An attempt to utilize asteroid belts to create sustainable living locations, Tarkon Industries started various colonies that, sometimes, met an ill fate. Do your best in these changing situations."
+	important_text = "Colony Echo is your home, Do not abandon it. Check other sleepers for alternative jobs. Listen to the Colony Director."
+	outfit = /datum/outfit/tarkon
+	faction = list(FACTION_TARKON)
+	spawner_job_path = /datum/job/tarkon
+	loadout_enabled = TRUE
+	quirks_enabled = TRUE
+	random_appearance = FALSE
+	computer_area = /area/ruin/space/has_grav/port_tarkon
 
 /obj/machinery/computer/cryopod/tarkon
 	radio = /obj/item/radio/headset/tarkon

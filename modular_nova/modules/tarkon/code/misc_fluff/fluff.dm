@@ -174,3 +174,10 @@
 /obj/item/blueprints/tarkon
 	desc = "Blueprints of the Tarkon surface breaching drill and several Tarkon base designs. Red, stamped text reads \"Confidential\" on the backside of it."
 	name = "Tarkon Design Prints"
+
+/obj/item/storage/backpack/satchel/flat/tarkon/PopulateContents()
+	new /obj/item/storage/fancy/cigarettes/cigpack_midori
+	new /obj/item/lighter/bright
+	new /obj/item/clothing/glasses/sunglasses
+	..()
+

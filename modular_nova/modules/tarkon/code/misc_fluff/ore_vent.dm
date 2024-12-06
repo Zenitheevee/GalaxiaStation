@@ -1,3 +1,10 @@
+#define COLONY_THREAT_XENOS "xenos"
+#define COLONY_THREAT_PIRATES "pirates"
+#define COLONY_THREAT_CARP "carp"
+#define COLONY_THREAT_SNOW "snow"
+#define COLONY_THREAT_MINING "mining"
+#define COLONY_THREAT_ICE_MINING "ice-mining"
+
 /obj/structure/ore_vent/tarkon_mining
 	mineral_breakdown = list(
 		/datum/material/iron = 50,
@@ -7,6 +14,12 @@
 	defending_mobs = list()
 	var/clear_tally = 0 //so we can track how many time it clears.
 	var/boulder_bounty = 1 //how many boulders per clear attempt
+	var/threat_pool = list(
+		COLONY_THREAT_CARP,
+		COLONY_THREAT_PIRATES,
+		COLONY_THREAT_XENOS
+	) //we put this here for customization reasons
+
 
 /obj/structure/ore_vent/tarkon_mining/produce_boulder(apply_cooldown)
 	. = ..()
@@ -43,9 +56,53 @@
 		BOULDER_SIZE_LARGE,
 		)
 
-	boulder_bounty = round(((magnitude + clear_tally) * rand(1,10))/5)
-
 	boulder_size = pick(ore_output_size)
+
+	boulder_bounty = round(((magnitude * rand(1,10))+(boulder_size + clear_tally))/5)
+
+	var/threat_pick = pick(threat_pool)
+
+	switch(threat_pick)
+		if(COLONY_THREAT_CARP)
+			defending_mobs = list(
+				/mob/living/basic/carp,
+				/mob/living/basic/carp/mega)
+		if(COLONY_THREAT_PIRATES)
+			defending_mobs = list(
+				/mob/living/basic/trooper/pirate/melee/space,
+				/mob/living/basic/trooper/pirate/ranged/space
+			)
+		if(COLONY_THREAT_XENOS)
+			defending_mobs = list(
+				/mob/living/basic/alien,
+				/mob/living/basic/alien/drone,
+				/mob/living/basic/alien/sentinel
+			)
+		if(COLONY_THREAT_MINING)
+			defending_mobs = list(
+				/mob/living/basic/mining/goliath,
+				/mob/living/basic/mining/legion/spawner_made,
+				/mob/living/basic/mining/watcher,
+				/mob/living/basic/mining/lobstrosity/lava,
+				/mob/living/basic/mining/brimdemon,
+				/mob/living/basic/mining/bileworm,
+			)
+		if(COLONY_THREAT_ICE_MINING)
+			defending_mobs = list(
+				/mob/living/basic/mining/ice_whelp,
+				/mob/living/basic/mining/lobstrosity,
+				/mob/living/basic/mining/legion/snow/spawner_made,
+				/mob/living/basic/mining/ice_demon,
+				/mob/living/basic/mining/wolf,
+				/mob/living/simple_animal/hostile/asteroid/polarbear,
+			)
+		if(COLONY_THREAT_SNOW)
+			defending_mobs = list(
+				/mob/living/basic/mining/lobstrosity,
+				/mob/living/basic/mining/legion/snow/spawner_made,
+				/mob/living/basic/mining/wolf,
+				/mob/living/simple_animal/hostile/asteroid/polarbear,
+			)
 
 	for(var/old_ore in mineral_breakdown)
 		mineral_breakdown -= old_ore
@@ -54,4 +111,4 @@
 		var/datum/mineral_picked = pick(ore_pool)
 		mineral_breakdown += mineral_picked
 		ore_pool -= mineral_picked
-		mineral_breakdown[mineral_picked] = rand(5, 15) //we need a weight to the boulders or else produce_boulder shits the bed.
+		mineral_breakdown[mineral_picked] = rand(5, 20) //we need a weight to the boulders or else produce_boulder shits the bed.
