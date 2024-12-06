@@ -232,6 +232,7 @@
 #define SPEED_TRAIT "speed_trait"
 /// Trait given to mobs that have been autopsied
 #define AUTOPSY_TRAIT "autopsy_trait"
+#define EYE_SCARRING_TRAIT "eye_scarring_trait"
 
 ///From the market_crash event
 #define MARKET_CRASH_EVENT_TRAIT "crashed_market_event"
@@ -303,6 +304,9 @@
 
 /// Trait added by style component
 #define STYLE_TRAIT "style"
+
+/// Trait added by a xenobio console
+#define XENOBIO_CONSOLE_TRAIT "xenobio_console_trait"
 
 /// Trait from an engraving
 #define ENGRAVED_TRAIT "engraved"
