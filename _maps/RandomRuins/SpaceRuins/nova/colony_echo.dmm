@@ -173,12 +173,8 @@
 /turf/open/floor/engine/vacuum,
 /area/ruin/space/has_grav/port_tarkon/atmos)
 "ej" = (
-/obj/machinery/door/poddoor/preopen{
-	id_tag = "echo_lockdown_entry"
-	},
-/obj/effect/spawner/structure/window/reinforced,
-/turf/open/floor/iron,
-/area/ruin/space/has_grav/port_tarkon/secoff)
+/turf/closed/wall,
+/area/ruin/space/has_grav/port_tarkon)
 "em" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
@@ -206,6 +202,15 @@
 	},
 /turf/open/floor/carpet/blue,
 /area/ruin/space/has_grav/port_tarkon/dorms)
+"eS" = (
+/obj/machinery/door/window/brigdoor/tarkon/left/directional/west,
+/obj/machinery/door/window/brigdoor/tarkon/right/directional/east,
+/obj/structure/table/reinforced,
+/obj/machinery/door/poddoor{
+	id_tag = "echo_lockdown_entry"
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/port_tarkon/secoff)
 "eT" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
@@ -224,14 +229,9 @@
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/port_tarkon/trauma)
 "fn" = (
-/obj/structure/table/reinforced,
-/obj/machinery/door/poddoor/preopen{
-	id_tag = "echo_lockdown_entry"
-	},
-/obj/machinery/door/window/brigdoor/right/directional/north,
-/obj/machinery/door/window/brigdoor/left/directional/south,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron,
-/area/ruin/space/has_grav/port_tarkon/secoff)
+/area/template_noop)
 "fx" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -325,10 +325,8 @@
 /turf/open/floor/engine/plasma,
 /area/ruin/space/has_grav/port_tarkon/atmos)
 "hj" = (
-/obj/structure/table/reinforced,
-/obj/machinery/recharger,
 /turf/open/floor/iron,
-/area/ruin/space/has_grav/port_tarkon/secoff)
+/area/ruin/space/has_grav/port_tarkon)
 "hn" = (
 /obj/effect/spawner/structure/window/reinforced/no_firelock,
 /obj/machinery/atmospherics/pipe/layer_manifold/green/hidden{
@@ -340,11 +338,11 @@
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/port_tarkon/atmos)
 "hw" = (
-/obj/machinery/button/door/directional/east{
-	id = "echo_lockdown_entry"
+/obj/machinery/cryopod{
+	dir = 8
 	},
 /turf/open/floor/iron,
-/area/ruin/space/has_grav/port_tarkon/secoff)
+/area/ruin/space/has_grav/port_tarkon)
 "hy" = (
 /obj/structure/table/reinforced,
 /turf/open/floor/iron,
@@ -598,6 +596,12 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/port_tarkon/atmos)
+"mj" = (
+/obj/structure/chair/office{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/port_tarkon/secoff)
 "mm" = (
 /obj/structure/bed/pod{
 	dir = 1
@@ -674,6 +678,12 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/port_tarkon/atmos)
+"oe" = (
+/obj/machinery/computer/camera_advanced/tarkon_cam{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/port_tarkon/secoff)
 "ol" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 8
@@ -893,6 +903,12 @@
 /obj/machinery/door/window/brigdoor/tarkon/right/directional/east,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/port_tarkon/cargo)
+"sF" = (
+/obj/machinery/cryopod{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/port_tarkon)
 "sH" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
@@ -1230,9 +1246,11 @@
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/port_tarkon/trauma)
 "zF" = (
-/obj/structure/chair/office,
+/obj/machinery/door/poddoor{
+	id_tag = "echo_lockdown_entry"
+	},
 /turf/open/floor/iron,
-/area/ruin/space/has_grav/port_tarkon/secoff)
+/area/ruin/space/has_grav/port_tarkon/starboardhall)
 "Ae" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden,
 /turf/open/floor/engine/vacuum,
@@ -1490,6 +1508,10 @@
 /obj/structure/cable,
 /turf/template_noop,
 /area/template_noop)
+"DA" = (
+/obj/machinery/door/airlock/public,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/port_tarkon)
 "DB" = (
 /obj/effect/spawner/structure/window/reinforced/no_firelock,
 /obj/machinery/atmospherics/pipe/layer_manifold/dark/hidden{
@@ -1578,8 +1600,8 @@
 /turf/open/floor/engine/o2,
 /area/ruin/space/has_grav/port_tarkon/atmos)
 "EO" = (
-/obj/machinery/door/poddoor/preopen{
-	id_tag = "echo_lockdown_entry"
+/obj/machinery/door/poddoor{
+	id_tag = "echo_lockdown_sec"
 	},
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/port_tarkon/starboardhall)
@@ -1655,12 +1677,12 @@
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/port_tarkon/atmos)
 "FZ" = (
-/obj/machinery/door/poddoor/preopen{
-	id_tag = "echo_lockdown_entry"
-	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
+/obj/machinery/door/poddoor{
+	id_tag = "echo_lockdown_entry"
+	},
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/port_tarkon/starboardhall)
 "Gj" = (
@@ -1744,8 +1766,10 @@
 /turf/open/floor/iron,
 /area/template_noop)
 "Hw" = (
-/obj/structure/table/reinforced,
-/obj/item/paper_bin/carbon,
+/obj/machinery/door/airlock/public,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "echo_lockdown_papers"
+	},
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/port_tarkon/secoff)
 "Hx" = (
@@ -2045,8 +2069,9 @@
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/port_tarkon/trauma)
 "Ny" = (
-/obj/machinery/computer/camera_advanced/tarkon_cam{
-	dir = 4
+/obj/structure/table/reinforced,
+/obj/structure/closet/secure_closet/wall{
+	pixel_y = 32
 	},
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/port_tarkon/secoff)
@@ -2196,6 +2221,13 @@
 /obj/machinery/atmospherics/miner/carbon_dioxide,
 /turf/open/floor/engine/co2,
 /area/ruin/space/has_grav/port_tarkon/atmos)
+"QP" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/door/poddoor{
+	id_tag = "echo_lockdown_sec"
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/port_tarkon/secoff)
 "QQ" = (
 /obj/structure/chair/sofa/left/brown{
 	dir = 8
@@ -2211,6 +2243,10 @@
 /obj/item/clothing/suit/space/eva,
 /turf/open/floor/iron,
 /area/template_noop)
+"QU" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/port_tarkon)
 "QV" = (
 /obj/machinery/sleeper/self_control{
 	dir = 4
@@ -2290,6 +2326,12 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/port_tarkon/storage)
+"RH" = (
+/obj/structure/chair{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/port_tarkon/secoff)
 "RJ" = (
 /obj/effect/turf_decal/tile/blue/half/contrasted{
 	dir = 1
@@ -2413,6 +2455,10 @@
 /obj/machinery/power/smes,
 /turf/open/floor/engine,
 /area/ruin/space/has_grav/port_tarkon/atmos)
+"TE" = (
+/obj/structure/chair,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/port_tarkon/secoff)
 "TJ" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -2442,11 +2488,9 @@
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/port_tarkon/starboardhall)
 "Uu" = (
-/obj/structure/closet/secure_closet/wall{
-	pixel_y = 32
-	},
+/obj/machinery/door/airlock/maintenance,
 /turf/open/floor/iron,
-/area/ruin/space/has_grav/port_tarkon/secoff)
+/area/ruin/space/has_grav/port_tarkon)
 "Ux" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/window/brigdoor/tarkon/right/directional/north,
@@ -2589,6 +2633,10 @@
 /obj/effect/mapping_helpers/airalarm/all_access,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/port_tarkon/cargo)
+"Wr" = (
+/obj/machinery/computer/cryopod/tarkon/directional/north,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/port_tarkon)
 "Wu" = (
 /obj/effect/turf_decal/tile/blue/half/contrasted{
 	dir = 1
@@ -2726,6 +2774,25 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/iron,
 /area/template_noop)
+"YZ" = (
+/obj/machinery/button/door/directional/west{
+	id = "echo_lockdown_entry";
+	pixel_y = 5
+	},
+/obj/structure/table/reinforced,
+/obj/machinery/recharger,
+/obj/machinery/button/door/directional/west{
+	id = "echo_lockdown_sec";
+	pixel_x = -36;
+	pixel_y = 5
+	},
+/obj/machinery/button/door/directional/west{
+	id = "echo_lockdown_papers";
+	pixel_x = -36;
+	pixel_y = -6
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/port_tarkon/secoff)
 "Zb" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
@@ -5885,10 +5952,10 @@ rA
 rA
 rA
 Kx
-Kx
-Kx
-Kx
-Kx
+ej
+ej
+ej
+ej
 rA
 rA
 rA
@@ -5957,11 +6024,11 @@ rA
 rA
 rA
 rA
-rA
-rA
-rA
-rA
 Kx
+hj
+hj
+hj
+ej
 rA
 rA
 rA
@@ -6030,11 +6097,11 @@ rA
 rA
 rA
 rA
-rA
-rA
-rA
-rA
 Kx
+hj
+hj
+hj
+Uu
 rA
 rA
 rA
@@ -6103,11 +6170,11 @@ rA
 rA
 rA
 rA
-rA
-rA
-rA
-rA
 Kx
+hj
+hj
+hj
+ej
 rA
 rA
 rA
@@ -6176,11 +6243,11 @@ rA
 rA
 rA
 rA
-rA
-rA
-rA
-rA
 Kx
+ej
+ej
+ej
+ej
 rA
 rA
 rA
@@ -6249,11 +6316,11 @@ rA
 rA
 rA
 rA
-rA
-rA
-rA
-rA
 Kx
+sF
+sF
+sF
+ej
 rA
 rA
 rA
@@ -6322,11 +6389,11 @@ rA
 rA
 rA
 rA
-rA
-rA
-rA
-rA
 Kx
+hj
+hj
+hj
+QU
 rA
 rA
 rA
@@ -6395,13 +6462,13 @@ rA
 rA
 rA
 rA
-rA
-rA
-rA
-rA
 Kx
-rA
-rA
+Wr
+hj
+hj
+DA
+fn
+fn
 qT
 ep
 qT
@@ -6468,11 +6535,11 @@ rA
 rA
 rA
 rA
-rA
-rA
-rA
-rA
 Kx
+hj
+hj
+hj
+QU
 rA
 rA
 rA
@@ -6541,11 +6608,11 @@ rA
 rA
 rA
 rA
-rA
-rA
-rA
-rA
 Kx
+hw
+hw
+hw
+ej
 rA
 rA
 rA
@@ -7352,11 +7419,11 @@ bq
 vm
 fx
 kj
-Th
-DN
-sr
-Th
-qd
+hd
+hd
+hd
+hd
+so
 wo
 RA
 wo
@@ -7424,11 +7491,11 @@ rA
 bq
 vm
 fx
-vm
-vm
-vm
-vm
-vm
+kj
+Th
+DN
+sr
+Th
 qd
 wo
 RA
@@ -7640,11 +7707,11 @@ Kx
 rA
 rA
 rA
-ia
-ia
-ia
-ia
-ia
+bq
+vm
+vm
+vm
+vm
 oJ
 fx
 vm
@@ -7714,13 +7781,13 @@ rA
 rA
 rA
 ia
-Uu
+ia
 Hw
-Ny
+ia
 ia
 EO
 FZ
-EO
+zF
 so
 so
 so
@@ -7787,10 +7854,10 @@ rA
 rA
 rA
 ia
+TE
 BH
-BH
-BH
-ej
+RH
+ia
 vm
 fx
 vm
@@ -7860,10 +7927,10 @@ rA
 rA
 rA
 ia
-jE
 BH
-zF
-fn
+BH
+BH
+Hw
 WY
 fx
 fx
@@ -7933,10 +8000,10 @@ rA
 rA
 rA
 ia
-hj
+hy
+RH
 BH
-hw
-ej
+ia
 Qn
 vm
 cs
@@ -8007,8 +8074,8 @@ rA
 rA
 ia
 ia
-mB
-ia
+eS
+QP
 ia
 bq
 Xl
@@ -8079,9 +8146,9 @@ rA
 rA
 rA
 ia
-BH
-BH
-BH
+YZ
+mj
+oe
 mF
 bq
 Kg
@@ -8152,7 +8219,7 @@ rA
 rA
 rA
 ia
-BH
+jE
 BH
 BH
 lD
@@ -8371,7 +8438,7 @@ rA
 rA
 rA
 ia
-hy
+Ny
 lD
 hy
 wt
