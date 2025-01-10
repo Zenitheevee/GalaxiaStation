@@ -2,7 +2,7 @@
 
 /obj/item/storage/backpack/industrial/frontier_colonist
 	name = "frontier backpack"
-	desc = "A rugged backpack often used by settlers and explorers."
+	desc = "A rugged backpack often used by settlers and explorers. Holds all of your equipment and then some."
 	icon = 'modular_nova/modules/kahraman_equipment/icons/clothes/clothing.dmi'
 	icon_state = "backpack"
 	worn_icon = 'modular_nova/modules/kahraman_equipment/icons/clothes/clothing_worn.dmi'
@@ -17,26 +17,15 @@
 
 /obj/item/storage/backpack/industrial/frontier_colonist/satchel
 	name = "frontier satchel"
-	desc = "A rugged satchel often used by settlers and explorers."
+	desc = "A rugged satchel often used by settlers and explorers. Holds less of your equipment than a backpack will."
 	icon_state = "satchel"
 	worn_icon_state = "satchel"
 
 /obj/item/storage/backpack/industrial/frontier_colonist/messenger
 	name = "frontier messenger bag"
-	desc = "A rugged messenger bag often used by settlers and explorers."
+	desc = "A rugged messenger bag often used by settlers and explorers. Holds less of your equipment than a backpack will."
 	icon_state = "messenger"
 	worn_icon_state = "messenger"
-
-/obj/item/storage/backpack/duffelbag/engineering/frontier_colonist //I cant be assed to port the "zipped" function and its just a blatant engineering copy anyways
-	name = "frontier packbag"
-	desc = "A rugged packbag often used by settlers and explorers. Holds all of your equipment and then some."
-	icon = 'modular_nova/modules/kahraman_equipment/icons/clothes/clothing.dmi'
-	icon_state = "duffelbag"
-	worn_icon = 'modular_nova/modules/kahraman_equipment/icons/clothes/clothing_worn.dmi'
-	supports_variations_flags = CLOTHING_DIGITIGRADE_VARIATION_NO_NEW_ICON
-	worn_icon_teshari = 'modular_nova/modules/kahraman_equipment/icons/clothes/clothing_worn_teshari.dmi'
-	worn_icon_state = "duffelbag"
-	inhand_icon_state = "duffelbag"
 
 // Belts
 
