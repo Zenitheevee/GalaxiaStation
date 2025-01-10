@@ -5,15 +5,17 @@
 #define COLONY_THREAT_MINING "mining"
 #define COLONY_THREAT_ICE_MINING "ice-mining"
 
-/obj/structure/ore_vent/tarkon_mining
+/obj/structure/ore_vent/ghost_mining
+	name = "oxide nodule vent"
+	desc = "A vent full of rare oxide nodules, producing varous minerals every time one is brought up. Scan with an advanced mining scanner to start extracting ore from it."
 	mineral_breakdown = list(
 		/datum/material/iron = 50,
 		/datum/material/glass = 50) //we dont need a seperate starting list
 	unique_vent = TRUE
 	boulder_size = BOULDER_SIZE_SMALL
 	defending_mobs = list()
-	var/clear_tally = 0 //so we can track how many time it clears.
-	var/boulder_bounty = 1 //how many boulders per clear attempt
+	var/clear_tally = 0 //so we can track how many time it clears for data-testing purposes.
+	var/boulder_bounty = 10 //how many boulders per clear attempt. First one is small and easy
 	var/threat_pool = list(
 		COLONY_THREAT_CARP,
 		COLONY_THREAT_PIRATES,
@@ -21,13 +23,13 @@
 	) //we put this here for customization reasons
 
 
-/obj/structure/ore_vent/tarkon_mining/produce_boulder(apply_cooldown)
+/obj/structure/ore_vent/ghost_mining/produce_boulder(apply_cooldown)
 	. = ..()
 	boulder_bounty -= 1
 	if(boulder_bounty == 0)
 		reset_vent()
 
-/obj/structure/ore_vent/tarkon_mining/proc/reset_vent()
+/obj/structure/ore_vent/ghost_mining/proc/reset_vent()
 	cut_overlays()
 	tapped = FALSE
 	SSore_generation.processed_vents -= src
@@ -36,7 +38,7 @@
 	clear_tally += 1
 	reset_ores()
 
-/obj/structure/ore_vent/tarkon_mining/proc/reset_ores()
+/obj/structure/ore_vent/ghost_mining/proc/reset_ores()
 	var/magnitude = rand(1,4)
 	var/ore_pool = list(
 		/datum/material/iron = 14,
@@ -58,7 +60,7 @@
 
 	boulder_size = pick(ore_output_size)
 
-	boulder_bounty = round(((magnitude * rand(1,10))+(boulder_size + clear_tally))/5)
+	boulder_bounty = magnitude * 15 //Max is 60
 
 	var/threat_pick = pick(threat_pool)
 
