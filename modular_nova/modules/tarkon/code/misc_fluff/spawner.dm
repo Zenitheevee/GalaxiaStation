@@ -29,10 +29,10 @@
 	backpack_contents = list(
 		/obj/item/crowbar = 1
 		)
-	var/backpack = /obj/item/storage/backpack/industrial/frontier_colonist
-	var/satchel = /obj/item/storage/backpack/industrial/frontier_colonist/satchel
-	var/duffelbag = /obj/item/storage/backpack/duffelbag/engineering/frontier_colonist
-	var/messenger = /obj/item/storage/backpack/industrial/frontier_colonist/messenger
+	var/backpack = /obj/item/storage/backpack/tarkon
+	var/satchel = /obj/item/storage/backpack/satchel/tarkon
+	var/duffelbag = /obj/item/storage/backpack/duffelbag/tarkon
+	var/messenger = /obj/item/storage/backpack/messenger/tarkon
 
 /datum/outfit/tarkon/pre_equip(mob/living/carbon/human/tarkon, visuals_only = FALSE)
 	if(ispath(back, /obj/item/storage/backpack)) //we just steal this from the job outfit datum.
