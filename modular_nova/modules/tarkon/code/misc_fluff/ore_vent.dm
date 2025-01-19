@@ -114,3 +114,124 @@
 		mineral_breakdown += mineral_picked
 		ore_pool -= mineral_picked
 		mineral_breakdown[mineral_picked] = rand(5, 20) //we need a weight to the boulders or else produce_boulder shits the bed.
+
+//// Boulder Stabilizing Collector - Allows for ghost roles to have boulder-based ore vents without NT Yoinking them.
+
+/obj/structure/ore_box/boulder_collector //We want this to automatically grab boulders and desync them from the bluespace boulder grabbers
+	name = "BSC Refinery Box"
+	desc = "An improvement on the normal boxes drudged around by miners, It is capable of automatically picking up ores or boulders in a set direction once established."
+	icon = 'modular_nova/modules/tarkon/icons/obj/mining.dmi'
+	icon_state = "orebox"
+	/// The current direction of `input_turf`, in relation to the orebox.
+	var/input_dir = NORTH
+	/// The turf the orebox listens to for items to pick up. Calls the `pickup_item()` proc.
+	var/turf/input_turf = null
+	/// Determines if this orebox needs to pick up items yet
+	var/needs_item_input = FALSE
+
+/obj/structure/ore_box/add_context(atom/source, list/context, obj/item/held_item, mob/user)
+	. = NONE
+	if(isnull(held_item))
+		context[SCREENTIP_CONTEXT_ALT_LMB] = "Rotate"
+		return CONTEXTUAL_SCREENTIP_SET
+	if(held_item.tool_behaviour == TOOL_WRENCH)
+		context[SCREENTIP_CONTEXT_LMB] = "[anchored ? "Loosen" : "Anchor"]"
+	if(held_item.tool_behaviour == TOOL_CROWBAR)
+		context[SCREENTIP_CONTEXT_LMB] = "Deconstruct"
+		return CONTEXTUAL_SCREENTIP_SET
+	else if(istype(held_item, /obj/item/stack/ore) || istype(held_item, /obj/item/boulder))
+		context[SCREENTIP_CONTEXT_LMB] = "Insert Item"
+		return CONTEXTUAL_SCREENTIP_SET
+	else if(held_item.atom_storage)
+		context[SCREENTIP_CONTEXT_LMB] = "Transfer Contents"
+		return CONTEXTUAL_SCREENTIP_SET
+
+/obj/structure/ore_box/boulder_collector/proc/register_input_turf()
+	input_turf = get_step(src, input_dir)
+	if(input_turf) // make sure there is actually a turf
+		RegisterSignals(input_turf, list(COMSIG_ATOM_AFTER_SUCCESSFUL_INITIALIZED_ON, COMSIG_ATOM_ENTERED), PROC_REF(pickup_item))
+
+/obj/structure/ore_box/boulder_collector/proc/unregister_input_turf()
+	if(input_turf)
+		UnregisterSignal(input_turf, list(COMSIG_ATOM_ENTERED, COMSIG_ATOM_AFTER_SUCCESSFUL_INITIALIZED_ON))
+
+/obj/structure/ore_box/boulder_collector/Moved(atom/old_loc, movement_dir, forced, list/old_locs, momentum_change = TRUE)
+	. = ..()
+	if(!needs_item_input || !anchored)
+		return
+	unregister_input_turf()
+	register_input_turf()
+
+/obj/structure/ore_box/boulder_collector/click_alt(mob/living/user)
+	input_dir = turn(input_dir, -90)
+	to_chat(user, span_notice("You change [src]'s I/O settings, setting the input to [dir2text(input_dir)]."))
+	unregister_input_turf() // someone just rotated the input directions, unregister the old turf
+	register_input_turf() // register the new one
+	update_appearance(UPDATE_OVERLAYS)
+	return CLICK_ACTION_SUCCESS
+
+/obj/structure/ore_box/boulder_collector/update_overlays()
+	. = ..()
+	if(anchored == FALSE)
+		return
+	var/image/ore_input = image(icon='icons/obj/doors/airlocks/station/overlays.dmi', icon_state="unres_[input_dir]")
+
+	switch(input_dir)
+		if(NORTH)
+			ore_input.pixel_y = 32
+		if(SOUTH)
+			ore_input.pixel_y = -32
+		if(EAST)
+			ore_input.pixel_x = 32
+		if(WEST)
+			ore_input.pixel_x = -32
+
+	ore_input.color = COLOR_MODERATE_BLUE
+	var/mutable_appearance/light_in = emissive_appearance(ore_input.icon, ore_input.icon_state, offset_spokesman = src, alpha = ore_input.alpha)
+	light_in.pixel_y = ore_input.pixel_y
+	light_in.pixel_x = ore_input.pixel_x
+	. += ore_input
+	. += light_in
+
+/obj/structure/ore_box/boulder_collector/wrench_act(mob/living/user, obj/item/tool)
+	. = ..()
+	if(default_unfasten_wrench(user, tool))
+		update_appearance()
+	return ITEM_INTERACT_SUCCESS
+
+/obj/structure/ore_box/boulder_collector/can_be_unfasten_wrench(mob/user, silent)
+	if(!(isfloorturf(loc) || isindestructiblefloor(loc) || ismiscturf(loc)) && !anchored)
+		to_chat(user, span_warning("[src] needs to be on the ground to be secured!"))
+		return FAILED_UNFASTEN
+	return SUCCESSFUL_UNFASTEN
+
+/obj/structure/ore_box/boulder_collector/default_unfasten_wrench(mob/user, obj/item/wrench, time)
+	. = ..()
+	if(. != SUCCESSFUL_UNFASTEN)
+		return
+	if(anchored)
+		register_input_turf() // someone just wrenched us down, re-register the turf
+		needs_item_input = TRUE
+	else
+		unregister_input_turf() // someone just un-wrenched us, unregister the turf
+		needs_item_input = FALSE
+
+/obj/structure/ore_box/boulder_collector/proc/pickup_item(datum/source, atom/movable/target_boulder, atom/old_loc, list/atom/old_locs)
+	SIGNAL_HANDLER
+
+	if(QDELETED(target_boulder))
+		return
+
+	if(istype(target_boulder, /obj/item/boulder))
+		var/obj/item/boulder/mine_now = target_boulder
+		mine_now.forceMove(src) //Pull the boulder into storage
+		SSore_generation.available_boulders -= mine_now //Decouple the boulder from the network. Cant be stolen
+	return
+
+/obj/structure/ore_box/boulder_collector/attackby(obj/item/weapon, mob/user, params)
+	if(istype(weapon, /obj/item/boulder))
+		var/obj/item/boulder/mine_now = weapon
+		SSore_generation.available_boulders -= mine_now
+		user.transferItemToLoc(weapon, src)
+	else
+		return ..()
