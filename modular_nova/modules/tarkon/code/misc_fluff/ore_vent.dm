@@ -122,12 +122,24 @@
 	desc = "An improvement on the normal boxes drudged around by miners, It is capable of automatically picking up ores or boulders in a set direction once established."
 	icon = 'modular_nova/modules/tarkon/icons/obj/mining.dmi'
 	icon_state = "orebox"
+	resistance_flags = FIRE_PROOF|LAVA_PROOF
 	/// The current direction of `input_turf`, in relation to the orebox.
 	var/input_dir = NORTH
 	/// The turf the orebox listens to for items to pick up. Calls the `pickup_item()` proc.
 	var/turf/input_turf = null
 	/// Determines if this orebox needs to pick up items yet
 	var/needs_item_input = FALSE
+	var/repacked_type = /obj/item/flatpacked_machine/boulder_collector
+	var/perpetual = FALSE //If it breaks, will it drop its compressed form? Used for gulag
+
+/obj/structure/ore_box/boulder_collector/atom_deconstruct(disassembled = TRUE)
+	dump_box_contents()
+	if(perpetual)
+		new repacked_type(get_turf(src))
+
+/obj/structure/ore_box/boulder_collector/Initialize(mapload)
+	. = ..()
+	AddElement(/datum/element/repackable, repacked_type, 5 SECONDS)
 
 /obj/structure/ore_box/add_context(atom/source, list/context, obj/item/held_item, mob/user)
 	. = NONE
@@ -235,3 +247,75 @@
 		user.transferItemToLoc(weapon, src)
 	else
 		return ..()
+
+/obj/structure/ore_box/boulder_collector/syndicate
+	name = "Syndicate BSC Box"
+	desc = "An improvement on the normal boxes drudged around by miners, It is capable of being set up to automatically pick up ores or boulders in a set direction. It is plated in suspiciously coloured panels."
+	icon = 'modular_nova/modules/tarkon/icons/obj/mining.dmi'
+	icon_state = "orebox_s"
+	repacked_type = /obj/item/flatpacked_machine/boulder_collector/syndicate
+
+/obj/structure/ore_box/boulder_collector/tarkon
+	name = "Tarkon BSC Box"
+	desc = "An improvement on the normal boxes drudged around by miners, It is capable of being set up to automatically pick up ores or boulders in a set direction. It is plated in Tarkon-coloured panels."
+	icon = 'modular_nova/modules/tarkon/icons/obj/mining.dmi'
+	icon_state = "orebox_t"
+	repacked_type = /obj/item/flatpacked_machine/boulder_collector/tarkon
+
+/obj/structure/ore_box/boulder_collector/nt
+	name = "NT BSC Refinery Box"
+	desc = "An improvement on the normal boxes drudged around by miners, It is capable of being set up to automatically pick up ores or boulders in a set direction. It is plated in NT-coloured panels."
+	icon = 'modular_nova/modules/tarkon/icons/obj/mining.dmi'
+	icon_state = "orebox_n"
+	repacked_type = /obj/item/flatpacked_machine/boulder_collector/nt
+
+/obj/structure/ore_box/boulder_collector/gulag
+	name = "Boulder Snatchinator 3000"
+	desc = "A mess of pipes, orange heatform plastic and cardboard paneling. The fact this is not immediately falling apart is a miracle, let alone the fact that it can not only hold, but be set up to automatically collect boulders from vents is an impressive showmanship of cost-cutting engineering."
+	icon = 'modular_nova/modules/tarkon/icons/obj/mining.dmi'
+	icon_state = "orebox_g"
+	max_integrity = 100 //Default is 300
+	repacked_type = /obj/item/flatpacked_machine/boulder_collector/gulag
+	perpetual = TRUE
+
+/obj/item/flatpacked_machine/boulder_collector
+	name = "compacted BSC Box"
+	/// For all flatpacked machines, set the desc to the type_to_deploy followed by ::desc to reuse the type_to_deploy's description
+	desc = /obj/structure/ore_box/boulder_collector::desc
+	icon = 'modular_nova/modules/tarkon/icons/obj/mining.dmi'
+	icon_state = "orecube"
+	w_class = WEIGHT_CLASS_BULKY
+	resistance_flags = FIRE_PROOF|LAVA_PROOF
+	type_to_deploy = /obj/structure/ore_box/boulder_collector
+
+/obj/item/flatpacked_machine/boulder_collector/syndicate
+	name = "compacted Syndicate BSC Box"
+	desc = /obj/structure/ore_box/boulder_collector/syndicate::desc
+	icon = 'modular_nova/modules/tarkon/icons/obj/mining.dmi'
+	icon_state = "orecube_s"
+	w_class = WEIGHT_CLASS_BULKY
+	type_to_deploy = /obj/structure/ore_box/boulder_collector/syndicate
+
+/obj/item/flatpacked_machine/boulder_collector/tarkon
+	name = "compacted Tarkon BSC Box"
+	desc = /obj/structure/ore_box/boulder_collector/tarkon::desc
+	icon = 'modular_nova/modules/tarkon/icons/obj/mining.dmi'
+	icon_state = "orecube_t"
+	w_class = WEIGHT_CLASS_BULKY
+	type_to_deploy = /obj/structure/ore_box/boulder_collector/tarkon
+
+/obj/item/flatpacked_machine/boulder_collector/nt
+	name = "compacted NT BSC Box"
+	desc = /obj/structure/ore_box/boulder_collector/nt::desc
+	icon = 'modular_nova/modules/tarkon/icons/obj/mining.dmi'
+	icon_state = "orecube_n"
+	w_class = WEIGHT_CLASS_BULKY
+	type_to_deploy = /obj/structure/ore_box/boulder_collector/nt
+
+/obj/item/flatpacked_machine/boulder_collector/gulag
+	name = "Boulder Snatchinator 3000 Build-it kit"
+	desc = /obj/structure/ore_box/boulder_collector/gulag::desc
+	icon = 'modular_nova/modules/tarkon/icons/obj/mining.dmi'
+	icon_state = "orecube_g"
+	w_class = WEIGHT_CLASS_BULKY
+	type_to_deploy = /obj/structure/ore_box/boulder_collector/gulag
