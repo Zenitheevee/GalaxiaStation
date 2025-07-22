@@ -174,3 +174,46 @@
 /obj/item/gun/ballistic/automatic/wylom/give_manufacturer_examine()
 	AddElement(/datum/element/manufacturer_examine, COMPANY_SZOT)
 	AddElement(/datum/element/gun_launches_little_guys, throwing_force = 3, throwing_range = 5)
+
+// Plasma Carbine
+// Originally designed with/around ghost role. Might make it a normal gun later w/ this as a hermitized version
+
+/obj/item/gun/ballistic/automatic/plas_carbine
+	name = "\improper Prototype Plasma Carbine" //todo: find name
+	desc = "A compact plasma gun that was originally made as an adaptative modification for research, but now exists as a tool only fit for defense. Treat it kindly and you might stay long enough to appreciate it."
+
+	icon = 'modular_nova/modules/modular_weapons/icons/obj/company_and_or_faction_based/szot_dynamica/guns_48.dmi' // I know it'd fit in 32 with no allowance. idrc
+	icon_state = "plas_carbine"
+
+	//worn_icon = 'modular_nova/modules/modular_weapons/icons/mob/company_and_or_faction_based/szot_dynamica/guns_worn.dmi'
+	//worn_icon_state = "plas_carbine"
+
+	lefthand_file = 'modular_nova/modules/modular_weapons/icons/mob/company_and_or_faction_based/szot_dynamica/guns_lefthand.dmi'
+	righthand_file = 'modular_nova/modules/modular_weapons/icons/mob/company_and_or_faction_based/szot_dynamica/guns_righthand.dmi'
+	inhand_icon_state = "plas_carbine"
+
+	special_mags = TRUE //Only 2 types of plasma mags atm, Will probably design more
+
+	bolt_type = BOLT_TYPE_STANDARD
+
+	w_class = WEIGHT_CLASS_NORMAL
+	slot_flags = ITEM_SLOT_BELT
+
+	accepted_magazine_type = /obj/item/ammo_box/magazine/recharge/plasma_battery
+	spawnwithmagazine = FALSE //for intended purposes, having a normal one would be not ideal
+
+	fire_sound = 'modular_nova/modules/modular_weapons/sounds/laser_firing/incinerate.ogg'
+	fire_sound_volume = 60
+
+	burst_size = 1
+	fire_delay = 0.7 SECONDS
+	actions_types = list()
+
+	projectile_damage_multiplier = 1.5
+
+	recoil = 0.1
+	spread = 2.5
+
+	lore_blurb = "You don't really remember what the original purpose was, as plasma guns were often denounced. <br><br>\
+	That doesn't matter to you anymore. This prototype will carry you through the challenges of this place \
+	alive aslong as you're willing to maintain a standard of caution. Keep your batteries charged and a knife close."

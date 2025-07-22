@@ -157,6 +157,50 @@
 	mob_type = /mob/living/carbon/human/species/lizard/ashwalker;
 	outfit = /datum/outfit/consumed_ashwalker
 
+/obj/effect/mob_spawn/ghost_role/human/better_hermit
+	name = "malfunctioning cryostasis sleeper"
+	desc = "A humming sleeper with a silhouetted occupant inside. Its stasis function is broken and it's likely being used as a bed."
+	prompt_name = "a stranded hermit"
+	icon = 'icons/obj/mining_zones/spawners.dmi'
+	icon_state = "cryostasis_sleeper"
+	outfit = /datum/outfit/better_hermit
+	you_are_text = "Your escape skiff crashed on this planet after a horrible string of events, stranding you in this new hell."
+	flavour_text = "An explosion within the ship and the sirens started blaring, panic ensued as what was another cargo haul turned into an event that changed everything. \
+	With everyone else working to escape faster, you were left with a planetary skiff to barely survive landing. Some part of you wanted to stay on the failing ship, \
+	as you're faced with the revelation that this is your new life. Days were toiled, dust caked under fingernails as you make sure you're safe in your final bastion. \
+	With wit and work, you may survive to struggle another day."
+	spawner_job_path = /datum/job/hermit
+	quirks_enabled = TRUE
+	random_appearance = FALSE
+
+/obj/effect/mob_spawn/ghost_role/human/better_hermit/Initialize(mapload)
+	. = ..()
+	outfit = new outfit //who cares equip outfit works with outfit as a path or an instance
+	var/rp_stat = rand(1,3)
+	switch(rp_stat)
+		if(1)
+			flavour_text += "Your mind was racing in panic in the minutes of the event. Did your prototype explode? Was this some sort of sabotage? \
+			 Was the lowest bidder on transport that untrustworthy? Was this pirates? You're not sure, but you were fully separate from your prototype \
+			 in the vital minutes. With what was left on the planetary skiff, you scraped together something you hope might help you on this prison of a planet"
+			outfit.l_hand = /obj/item/gun/energy/laser/musket/prime
+		if(2)
+			flavour_text += "Luck has prevailed with time and place. The prototype exhibit was right there and everyone already rushing to the pods... \
+			It didn't matter how much time you took, no one else was insane enough for the planetary skiff. You packed away the gun and its extra bits \
+			to help planet side, and what extra materials gave an easy patch-job."
+			outfit.l_hand = /obj/item/gun/ballistic/automatic/plas_carbine
+			outfit.r_hand = /obj/item/storage/pouch/ammo/hermit
+			outfit.backpack_contents += list(/obj/item/circuitboard/machine/recharger, /obj/item/stock_parts/capacitor/adv)
+		if(3)
+			flavour_text += "You were cursed when you got the job. Haul a ballistics researcher from station to station looking for one to accept them. \
+			Sounds simple, right? But this was the frontier and while the money was good, it couldn't be good enough. You hit your head when the explosion \
+			hit, a brief span of unconsciousness crept over you, and while you dragged yourself to the only remaining rescue, you couldn't prepare to any extent. \
+			As the saying goes, you were up shit creek without a paddle... but atleast you still had a boat."
+			outfit.backpack_contents += list(/obj/item/food/cookie)
+
+/obj/effect/mob_spawn/ghost_role/human/hermit/Destroy()
+	new/obj/structure/fluff/empty_cryostasis_sleeper(get_turf(src))
+	return ..()
+
 //OUTFITS//
 /datum/outfit/syndicatespace/syndicrew
 	ears = /obj/item/radio/headset/cybersun
@@ -382,6 +426,15 @@
 	r_hand = /obj/item/gun/energy/laser/scatter/shotty // NOVA EDIT ADD - SPAWNS IN HAND INSTEAD OF ON MAP
 	id = /obj/item/card/id/away/hotel/security
 
+/datum/outfit/better_hermit
+	name = "Lavaland Survivalist"
+	uniform = /obj/item/clothing/under/frontier_colonist
+	back = /obj/item/storage/backpack/explorer
+	mask = /obj/item/clothing/mask/gas/explorer
+	shoes = /obj/item/clothing/shoes/workboots/mining
+	l_pocket = /obj/item/tank/internals/emergency_oxygen/double
+	r_pocket = /obj/item/flashlight/lantern
+
 //Lost Space Truckers: Six people stranded in deep space aboard a cargo freighter. They must survive their marooning and cooperate.
 
 /obj/effect/mob_spawn/ghost_role/human/lostcargo
@@ -518,6 +571,14 @@
 	desc = "The headset of the boss."
 	command = TRUE
 
+/obj/item/storage/pouch/ammo/hermit
+
+/obj/item/storage/pouch/ammo/hermit/PopulateContents()
+	var/static/items_inside = list(
+		/obj/item/ammo_box/magazine/recharge/plasma_battery/bane = 3
+	)
+
+	generate_items_inside(items_inside, src)
 
 //OBJECTS//
 /obj/structure/showcase/machinery/oldpod/used
