@@ -1,0 +1,575 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aH" = (
+/turf/closed/wall/mineral/titanium/spaceship,
+/area/ruin/unpowered)
+"eg" = (
+/obj/structure/fluff/empty_cryostasis_sleeper,
+/turf/open/floor/pod/dark,
+/area/ruin/unpowered)
+"eP" = (
+/obj/item/stack/rods,
+/obj/machinery/light/floor/broken,
+/obj/effect/decal/cleanable/glass/plastitanium,
+/turf/open/floor/pod/dark,
+/area/ruin/unpowered)
+"gk" = (
+/obj/structure/closet/generic/wall/empty{
+	pixel_y = 28
+	},
+/obj/item/storage/toolbox/emergency,
+/obj/item/pickaxe/emergency,
+/obj/item/storage/medkit/emergency,
+/obj/item/storage/bag/ore,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/general/hidden,
+/turf/open/floor/pod/dark,
+/area/ruin/unpowered)
+"hH" = (
+/obj/machinery/hydroponics/soil,
+/obj/item/seeds/plump,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/lavaland/surface/outdoors)
+"jl" = (
+/obj/effect/decal/cleanable/glass/plastitanium/screws,
+/obj/item/stack/rods,
+/obj/structure/table/reinforced,
+/turf/open/floor/pod/dark,
+/area/ruin/unpowered)
+"jz" = (
+/obj/item/stack/rods,
+/obj/effect/decal/cleanable/glass/plastitanium,
+/turf/open/floor/pod/dark,
+/area/ruin/unpowered)
+"mr" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/glass/plastitanium,
+/turf/open/floor/pod/dark,
+/area/ruin/unpowered)
+"nL" = (
+/obj/machinery/portable_atmospherics/pump,
+/obj/machinery/atmospherics/components/unary/portables_connector{
+	dir = 8
+	},
+/turf/open/floor/pod/dark,
+/area/ruin/unpowered)
+"oH" = (
+/obj/structure/rack/shelf,
+/obj/item/tank/internals/oxygen,
+/obj/item/stack/sheet/plastic_wall_panel/ten,
+/turf/open/floor/pod/dark,
+/area/ruin/unpowered)
+"px" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 1
+	},
+/turf/open/floor/pod/dark,
+/area/ruin/unpowered)
+"pM" = (
+/obj/item/flatpacked_machine/station_battery,
+/obj/item/flatpacked_machine/wind_turbine,
+/obj/structure/closet/crate,
+/obj/item/stack/cable_coil/thirty,
+/obj/item/wallframe/apc,
+/obj/item/electronics/apc,
+/obj/item/stock_parts/power_store/battery/high/empty,
+/obj/machinery/light/directional/south,
+/turf/open/floor/pod/dark,
+/area/ruin/unpowered)
+"rd" = (
+/obj/structure/table/reinforced,
+/turf/open/floor/pod/dark,
+/area/ruin/unpowered)
+"rs" = (
+/obj/effect/decal/cleanable/glass/plastitanium,
+/obj/structure/frame/computer{
+	dir = 8
+	},
+/turf/open/floor/pod/dark,
+/area/ruin/unpowered)
+"sD" = (
+/obj/structure/table/reinforced,
+/obj/item/shard/plastitanium,
+/turf/open/floor/pod/dark,
+/area/ruin/unpowered)
+"sN" = (
+/obj/structure/bonfire/dense/prelit,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/lavaland/surface/outdoors)
+"tT" = (
+/obj/machinery/light/floor/broken,
+/obj/effect/decal/cleanable/glass/plastitanium,
+/turf/open/floor/pod/dark,
+/area/ruin/unpowered)
+"uS" = (
+/obj/machinery/light/floor/broken,
+/turf/open/floor/pod/dark,
+/area/ruin/unpowered)
+"yH" = (
+/obj/item/cultivator/rake,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/lavaland/surface/outdoors)
+"zC" = (
+/obj/structure/closet/generic/wall/empty{
+	pixel_y = 28
+	},
+/obj/item/xenoarch/brush,
+/obj/item/xenoarch/tape_measure,
+/obj/item/storage/bag/xenoarch,
+/turf/open/floor/pod/dark,
+/area/ruin/unpowered)
+"zE" = (
+/obj/item/stack/sheet/mineral/wood,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/lavaland/surface/outdoors)
+"Bc" = (
+/obj/item/stack/rods,
+/turf/open/floor/pod/dark,
+/area/ruin/unpowered)
+"BE" = (
+/turf/closed/mineral/volcanic/lava_land_surface,
+/area/lavaland/surface/outdoors)
+"Dv" = (
+/obj/machinery/hydroponics/soil,
+/obj/item/seeds/chanter,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/lavaland/surface/outdoors)
+"Fz" = (
+/obj/item/reagent_containers/cup/jerrycan/opaque,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/lavaland/surface/outdoors)
+"GY" = (
+/obj/effect/mob_spawn/ghost_role/human/better_hermit,
+/turf/open/floor/pod/dark,
+/area/ruin/unpowered)
+"Ho" = (
+/obj/machinery/hydroponics/soil,
+/obj/item/seeds/glowshroom,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/lavaland/surface/outdoors)
+"Id" = (
+/obj/item/knife/shiv/plastitanium,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/lavaland/surface/outdoors)
+"II" = (
+/obj/machinery/door/poddoor/shutters/colony_fabricator{
+	id = "skiffwindows"
+	},
+/turf/open/floor/pod/dark,
+/area/ruin/unpowered)
+"Je" = (
+/obj/item/seed_mesh,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/lavaland/surface/outdoors)
+"JN" = (
+/obj/effect/decal/cleanable/glass/plastitanium,
+/turf/open/floor/pod/dark,
+/area/ruin/unpowered)
+"Ko" = (
+/obj/machinery/smartfridge/survival_pod/preloaded,
+/turf/open/floor/pod/dark,
+/area/ruin/unpowered)
+"Kt" = (
+/obj/machinery/button/door{
+	pixel_x = -8;
+	id = "skifflock"
+	},
+/obj/machinery/button/door{
+	pixel_x = 8;
+	id = "skiffwindows"
+	},
+/turf/closed/wall/prefab_plastic,
+/area/ruin/unpowered)
+"Ln" = (
+/obj/machinery/hydroponics/soil,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/lavaland/surface/outdoors)
+"LA" = (
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/turf/open/floor/pod/dark,
+/area/ruin/unpowered)
+"LV" = (
+/obj/item/shovel,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/lavaland/surface/outdoors)
+"NP" = (
+/turf/template_noop,
+/area/template_noop)
+"NR" = (
+/turf/open/floor/pod/dark,
+/area/ruin/unpowered)
+"NS" = (
+/obj/structure/chair/comfy/shuttle,
+/turf/open/floor/pod/dark,
+/area/ruin/unpowered)
+"Om" = (
+/obj/machinery/light/floor,
+/turf/open/floor/pod/dark,
+/area/ruin/unpowered)
+"Qc" = (
+/obj/machinery/portable_atmospherics/canister/air,
+/obj/machinery/atmospherics/components/unary/portables_connector{
+	dir = 4
+	},
+/turf/open/floor/pod/dark,
+/area/ruin/unpowered)
+"Ql" = (
+/obj/effect/decal/cleanable/glass/plastitanium,
+/obj/structure/table/reinforced,
+/turf/open/floor/pod/dark,
+/area/ruin/unpowered)
+"Qo" = (
+/obj/structure/mineral_door/manual_colony_door,
+/obj/machinery/door/poddoor/shutters/colony_fabricator/preopen{
+	id = "skifflock"
+	},
+/turf/open/floor/pod/dark,
+/area/ruin/unpowered)
+"QC" = (
+/obj/machinery/power/shuttle_engine/propulsion/burst{
+	dir = 8
+	},
+/turf/closed/wall/mineral/titanium/spaceship,
+/area/ruin/unpowered)
+"Sb" = (
+/obj/effect/decal/cleanable/glass/plastitanium,
+/obj/item/stack/rods,
+/obj/structure/table/reinforced,
+/turf/open/floor/pod/dark,
+/area/ruin/unpowered)
+"Tz" = (
+/obj/structure/fans,
+/obj/machinery/light/directional/north,
+/turf/open/floor/pod/dark,
+/area/ruin/unpowered)
+"TZ" = (
+/obj/machinery/pipedispenser,
+/turf/open/floor/pod/dark,
+/area/ruin/unpowered)
+"Ut" = (
+/obj/machinery/atmospherics/components/unary/portables_connector,
+/turf/closed/mineral/volcanic/lava_land_surface,
+/area/lavaland/surface/outdoors)
+"UB" = (
+/obj/item/grown/log,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/lavaland/surface/outdoors)
+"Vs" = (
+/obj/machinery/hydroponics/soil,
+/obj/item/seeds/tower,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/lavaland/surface/outdoors)
+"VO" = (
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/lavaland/surface/outdoors)
+"XC" = (
+/obj/structure/water_source/puddle,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/lavaland/surface/outdoors)
+"XH" = (
+/obj/effect/spawner/structure/window/survival_pod,
+/obj/machinery/door/poddoor/shutters/colony_fabricator{
+	id = "skiffwindows"
+	},
+/turf/open/floor/pod/dark,
+/area/ruin/unpowered)
+"YD" = (
+/turf/closed/wall/prefab_plastic,
+/area/ruin/unpowered)
+"Zd" = (
+/obj/item/stack/rods,
+/obj/structure/mineral_door/manual_colony_door,
+/obj/machinery/door/poddoor/shutters/colony_fabricator/preopen{
+	id = "skifflock"
+	},
+/turf/open/floor/pod/dark,
+/area/ruin/unpowered)
+
+(1,1,1) = {"
+NP
+BE
+BE
+BE
+BE
+BE
+VO
+VO
+BE
+NP
+NP
+NP
+NP
+NP
+NP
+NP
+"}
+(2,1,1) = {"
+Ut
+BE
+QC
+aH
+aH
+aH
+QC
+VO
+VO
+BE
+BE
+BE
+NP
+NP
+NP
+NP
+"}
+(3,1,1) = {"
+BE
+QC
+aH
+GY
+Ko
+eg
+aH
+QC
+VO
+VO
+VO
+BE
+BE
+BE
+NP
+NP
+"}
+(4,1,1) = {"
+BE
+aH
+Tz
+NR
+NR
+NR
+pM
+aH
+VO
+VO
+VO
+VO
+VO
+BE
+BE
+NP
+"}
+(5,1,1) = {"
+BE
+YD
+TZ
+NR
+NR
+NR
+oH
+YD
+VO
+VO
+VO
+sN
+VO
+VO
+BE
+NP
+"}
+(6,1,1) = {"
+BE
+YD
+Qc
+NR
+NR
+NR
+LA
+YD
+VO
+VO
+VO
+VO
+VO
+VO
+BE
+NP
+"}
+(7,1,1) = {"
+BE
+YD
+gk
+NR
+Om
+YD
+YD
+YD
+VO
+VO
+VO
+VO
+VO
+VO
+BE
+NP
+"}
+(8,1,1) = {"
+BE
+YD
+nL
+NR
+NR
+Qo
+NR
+Qo
+VO
+VO
+VO
+VO
+VO
+VO
+BE
+NP
+"}
+(9,1,1) = {"
+BE
+YD
+zC
+NR
+NR
+Zd
+NR
+Qo
+VO
+VO
+VO
+VO
+VO
+VO
+BE
+NP
+"}
+(10,1,1) = {"
+BE
+YD
+NR
+Bc
+uS
+Kt
+YD
+YD
+VO
+zE
+Je
+VO
+LV
+Ln
+BE
+NP
+"}
+(11,1,1) = {"
+BE
+YD
+NS
+JN
+JN
+jz
+px
+YD
+zE
+Id
+VO
+XC
+VO
+Ln
+BE
+NP
+"}
+(12,1,1) = {"
+BE
+YD
+eP
+JN
+jz
+JN
+tT
+YD
+VO
+UB
+yH
+VO
+VO
+Ho
+BE
+NP
+"}
+(13,1,1) = {"
+BE
+II
+Ql
+sD
+mr
+rd
+Sb
+II
+BE
+Vs
+VO
+Fz
+Dv
+BE
+BE
+NP
+"}
+(14,1,1) = {"
+BE
+II
+II
+jl
+rs
+Ql
+II
+II
+BE
+BE
+hH
+hH
+BE
+BE
+NP
+NP
+"}
+(15,1,1) = {"
+BE
+BE
+II
+II
+II
+II
+XH
+BE
+BE
+BE
+BE
+BE
+BE
+NP
+NP
+NP
+"}
+(16,1,1) = {"
+NP
+BE
+BE
+BE
+BE
+BE
+BE
+BE
+NP
+NP
+NP
+NP
+NP
+NP
+NP
+NP
+"}
