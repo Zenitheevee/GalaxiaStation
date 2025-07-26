@@ -180,9 +180,10 @@
 
 /obj/item/gun/ballistic/automatic/plas_carbine
 	name = "\improper Prototype Plasma Carbine" //todo: find name
-	desc = "A compact plasma gun that was originally made as an adaptative modification for research, but now exists as a tool only fit for defense. Treat it kindly and you might stay long enough to appreciate it."
+	desc = "A compact plasma gun that was originally made as an adaptative modification for research, but now exists as \
+	 a tool only fit for defense. Treat it kindly and you might stay long enough to appreciate it."
 
-	icon = 'modular_nova/modules/modular_weapons/icons/obj/company_and_or_faction_based/szot_dynamica/guns_48.dmi' // I know it'd fit in 32 with no allowance. idrc
+	icon = 'modular_nova/modules/modular_weapons/icons/obj/company_and_or_faction_based/szot_dynamica/guns_48.dmi'
 	icon_state = "plas_carbine"
 
 	//worn_icon = 'modular_nova/modules/modular_weapons/icons/mob/company_and_or_faction_based/szot_dynamica/guns_worn.dmi'
@@ -194,13 +195,13 @@
 
 	special_mags = TRUE //Only 2 types of plasma mags atm, Will probably design more
 
-	bolt_type = BOLT_TYPE_STANDARD
+	bolt_type = BOLT_TYPE_OPEN // we dont want to have a laser shell droping out
 
 	w_class = WEIGHT_CLASS_NORMAL
-	slot_flags = ITEM_SLOT_BELT
+	slot_flags = ITEM_SLOT_BELT | ITEM_SLOT_SUITSTORE
 
 	accepted_magazine_type = /obj/item/ammo_box/magazine/recharge/plasma_battery
-	spawnwithmagazine = FALSE //for intended purposes, having a normal one would be not ideal
+	spawn_magazine_type = /obj/item/ammo_box/magazine/recharge/plasma_battery/bane //Designed for hermit.
 
 	fire_sound = 'modular_nova/modules/modular_weapons/sounds/laser_firing/incinerate.ogg'
 	fire_sound_volume = 60
@@ -214,6 +215,6 @@
 	recoil = 0.1
 	spread = 2.5
 
-	lore_blurb = "You don't really remember what the original purpose was, as plasma guns were often denounced. <br><br>\
-	That doesn't matter to you anymore. This prototype will carry you through the challenges of this place \
-	alive aslong as you're willing to maintain a standard of caution. Keep your batteries charged and a knife close."
+	lore_blurb = "One of a handful of prototypes made to make plasma guns more appealing, especially to outdoorsmen. <br><br>\
+	Compact enough to fit on a belt, just long enough to comfortably shoulder, the main concerns became its output. \
+	While able to \"hunt down even the strongest prey\" with the right ammo, This was clearly pitched by weaker hunter."

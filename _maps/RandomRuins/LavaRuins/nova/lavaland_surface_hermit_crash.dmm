@@ -17,7 +17,6 @@
 	pixel_y = 28
 	},
 /obj/item/storage/toolbox/emergency,
-/obj/item/pickaxe/emergency,
 /obj/item/storage/medkit/emergency,
 /obj/item/storage/bag/ore,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/general/hidden,
@@ -57,6 +56,7 @@
 /obj/structure/rack/shelf,
 /obj/item/tank/internals/oxygen,
 /obj/item/stack/sheet/plastic_wall_panel/ten,
+/obj/item/pickaxe/emergency,
 /turf/open/floor/pod/dark,
 /area/ruin/unpowered)
 "px" = (
@@ -178,7 +178,7 @@
 	pixel_x = 8;
 	id = "skiffwindows"
 	},
-/turf/closed/wall/prefab_plastic,
+/turf/closed/wall/mineral/titanium/spaceship,
 /area/ruin/unpowered)
 "Ln" = (
 /obj/machinery/hydroponics/soil,
@@ -273,9 +273,6 @@
 	},
 /turf/open/floor/pod/dark,
 /area/ruin/unpowered)
-"YD" = (
-/turf/closed/wall/prefab_plastic,
-/area/ruin/unpowered)
 "Zd" = (
 /obj/item/stack/rods,
 /obj/structure/mineral_door/manual_colony_door,
@@ -359,13 +356,13 @@ NP
 "}
 (5,1,1) = {"
 BE
-YD
+aH
 TZ
 NR
 NR
 NR
 oH
-YD
+aH
 VO
 VO
 VO
@@ -377,13 +374,13 @@ NP
 "}
 (6,1,1) = {"
 BE
-YD
+aH
 Qc
 NR
 NR
 NR
 LA
-YD
+aH
 VO
 VO
 VO
@@ -395,13 +392,13 @@ NP
 "}
 (7,1,1) = {"
 BE
-YD
+aH
 gk
 NR
 Om
-YD
-YD
-YD
+aH
+aH
+aH
 VO
 VO
 VO
@@ -413,7 +410,7 @@ NP
 "}
 (8,1,1) = {"
 BE
-YD
+aH
 nL
 NR
 NR
@@ -431,7 +428,7 @@ NP
 "}
 (9,1,1) = {"
 BE
-YD
+aH
 zC
 NR
 NR
@@ -449,13 +446,13 @@ NP
 "}
 (10,1,1) = {"
 BE
-YD
+aH
 NR
 Bc
 uS
 Kt
-YD
-YD
+aH
+aH
 VO
 zE
 Je
@@ -467,13 +464,13 @@ NP
 "}
 (11,1,1) = {"
 BE
-YD
+aH
 NS
 JN
 JN
 jz
 px
-YD
+aH
 zE
 Id
 VO
@@ -485,13 +482,13 @@ NP
 "}
 (12,1,1) = {"
 BE
-YD
+aH
 eP
 JN
 jz
 JN
 tT
-YD
+aH
 VO
 UB
 yH

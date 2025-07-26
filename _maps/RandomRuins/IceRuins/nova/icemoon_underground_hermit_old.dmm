@@ -1,0 +1,427 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/closed/mineral/snowmountain/icemoon/unscrapeable,
+/area/icemoon/underground/explored)
+"b" = (
+/obj/item/tank/internals/emergency_oxygen/engi,
+/turf/open/floor/plating,
+/area/ruin/powered/hermit)
+"d" = (
+/obj/effect/mob_spawn/ghost_role/human/hermit,
+/turf/open/floor/wood,
+/area/ruin/powered/hermit)
+"g" = (
+/obj/structure/flora/tree/pine/style_random,
+/turf/open/misc/asteroid/snow/icemoon,
+/area/icemoon/underground/explored)
+"h" = (
+/obj/item/cultivator/rake,
+/obj/item/cultivator,
+/turf/open/floor/grass/fairy,
+/area/ruin/powered/hermit)
+"i" = (
+/obj/structure/glowshroom/single,
+/turf/open/floor/plating,
+/area/ruin/powered/hermit)
+"k" = (
+/obj/machinery/hydroponics/soil,
+/turf/open/floor/grass/fairy,
+/area/ruin/powered/hermit)
+"m" = (
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/obj/effect/spawner/random/bedsheet,
+/turf/open/floor/plating,
+/area/ruin/powered/hermit)
+"n" = (
+/obj/item/flashlight/lantern,
+/turf/open/floor/grass/fairy,
+/area/ruin/powered/hermit)
+"p" = (
+/obj/structure/sink/directional/east,
+/turf/open/floor/wood,
+/area/ruin/powered/hermit)
+"q" = (
+/obj/item/paper/guides/jobs/hydroponics,
+/turf/open/floor/grass/fairy,
+/area/ruin/powered/hermit)
+"r" = (
+/obj/item/flashlight/lantern,
+/turf/open/misc/asteroid/snow/icemoon,
+/area/icemoon/underground/explored)
+"s" = (
+/obj/structure/flora/tree/jungle/small/style_random,
+/turf/open/floor/grass/fairy,
+/area/ruin/powered/hermit)
+"t" = (
+/obj/item/chair/wood/wings,
+/turf/open/floor/wood,
+/area/ruin/powered/hermit)
+"u" = (
+/obj/structure/table/wood,
+/obj/item/food/grown/mushroom/glowshroom,
+/obj/item/seeds/reishi,
+/obj/item/seeds/tower,
+/obj/item/seeds/plump,
+/obj/item/seeds/plump,
+/turf/open/floor/plating,
+/area/ruin/powered/hermit)
+"y" = (
+/turf/open/floor/grass/fairy,
+/area/ruin/powered/hermit)
+"z" = (
+/obj/item/pickaxe/improvised,
+/obj/structure/table/wood,
+/obj/item/knife/combat,
+/turf/open/floor/grass/fairy,
+/area/ruin/powered/hermit)
+"A" = (
+/turf/open/floor/wood,
+/area/ruin/powered/hermit)
+"B" = (
+/obj/item/reagent_containers/cup/bucket/wooden,
+/turf/open/floor/grass/fairy,
+/area/ruin/powered/hermit)
+"D" = (
+/turf/closed/wall/mineral/wood,
+/area/ruin/powered/hermit)
+"G" = (
+/turf/closed/wall/mineral/iron,
+/area/ruin/powered/hermit)
+"H" = (
+/obj/item/clothing/suit/hooded/wintercoat,
+/turf/open/floor/wood,
+/area/ruin/powered/hermit)
+"K" = (
+/obj/structure/bonfire/dense/prelit,
+/turf/open/floor/wood,
+/area/ruin/powered/hermit)
+"M" = (
+/obj/item/shovel,
+/turf/open/floor/plating,
+/area/ruin/powered/hermit)
+"N" = (
+/obj/item/storage/toolbox/emergency,
+/turf/open/floor/plating,
+/area/ruin/powered/hermit)
+"P" = (
+/turf/open/misc/asteroid/snow/icemoon,
+/area/icemoon/underground/explored)
+"R" = (
+/obj/machinery/door/airlock/wood{
+	name = "Frozen Shack"
+	},
+/obj/structure/fans/tiny/invisible,
+/turf/open/floor/wood,
+/area/ruin/powered/hermit)
+"T" = (
+/obj/item/gun/energy/laser/musket/prime,
+/obj/structure/table/wood,
+/obj/item/flashlight/lantern,
+/turf/open/floor/wood,
+/area/ruin/powered/hermit)
+"V" = (
+/turf/template_noop,
+/area/template_noop)
+"W" = (
+/obj/item/storage/bag/plants/portaseeder,
+/obj/item/storage/medkit/surgery,
+/obj/item/storage/bag/ore,
+/obj/structure/table/wood,
+/turf/open/floor/grass/fairy,
+/area/ruin/powered/hermit)
+"X" = (
+/turf/open/floor/plating,
+/area/ruin/powered/hermit)
+"Z" = (
+/obj/structure/barricade/wooden/crude/snow,
+/turf/open/misc/asteroid/snow/icemoon,
+/area/icemoon/underground/explored)
+
+(1,1,1) = {"
+V
+V
+V
+V
+V
+V
+V
+V
+V
+V
+V
+V
+V
+V
+V
+V
+"}
+(2,1,1) = {"
+V
+V
+V
+V
+a
+a
+a
+a
+a
+a
+a
+a
+a
+P
+V
+V
+"}
+(3,1,1) = {"
+V
+V
+V
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(4,1,1) = {"
+V
+V
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(5,1,1) = {"
+V
+a
+a
+G
+G
+G
+G
+a
+a
+P
+P
+Z
+P
+P
+P
+P
+"}
+(6,1,1) = {"
+a
+a
+G
+G
+u
+M
+D
+D
+D
+D
+D
+D
+P
+P
+g
+P
+"}
+(7,1,1) = {"
+a
+G
+G
+k
+y
+i
+p
+A
+H
+d
+A
+D
+P
+P
+P
+Z
+"}
+(8,1,1) = {"
+a
+G
+k
+y
+q
+N
+A
+A
+A
+A
+A
+R
+P
+P
+g
+P
+"}
+(9,1,1) = {"
+a
+G
+k
+y
+s
+X
+X
+K
+A
+t
+T
+D
+P
+P
+P
+r
+"}
+(10,1,1) = {"
+a
+G
+k
+n
+y
+B
+i
+X
+X
+A
+A
+D
+P
+P
+P
+P
+"}
+(11,1,1) = {"
+a
+G
+G
+G
+k
+y
+h
+y
+X
+b
+m
+D
+a
+P
+P
+g
+"}
+(12,1,1) = {"
+V
+a
+a
+G
+G
+z
+W
+G
+D
+D
+D
+D
+a
+P
+P
+P
+"}
+(13,1,1) = {"
+V
+a
+a
+a
+G
+G
+G
+G
+a
+a
+a
+a
+P
+P
+g
+P
+"}
+(14,1,1) = {"
+V
+V
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+g
+P
+P
+P
+"}
+(15,1,1) = {"
+V
+V
+V
+V
+a
+a
+a
+a
+P
+P
+P
+P
+P
+P
+P
+P
+"}
+(16,1,1) = {"
+V
+V
+V
+V
+V
+V
+V
+V
+V
+V
+V
+P
+P
+V
+V
+V
+"}
