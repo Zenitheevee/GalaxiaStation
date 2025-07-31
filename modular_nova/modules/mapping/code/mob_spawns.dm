@@ -194,12 +194,12 @@
 			flavour_text += "You were cursed when you got the job. Haul a ballistics researcher from station to station looking for one to accept them. \
 			Sounds simple, right? But this was the frontier and while the money was good, it couldn't be good enough. You hit your head when the explosion \
 			hit, a brief span of unconsciousness crept over you, and when you came to, there was only the skiff left, and all the time to prepare for your excursion. \
-			Though, asside from the already taken prototype, there weren't many, if any, ways to protect yourself left to scavenge. <br><br>\
+			Though, asside from the already taken prototype, there weren't many, if any, ways to protect yourself left to scavenge. \
 			As the saying goes, you were up shit creek without a paddle... but atleast you still had a boat."
 			important_text += "Your Loadout is enabled for this spawn!"
 			loadout_enabled = TRUE
 
-/obj/effect/mob_spawn/ghost_role/human/hermit/Destroy()
+/obj/effect/mob_spawn/ghost_role/human/better_hermit/Destroy()
 	new/obj/structure/fluff/empty_cryostasis_sleeper(get_turf(src))
 	return ..()
 

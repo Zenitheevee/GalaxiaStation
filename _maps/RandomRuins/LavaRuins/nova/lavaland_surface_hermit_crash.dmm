@@ -1,17 +1,17 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "aH" = (
 /turf/closed/wall/mineral/titanium/spaceship,
-/area/ruin/unpowered)
+/area/ruin/hermit_skiff)
 "eg" = (
 /obj/structure/fluff/empty_cryostasis_sleeper,
 /turf/open/floor/pod/dark,
-/area/ruin/unpowered)
+/area/ruin/hermit_skiff)
 "eP" = (
 /obj/item/stack/rods,
 /obj/machinery/light/floor/broken,
 /obj/effect/decal/cleanable/glass/plastitanium,
 /turf/open/floor/pod/dark,
-/area/ruin/unpowered)
+/area/ruin/hermit_skiff)
 "gk" = (
 /obj/structure/closet/generic/wall/empty{
 	pixel_y = 28
@@ -21,7 +21,7 @@
 /obj/item/storage/bag/ore,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/general/hidden,
 /turf/open/floor/pod/dark,
-/area/ruin/unpowered)
+/area/ruin/hermit_skiff)
 "hH" = (
 /obj/machinery/hydroponics/soil,
 /obj/item/seeds/plump,
@@ -32,39 +32,39 @@
 /obj/item/stack/rods,
 /obj/structure/table/reinforced,
 /turf/open/floor/pod/dark,
-/area/ruin/unpowered)
+/area/ruin/hermit_skiff)
 "jz" = (
 /obj/item/stack/rods,
 /obj/effect/decal/cleanable/glass/plastitanium,
 /turf/open/floor/pod/dark,
-/area/ruin/unpowered)
+/area/ruin/hermit_skiff)
 "mr" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/glass/plastitanium,
 /turf/open/floor/pod/dark,
-/area/ruin/unpowered)
+/area/ruin/hermit_skiff)
 "nL" = (
 /obj/machinery/portable_atmospherics/pump,
 /obj/machinery/atmospherics/components/unary/portables_connector{
 	dir = 8
 	},
 /turf/open/floor/pod/dark,
-/area/ruin/unpowered)
+/area/ruin/hermit_skiff)
 "oH" = (
 /obj/structure/rack/shelf,
 /obj/item/tank/internals/oxygen,
 /obj/item/stack/sheet/plastic_wall_panel/ten,
 /obj/item/pickaxe/emergency,
 /turf/open/floor/pod/dark,
-/area/ruin/unpowered)
+/area/ruin/hermit_skiff)
 "px" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
 	},
 /turf/open/floor/pod/dark,
-/area/ruin/unpowered)
+/area/ruin/hermit_skiff)
 "pM" = (
 /obj/item/flatpacked_machine/station_battery,
 /obj/item/flatpacked_machine/wind_turbine,
@@ -75,23 +75,23 @@
 /obj/item/stock_parts/power_store/battery/high/empty,
 /obj/machinery/light/directional/south,
 /turf/open/floor/pod/dark,
-/area/ruin/unpowered)
+/area/ruin/hermit_skiff)
 "rd" = (
 /obj/structure/table/reinforced,
 /turf/open/floor/pod/dark,
-/area/ruin/unpowered)
+/area/ruin/hermit_skiff)
 "rs" = (
 /obj/effect/decal/cleanable/glass/plastitanium,
 /obj/structure/frame/computer{
 	dir = 8
 	},
 /turf/open/floor/pod/dark,
-/area/ruin/unpowered)
+/area/ruin/hermit_skiff)
 "sD" = (
 /obj/structure/table/reinforced,
 /obj/item/shard/plastitanium,
 /turf/open/floor/pod/dark,
-/area/ruin/unpowered)
+/area/ruin/hermit_skiff)
 "sN" = (
 /obj/structure/bonfire/dense/prelit,
 /turf/open/misc/asteroid/basalt/lava_land_surface,
@@ -100,11 +100,11 @@
 /obj/machinery/light/floor/broken,
 /obj/effect/decal/cleanable/glass/plastitanium,
 /turf/open/floor/pod/dark,
-/area/ruin/unpowered)
+/area/ruin/hermit_skiff)
 "uS" = (
 /obj/machinery/light/floor/broken,
 /turf/open/floor/pod/dark,
-/area/ruin/unpowered)
+/area/ruin/hermit_skiff)
 "yH" = (
 /obj/item/cultivator/rake,
 /turf/open/misc/asteroid/basalt/lava_land_surface,
@@ -117,7 +117,7 @@
 /obj/item/xenoarch/tape_measure,
 /obj/item/storage/bag/xenoarch,
 /turf/open/floor/pod/dark,
-/area/ruin/unpowered)
+/area/ruin/hermit_skiff)
 "zE" = (
 /obj/item/stack/sheet/mineral/wood,
 /turf/open/misc/asteroid/basalt/lava_land_surface,
@@ -125,7 +125,7 @@
 "Bc" = (
 /obj/item/stack/rods,
 /turf/open/floor/pod/dark,
-/area/ruin/unpowered)
+/area/ruin/hermit_skiff)
 "BE" = (
 /turf/closed/mineral/volcanic/lava_land_surface,
 /area/lavaland/surface/outdoors)
@@ -141,7 +141,7 @@
 "GY" = (
 /obj/effect/mob_spawn/ghost_role/human/better_hermit,
 /turf/open/floor/pod/dark,
-/area/ruin/unpowered)
+/area/ruin/hermit_skiff)
 "Ho" = (
 /obj/machinery/hydroponics/soil,
 /obj/item/seeds/glowshroom,
@@ -156,7 +156,7 @@
 	id = "skiffwindows"
 	},
 /turf/open/floor/pod/dark,
-/area/ruin/unpowered)
+/area/ruin/hermit_skiff)
 "Je" = (
 /obj/item/seed_mesh,
 /turf/open/misc/asteroid/basalt/lava_land_surface,
@@ -164,11 +164,11 @@
 "JN" = (
 /obj/effect/decal/cleanable/glass/plastitanium,
 /turf/open/floor/pod/dark,
-/area/ruin/unpowered)
+/area/ruin/hermit_skiff)
 "Ko" = (
 /obj/machinery/smartfridge/survival_pod/preloaded,
 /turf/open/floor/pod/dark,
-/area/ruin/unpowered)
+/area/ruin/hermit_skiff)
 "Kt" = (
 /obj/machinery/button/door{
 	pixel_x = -8;
@@ -179,7 +179,7 @@
 	id = "skiffwindows"
 	},
 /turf/closed/wall/mineral/titanium/spaceship,
-/area/ruin/unpowered)
+/area/ruin/hermit_skiff)
 "Ln" = (
 /obj/machinery/hydroponics/soil,
 /turf/open/misc/asteroid/basalt/lava_land_surface,
@@ -187,7 +187,7 @@
 "LA" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /turf/open/floor/pod/dark,
-/area/ruin/unpowered)
+/area/ruin/hermit_skiff)
 "LV" = (
 /obj/item/shovel,
 /turf/open/misc/asteroid/basalt/lava_land_surface,
@@ -197,55 +197,55 @@
 /area/template_noop)
 "NR" = (
 /turf/open/floor/pod/dark,
-/area/ruin/unpowered)
+/area/ruin/hermit_skiff)
 "NS" = (
 /obj/structure/chair/comfy/shuttle,
 /turf/open/floor/pod/dark,
-/area/ruin/unpowered)
+/area/ruin/hermit_skiff)
 "Om" = (
 /obj/machinery/light/floor,
 /turf/open/floor/pod/dark,
-/area/ruin/unpowered)
+/area/ruin/hermit_skiff)
 "Qc" = (
 /obj/machinery/portable_atmospherics/canister/air,
 /obj/machinery/atmospherics/components/unary/portables_connector{
 	dir = 4
 	},
 /turf/open/floor/pod/dark,
-/area/ruin/unpowered)
+/area/ruin/hermit_skiff)
 "Ql" = (
 /obj/effect/decal/cleanable/glass/plastitanium,
 /obj/structure/table/reinforced,
 /turf/open/floor/pod/dark,
-/area/ruin/unpowered)
+/area/ruin/hermit_skiff)
 "Qo" = (
 /obj/structure/mineral_door/manual_colony_door,
 /obj/machinery/door/poddoor/shutters/colony_fabricator/preopen{
 	id = "skifflock"
 	},
 /turf/open/floor/pod/dark,
-/area/ruin/unpowered)
+/area/ruin/hermit_skiff)
 "QC" = (
 /obj/machinery/power/shuttle_engine/propulsion/burst{
 	dir = 8
 	},
 /turf/closed/wall/mineral/titanium/spaceship,
-/area/ruin/unpowered)
+/area/ruin/hermit_skiff)
 "Sb" = (
 /obj/effect/decal/cleanable/glass/plastitanium,
 /obj/item/stack/rods,
 /obj/structure/table/reinforced,
 /turf/open/floor/pod/dark,
-/area/ruin/unpowered)
+/area/ruin/hermit_skiff)
 "Tz" = (
 /obj/structure/fans,
 /obj/machinery/light/directional/north,
 /turf/open/floor/pod/dark,
-/area/ruin/unpowered)
+/area/ruin/hermit_skiff)
 "TZ" = (
 /obj/machinery/pipedispenser,
 /turf/open/floor/pod/dark,
-/area/ruin/unpowered)
+/area/ruin/hermit_skiff)
 "Ut" = (
 /obj/machinery/atmospherics/components/unary/portables_connector,
 /turf/closed/mineral/volcanic/lava_land_surface,
@@ -272,7 +272,7 @@
 	id = "skiffwindows"
 	},
 /turf/open/floor/pod/dark,
-/area/ruin/unpowered)
+/area/ruin/hermit_skiff)
 "Zd" = (
 /obj/item/stack/rods,
 /obj/structure/mineral_door/manual_colony_door,
@@ -280,7 +280,7 @@
 	id = "skifflock"
 	},
 /turf/open/floor/pod/dark,
-/area/ruin/unpowered)
+/area/ruin/hermit_skiff)
 
 (1,1,1) = {"
 NP

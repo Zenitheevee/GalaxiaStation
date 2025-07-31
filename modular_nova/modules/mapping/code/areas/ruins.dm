@@ -64,5 +64,8 @@
 /area/ruin/unpowered/trilogy_research
 	name = "\improper Unsanctioned Structure"
 
-/area/ruin/unpowered/hermit_skiff
+/area/ruin/hermit_skiff
 	name = "\improper Crashed Skiff"
+	power_equip = FALSE
+	power_environ = FALSE
+	power_light = FALSE

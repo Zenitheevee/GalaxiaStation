@@ -51,6 +51,7 @@
 /datum/map_template/ruin/icemoon/underground/hermit
 	prefix = "_maps/RandomRuins/IceRuins/nova/"
 	suffix = "icemoon_underground_hermit_old.dmm"
+	cost = 0 //testing
 
 /datum/map_template/ruin/icemoon/underground/nova/abandoned_sacred_temple
 	name = "Sacred Temple"
