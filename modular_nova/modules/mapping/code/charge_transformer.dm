@@ -1,16 +1,17 @@
 /obj/item/charge_transformer
-	name = "magazine charger"
-	desc = "A bulky item for charging electrical magazines."
-	icon = 'icons/obj/tools.dmi'
-	icon_state = "inducer-engi"
+	name = "charge transformer"
+	desc = "A bulky item for charging electrical magazines. Less efficient than a plug-in recharger, but atleast you can take it anywhere."
+	icon = 'modular_nova/modules/mapping/icons/obj/items/misc.dmi'
+	icon_state = "mag_charger"
 	inhand_icon_state = "inducer-engi"
 	lefthand_file = 'icons/mob/inhands/equipment/tools_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/tools_righthand.dmi'
 	w_class = WEIGHT_CLASS_NORMAL
+	slot_flags = ITEM_SLOT_BELT
 	force = 7
 
 	/// Divider that determines the charge used to refill magazines. 1 = 1000 watts
-	var/power_transfer_divider = 1
+	var/power_transfer_divider = 2
 	/// Multiplier to determine how many bullets are refilled per cycle
 	var/charge_multi = 1
 	/// Can this accept plasma to charge its cell?
@@ -18,7 +19,7 @@
 	/// Is the battery hatch opened?
 	var/opened = FALSE
 	/// The cell for used in recharging cycles
-	var/obj/item/stock_parts/power_store/powerdevice = /obj/item/stock_parts/power_store/battery/high
+	var/obj/item/stock_parts/power_store/powerdevice = /obj/item/stock_parts/power_store/cell/high //yes, you can fit the large APC batteries in here
 	/// Are we in the process of recharging something?
 	var/recharging = FALSE
 	/// Are we done charging?
@@ -112,8 +113,11 @@
 /obj/item/charge_transformer/update_overlays()
 	. = ..()
 	if(!opened)
+		if(!target_mag)
+			return
+		. += "[initial(icon_state)]-charging"
 		return
-	. += "inducer-[!QDELETED(powerdevice) ? "bat" : "nobat"]"
+	. += "[initial(icon_state)]-[!QDELETED(powerdevice) ? "bat" : "nobat"]"
 
 /obj/item/charge_transformer/get_cell()
 	return powerdevice
@@ -138,23 +142,8 @@
 /obj/item/charge_transformer/item_interaction(mob/living/user, obj/item/tool, list/modifiers)
 	. = NONE
 
-	if(user.combat_mode || tool.flags_1 & HOLOGRAM_1 || tool.item_flags & ABSTRACT)
+	if(user.combat_mode || !istype(tool) || tool.flags_1 & HOLOGRAM_1 || tool.item_flags & ABSTRACT)
 		return ITEM_INTERACT_SKIP_TO_ATTACK
-
-	if(!istype(tool)) //if hand is empty
-		if(!QDELETED(target_mag))
-			user.visible_message(span_notice("[user] removes [target_mag] from [src]!"), span_notice("You remove [target_mag]."))
-			target_mag.update_appearance()
-			user.put_in_hands(target_mag)
-			update_appearance(UPDATE_OVERLAYS)
-			return ITEM_INTERACT_SUCCESS
-
-		if(opened && !QDELETED(powerdevice))
-			user.visible_message(span_notice("[user] removes [powerdevice] from [src]!"), span_notice("You remove [powerdevice]."))
-			powerdevice.update_appearance()
-			user.put_in_hands(powerdevice)
-			update_appearance(UPDATE_OVERLAYS)
-			return ITEM_INTERACT_SUCCESS
 
 	if(istype(tool, /obj/item/stock_parts/power_store))
 		if(!opened)
@@ -192,10 +181,19 @@
 			return ITEM_INTERACT_FAILURE
 
 		tool.use(1)
-		powerdevice.give(1.5 * STANDARD_CELL_CHARGE)
+		powerdevice.give(0.5 * STANDARD_CELL_CHARGE) // half a standard cell per sheet
 		balloon_alert(user, "cell recharged")
 
 		return ITEM_INTERACT_SUCCESS
+
+/obj/item/charge_transformer/attack_hand_secondary(mob/user, list/modifiers)
+	. = ..()
+	if(!user.get_active_held_item() && target_mag)
+		target_mag.update_appearance()
+		balloon_alert(user, "unloading [target_mag.name] from charger")
+		user.put_in_hands(target_mag)
+		update_appearance()
+	return SECONDARY_ATTACK_CANCEL_ATTACK_CHAIN
 
 /obj/item/charge_transformer/process(seconds_per_tick)
 	var/obj/item/stock_parts/power_store/our_cell = get_cell(powerdevice)

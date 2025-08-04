@@ -178,16 +178,16 @@
 // Plasma Carbine
 // Originally designed with/around ghost role. Might make it a normal gun later w/ this as a hermitized version
 
-/obj/item/gun/ballistic/automatic/plas_carbine
-	name = "\improper Prototype Plasma Carbine" //todo: find name
+/obj/item/gun/ballistic/automatic/plasma_carbine
+	name = "\improper \"Lądowanie\" Plasma Carbine" //todo: find name
 	desc = "A compact plasma gun that was originally made as an adaptative modification for research, but now exists as \
 	 a tool only fit for defense. Treat it kindly and you might stay long enough to appreciate it."
 
 	icon = 'modular_nova/modules/modular_weapons/icons/obj/company_and_or_faction_based/szot_dynamica/guns_48.dmi'
 	icon_state = "plas_carbine"
 
-	//worn_icon = 'modular_nova/modules/modular_weapons/icons/mob/company_and_or_faction_based/szot_dynamica/guns_worn.dmi'
-	//worn_icon_state = "plas_carbine"
+	worn_icon = 'modular_nova/modules/modular_weapons/icons/mob/company_and_or_faction_based/szot_dynamica/guns_worn.dmi'
+	worn_icon_state = "plas_carbine"
 
 	lefthand_file = 'modular_nova/modules/modular_weapons/icons/mob/company_and_or_faction_based/szot_dynamica/guns_lefthand.dmi'
 	righthand_file = 'modular_nova/modules/modular_weapons/icons/mob/company_and_or_faction_based/szot_dynamica/guns_righthand.dmi'
@@ -217,4 +217,4 @@
 
 	lore_blurb = "One of a handful of prototypes made to make plasma guns more appealing, especially to outdoorsmen. <br><br>\
 	Compact enough to fit on a belt, just long enough to comfortably shoulder, the main concerns became its output. \
-	While able to \"hunt down even the strongest prey\" with the right ammo, This was clearly pitched by weaker hunter."
+	While able to \"hunt down even the strongest prey\" with the right ammo, This was clearly pitched by weaker hunters."

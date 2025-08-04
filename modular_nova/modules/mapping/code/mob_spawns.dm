@@ -187,9 +187,9 @@
 			flavour_text += "Luck has prevailed with time and place. The prototype exhibit was right there and everyone already rushing to the pods... \
 			It didn't matter how much time you took, no one else was insane enough for the planetary skiff. You packed away the gun and its extra bits \
 			to help planet side, and what extra materials gave an easy patch-job."
-			outfit.l_hand = /obj/item/gun/ballistic/automatic/plas_carbine
+			outfit.l_hand = /obj/item/gun/ballistic/automatic/plasma_carbine
 			outfit.r_hand = /obj/item/storage/pouch/ammo/hermit
-			outfit.backpack_contents += list(/obj/item/circuitboard/machine/recharger, /obj/item/stock_parts/capacitor/adv)
+			outfit.backpack_contents += list(/obj/item/charge_transformer)
 		if(3)
 			flavour_text += "You were cursed when you got the job. Haul a ballistics researcher from station to station looking for one to accept them. \
 			Sounds simple, right? But this was the frontier and while the money was good, it couldn't be good enough. You hit your head when the explosion \
