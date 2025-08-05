@@ -1,0 +1,592 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/open/floor/grass/fairy/icemoon,
+/area/icemoon/underground/explored)
+"b" = (
+/obj/structure/railing/wooden_fencing/gate{
+	dir = 8
+	},
+/turf/open/floor/grass/fairy/icemoon,
+/area/icemoon/underground/explored)
+"c" = (
+/obj/item/shovel,
+/turf/open/floor/grass/fairy/icemoon,
+/area/icemoon/underground/explored)
+"d" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/ruin/powered/hermit)
+"e" = (
+/obj/item/cultivator/rake,
+/turf/open/floor/grass/fairy/icemoon,
+/area/icemoon/underground/explored)
+"f" = (
+/obj/machinery/hydroponics/soil,
+/obj/item/seeds/reishi,
+/turf/open/floor/grass/fairy/icemoon,
+/area/icemoon/underground/explored)
+"g" = (
+/turf/closed/wall/mineral/wood,
+/area/ruin/powered/hermit)
+"h" = (
+/obj/structure/window/green_glass_pane,
+/obj/structure/curtain/bounty/start_closed,
+/turf/open/floor/wood,
+/area/ruin/powered/hermit)
+"i" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 5
+	},
+/turf/open/floor/wood,
+/area/ruin/powered/hermit)
+"j" = (
+/obj/structure/closet/crate/wooden/storage_barrel,
+/obj/item/aquarium_upgrade/bioelec_gen,
+/obj/item/aquarium_upgrade,
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/wood,
+/area/ruin/powered/hermit)
+"k" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 10
+	},
+/obj/structure/railing/corner{
+	dir = 4
+	},
+/turf/open/floor/stone,
+/area/ruin/powered/hermit)
+"l" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/open/floor/stone,
+/area/ruin/powered/hermit)
+"m" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wood,
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wood/corner,
+/turf/open/floor/wood,
+/area/icemoon/underground/explored)
+"o" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/effect/mob_spawn/ghost_role/human/hermit,
+/turf/open/floor/carpet/red,
+/area/ruin/powered/hermit)
+"p" = (
+/obj/structure/bonfire/dense/prelit,
+/turf/open/floor/stone,
+/area/ruin/powered/hermit)
+"q" = (
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/obj/effect/turf_decal/siding/wood{
+	dir = 6
+	},
+/turf/open/floor/wood,
+/area/ruin/powered/hermit)
+"r" = (
+/obj/structure/glowshroom/single,
+/turf/open/floor/grass/fairy/icemoon,
+/area/icemoon/underground/explored)
+"t" = (
+/obj/item/reagent_containers/cup/bucket/wooden,
+/turf/open/floor/grass/fairy/icemoon,
+/area/icemoon/underground/explored)
+"u" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/structure/bed/double/pod{
+	dir = 1
+	},
+/obj/effect/spawner/random/bedsheet/any/double,
+/turf/open/floor/carpet/red,
+/area/ruin/powered/hermit)
+"v" = (
+/obj/structure/table/wood,
+/obj/item/flashlight/lantern/on,
+/obj/effect/turf_decal/siding/wood{
+	dir = 9
+	},
+/turf/open/floor/wood,
+/area/ruin/powered/hermit)
+"w" = (
+/turf/open/water/hot_spring/icemoon,
+/area/icemoon/underground/explored)
+"x" = (
+/obj/structure/railing/wooden_fencing{
+	dir = 8
+	},
+/obj/structure/railing/wooden_fencing{
+	dir = 1
+	},
+/turf/open/floor/grass/fairy/icemoon,
+/area/icemoon/underground/explored)
+"y" = (
+/obj/structure/railing/wooden_fencing{
+	dir = 8
+	},
+/obj/structure/railing/wooden_fencing,
+/turf/open/floor/grass/fairy/icemoon,
+/area/icemoon/underground/explored)
+"z" = (
+/obj/structure/closet/cabinet,
+/obj/item/clothing/suit/hooded/wintercoat,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/ruin/powered/hermit)
+"B" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 6
+	},
+/obj/structure/railing/corner{
+	dir = 1
+	},
+/turf/open/floor/stone,
+/area/ruin/powered/hermit)
+"C" = (
+/obj/structure/aquarium/prefilled,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/ruin/powered/hermit)
+"D" = (
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/wood,
+/area/ruin/powered/hermit)
+"E" = (
+/obj/structure/table/wood,
+/obj/item/pickaxe/improvised,
+/obj/item/knife/combat,
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/wood,
+/area/ruin/powered/hermit)
+"F" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/icemoon/underground/explored)
+"G" = (
+/obj/machinery/hydroponics/soil,
+/obj/item/seeds/plump,
+/turf/open/floor/grass/fairy/icemoon,
+/area/icemoon/underground/explored)
+"H" = (
+/turf/template_noop,
+/area/template_noop)
+"I" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 5
+	},
+/turf/open/floor/carpet/red,
+/area/ruin/powered/hermit)
+"J" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 10
+	},
+/turf/open/floor/wood,
+/area/ruin/powered/hermit)
+"K" = (
+/obj/machinery/door/airlock/wood{
+	name = "Frozen Shack"
+	},
+/obj/structure/fans/tiny/invisible,
+/turf/open/floor/wood,
+/area/ruin/powered/hermit)
+"L" = (
+/turf/open/floor/wood,
+/area/ruin/powered/hermit)
+"M" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/icemoon/underground/explored)
+"O" = (
+/turf/closed/wall/mineral/snow,
+/area/icemoon/underground/explored)
+"P" = (
+/obj/structure/table/wood,
+/obj/item/storage/box/fishing_lures,
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/item/fishing_rod/unslotted,
+/obj/item/fishing_line,
+/obj/item/fishing_hook,
+/turf/open/floor/wood,
+/area/ruin/powered/hermit)
+"Q" = (
+/obj/machinery/hydroponics/soil,
+/obj/item/seeds/glowshroom,
+/turf/open/floor/grass/fairy/icemoon,
+/area/icemoon/underground/explored)
+"R" = (
+/turf/open/misc/asteroid/snow/icemoon,
+/area/icemoon/underground/explored)
+"S" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/structure/railing{
+	dir = 1
+	},
+/turf/open/floor/stone,
+/area/ruin/powered/hermit)
+"T" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/floor/stone,
+/area/ruin/powered/hermit)
+"U" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 6
+	},
+/turf/open/floor/carpet/red,
+/area/ruin/powered/hermit)
+"V" = (
+/turf/closed/wall/mineral/stone,
+/area/ruin/powered/hermit)
+"W" = (
+/turf/closed/mineral/snowmountain/icemoon/unscrapeable,
+/area/icemoon/underground/explored)
+"X" = (
+/obj/machinery/hydroponics/soil,
+/obj/item/seeds/tower,
+/turf/open/floor/grass/fairy/icemoon,
+/area/icemoon/underground/explored)
+"Y" = (
+/obj/item/tank/internals/emergency_oxygen/engi,
+/obj/structure/table/wood,
+/obj/item/storage/toolbox/emergency,
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/ruin/powered/hermit)
+"Z" = (
+/obj/structure/flora/tree/jungle/small/style_random,
+/turf/open/floor/grass/fairy/icemoon,
+/area/icemoon/underground/explored)
+
+(1,1,1) = {"
+H
+H
+H
+H
+H
+H
+H
+W
+R
+R
+R
+W
+W
+H
+H
+H
+"}
+(2,1,1) = {"
+H
+H
+H
+H
+H
+H
+H
+W
+R
+R
+R
+W
+W
+H
+H
+H
+"}
+(3,1,1) = {"
+H
+H
+H
+H
+H
+H
+H
+O
+O
+x
+b
+y
+O
+O
+H
+H
+"}
+(4,1,1) = {"
+H
+g
+g
+g
+g
+g
+g
+O
+r
+a
+a
+a
+a
+O
+O
+H
+"}
+(5,1,1) = {"
+H
+g
+v
+u
+o
+J
+g
+a
+a
+a
+a
+a
+Z
+r
+O
+H
+"}
+(6,1,1) = {"
+H
+g
+z
+I
+U
+D
+g
+a
+Z
+a
+w
+w
+a
+a
+O
+H
+"}
+(7,1,1) = {"
+H
+g
+d
+L
+L
+D
+h
+a
+a
+w
+w
+w
+w
+a
+O
+H
+"}
+(8,1,1) = {"
+H
+V
+T
+k
+L
+D
+g
+a
+a
+w
+w
+w
+w
+a
+O
+H
+"}
+(9,1,1) = {"
+H
+V
+p
+S
+L
+D
+K
+a
+F
+M
+m
+w
+w
+a
+O
+H
+"}
+(10,1,1) = {"
+H
+V
+l
+B
+L
+E
+g
+a
+a
+w
+w
+w
+w
+a
+O
+H
+"}
+(11,1,1) = {"
+H
+g
+d
+L
+L
+j
+g
+a
+a
+w
+w
+w
+w
+a
+O
+H
+"}
+(12,1,1) = {"
+H
+g
+C
+L
+L
+D
+g
+G
+e
+t
+w
+w
+a
+a
+O
+H
+"}
+(13,1,1) = {"
+H
+g
+i
+P
+Y
+q
+g
+G
+r
+c
+a
+a
+Z
+a
+O
+H
+"}
+(14,1,1) = {"
+H
+g
+g
+g
+g
+g
+g
+O
+Q
+X
+f
+a
+r
+O
+O
+H
+"}
+(15,1,1) = {"
+H
+H
+H
+H
+H
+H
+H
+O
+O
+O
+O
+O
+O
+O
+H
+H
+"}
+(16,1,1) = {"
+H
+H
+H
+H
+H
+H
+H
+H
+H
+H
+H
+H
+H
+H
+H
+H
+"}

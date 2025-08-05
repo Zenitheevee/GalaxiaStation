@@ -29,7 +29,6 @@
 /area/ruin/powered/hermit)
 "m" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
-/obj/effect/spawner/random/bedsheet,
 /turf/open/floor/plating,
 /area/ruin/powered/hermit)
 "n" = (
