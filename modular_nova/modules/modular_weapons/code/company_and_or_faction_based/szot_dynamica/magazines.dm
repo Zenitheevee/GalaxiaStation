@@ -103,6 +103,14 @@
 		balloon_alert_to_viewers("[src] crackles with energy!")
 	playsound(src, 'sound/effects/sparks/sparks2.ogg', sparks_volume, TRUE)
 
+/obj/item/ammo_box/magazine/recharge/plasma_battery/bane //Bane / Silver, Does more damage to fauna. NOT INTENDED TO BE AVAILABLE IN MASS
+	name = "silver plasma power pack"
+	desc = "A rechargeable, detachable battery that serves as a power source for plasma projectors. This one uses plasmified silver, making it strangely more effective against beasts"
+	base_icon_state = "plasma_battery_bane"
+	icon_state = "plasma_battery_bane"
+	ammo_type = /obj/item/ammo_casing/energy/laser/plasma_glob/bane
+	max_ammo = 15 //an average of ~300 damage to intended targets. "Should kill a goliath but never able to kill two" (inb4 someone slaps the gwiazda with this)
+
 // Shotgun revolver's cylinder
 
 /obj/item/ammo_box/magazine/internal/cylinder/rev12ga
