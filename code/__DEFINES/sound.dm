@@ -185,7 +185,7 @@
 #define ANNOUNCER_SPOOKY "announcer_spooky"
 #define ANNOUNCER_ERTYES "announcer_ertyes"
 #define ANNOUNCER_MUTANTS "announcer_mutants"
-#define ANNOUNCER_NRI_RAIDERS "announcer_nri_raiders"
+#define ANNOUNCER_HC_POLICE "announcer_hc_police"
 #define ANNOUNCER_OUTBREAK6 "announcer_outbreak6"
 #define ANNOUNCER_DEPARTMENTAL "announcer_departmental"
 #define ANNOUNCER_SHUTTLE "announcer_shuttle"
@@ -231,7 +231,7 @@ GLOBAL_LIST_INIT(announcer_keys, list(
 	ANNOUNCER_SPOOKY,
 	ANNOUNCER_ERTYES,
 	ANNOUNCER_MUTANTS,
-	ANNOUNCER_NRI_RAIDERS,
+	ANNOUNCER_HC_POLICE,
 	ANNOUNCER_OUTBREAK6,
 	//NOVA EDIT END
 ))
@@ -342,6 +342,7 @@ GLOBAL_LIST_EMPTY(sfx_datum_by_key)
 #define SFX_CIG_PACK_PICKUP "cig_pack_pickup"
 #define SFX_CIG_PACK_RUSTLE "cig_pack_rustle"
 #define SFX_CIG_PACK_THROW_DROP "cig_pack_throw_drop"
+#define	SFX_RORO_WARBLE "roro_warble"
 
 // Standard is 44.1khz
 #define MIN_EMOTE_PITCH 40000

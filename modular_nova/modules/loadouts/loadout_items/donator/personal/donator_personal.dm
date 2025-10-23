@@ -324,7 +324,7 @@
 
 /datum/loadout_item/pocket_items/darksabresheath
 	name = "Dark Sabre Sheath"
-	item_path = /obj/item/storage/belt/sabre/darksabre
+	item_path = /obj/item/storage/belt/sheath/sabre/darksabre
 	ckeywhitelist = list("inferno707")
 
 /datum/loadout_item/pocket_items/darkarmor
@@ -977,6 +977,11 @@
 	name = "Ecologist's Gloves"
 	item_path = /obj/item/clothing/gloves/ecologist
 	ckeywhitelist = list("deadmonwonderland", "pyritechimera", "darkinite", "wivernshy")
+
+/datum/loadout_item/suit/admiral_coat
+	name = "Admiral's Coat"
+	item_path = /obj/item/clothing/suit/admiral_coat
+	ckeywhitelist = list("pyritechimera", "sirbillyblacksmith", "darkinite")
 
 /datum/loadout_item/suit/merctac
 	name = "MercTac Hoodie"
