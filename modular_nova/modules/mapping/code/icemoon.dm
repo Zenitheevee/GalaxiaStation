@@ -51,6 +51,26 @@
 /datum/map_template/ruin/icemoon/underground/hermit
 	prefix = "_maps/RandomRuins/IceRuins/nova/"
 	suffix = "icemoon_underground_hermit_old.dmm"
+	never_spawn_with = list(/datum/map_template/ruin/icemoon/underground/nova/hermit_pod, /datum/map_template/ruin/icemoon/underground/nova/hermit_fishing)
+	cost = 0 //testing
+
+
+/datum/map_template/ruin/icemoon/underground/nova/hermit_pod
+	prefix = "_maps/RandomRuins/IceRuins/nova/"
+	suffix = "icemoon_underground_hermit_pod.dmm"
+	name = "Ice-Ruin Hermit Pod"
+	id = "icemoon-hermitpod"
+	description = "A cargo trip gone wrong has crash landed one unfortunate person on a winter wonderland that just aint so wonderful."
+	never_spawn_with = list(/datum/map_template/ruin/icemoon/underground/hermit, /datum/map_template/ruin/icemoon/underground/nova/hermit_fishing)
+	cost = 0 //testing
+
+/datum/map_template/ruin/icemoon/underground/nova/hermit_fishing
+	prefix = "_maps/RandomRuins/IceRuins/nova/"
+	suffix = "icemoon_underground_hermit_fisher.dmm"
+	name = "Ice-Ruin Fishing Hermit"
+	id = "icemoon-hermitfisher"
+	description = "Just your average icefishing trip out in space."
+	never_spawn_with = list(/datum/map_template/ruin/icemoon/underground/hermit, /datum/map_template/ruin/icemoon/underground/nova/hermit_pod)
 	cost = 0 //testing
 
 /datum/map_template/ruin/icemoon/underground/nova/abandoned_sacred_temple
