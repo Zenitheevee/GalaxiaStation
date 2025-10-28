@@ -2,6 +2,10 @@
 "a" = (
 /turf/open/misc/beach/sand,
 /area/ruin/powered/hermit)
+"b" = (
+/obj/structure/flora/bush/reed,
+/turf/open/water/beach,
+/area/ruin/powered/hermit)
 "c" = (
 /obj/structure/table/wood/fancy/blue,
 /obj/item/knife/kitchen,
@@ -52,6 +56,10 @@
 	},
 /obj/structure/mineral_door/wood,
 /turf/open/floor/plating,
+/area/ruin/powered/hermit)
+"n" = (
+/obj/structure/flora/bush/sparsegrass/style_random,
+/turf/open/misc/beach/sand,
 /area/ruin/powered/hermit)
 "o" = (
 /turf/closed/wall/mineral/sandstone,
@@ -107,13 +115,22 @@
 	dir = 4
 	},
 /area/ruin/powered/hermit)
+"A" = (
+/obj/structure/wall_torch/directional/west,
+/obj/structure/flora/bush/sparsegrass/style_random,
+/turf/open/misc/beach/sand,
+/area/ruin/powered/hermit)
+"B" = (
+/obj/structure/flora/bush/large/style_random,
+/turf/open/misc/beach/sand,
+/area/ruin/powered/hermit)
 "C" = (
 /turf/open/floor/wood,
 /area/ruin/powered/hermit)
 "D" = (
 /obj/effect/turf_decal/sand/plating,
-/obj/machinery/door/airlock/external/ruin,
 /obj/effect/turf_decal/weather/sand,
+/obj/structure/mineral_door/manual_colony_door,
 /turf/open/floor/plating,
 /area/ruin/powered/hermit)
 "E" = (
@@ -122,13 +139,14 @@
 /area/ruin/powered/hermit)
 "F" = (
 /obj/structure/wall_torch/directional/west,
+/obj/structure/flora/bush/grassy/style_random,
 /turf/open/misc/beach/sand,
 /area/ruin/powered/hermit)
 "G" = (
 /turf/open/misc/beach/coast,
 /area/ruin/powered/hermit)
 "H" = (
-/obj/machinery/door/airlock/external/ruin,
+/obj/structure/mineral_door/manual_colony_door,
 /turf/open/floor/plating,
 /area/ruin/powered/hermit)
 "J" = (
@@ -166,6 +184,10 @@
 "O" = (
 /turf/closed/mineral/random/volcanic,
 /area/lavaland/surface/outdoors)
+"P" = (
+/obj/structure/flora/tree/palm,
+/turf/open/misc/beach/sand,
+/area/ruin/powered/hermit)
 "Q" = (
 /obj/item/cultivator,
 /turf/open/misc/asteroid/basalt,
@@ -187,14 +209,21 @@
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /turf/open/misc/beach/sand,
 /area/ruin/powered/hermit)
+"V" = (
+/obj/structure/flora/rock/pile/jungle/style_random,
+/turf/open/misc/beach/sand,
+/area/ruin/powered/hermit)
+"W" = (
+/obj/structure/flora/bush/grassy/style_random,
+/turf/open/misc/beach/sand,
+/area/ruin/powered/hermit)
 "X" = (
 /obj/structure/closet/crate/freezer{
 	name = "Cooler"
 	},
 /obj/item/reagent_containers/cup/glass/bottle/beer/light,
-/obj/item/reagent_containers/cup/glass/bottle/beer,
-/obj/item/reagent_containers/cup/glass/bottle/beer,
 /obj/item/reagent_containers/cup/glass/ice,
+/obj/item/storage/cans/sixbeer,
 /turf/open/misc/beach/sand,
 /area/ruin/powered/hermit)
 "Y" = (
@@ -239,7 +268,7 @@ a
 E
 a
 a
-F
+A
 o
 o
 O
@@ -272,12 +301,12 @@ a
 a
 a
 G
-K
+b
 K
 K
 K
 u
-a
+V
 o
 "}
 (5,1,1) = {"
@@ -293,7 +322,7 @@ G
 K
 p
 p
-K
+b
 u
 a
 o
@@ -304,7 +333,7 @@ v
 g
 a
 a
-a
+n
 a
 q
 G
@@ -324,7 +353,7 @@ a
 a
 a
 a
-a
+P
 G
 K
 K
@@ -410,7 +439,7 @@ o
 o
 Y
 g
-a
+W
 a
 a
 a
@@ -429,7 +458,7 @@ o
 d
 a
 a
-a
+n
 a
 a
 a
@@ -465,7 +494,7 @@ O
 o
 o
 a
-a
+B
 a
 a
 a

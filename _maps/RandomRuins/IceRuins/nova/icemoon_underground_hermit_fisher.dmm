@@ -1,16 +1,14 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "a" = (
-/turf/open/floor/grass/fairy/icemoon,
+/turf/open/floor/grass/fairy,
 /area/icemoon/underground/explored)
 "b" = (
-/obj/structure/railing/wooden_fencing/gate{
-	dir = 8
-	},
-/turf/open/floor/grass/fairy/icemoon,
+/obj/structure/mineral_door/manual_colony_door,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/underground/explored)
 "c" = (
 /obj/item/shovel,
-/turf/open/floor/grass/fairy/icemoon,
+/turf/open/floor/grass/fairy,
 /area/icemoon/underground/explored)
 "d" = (
 /obj/effect/turf_decal/siding/wood{
@@ -20,12 +18,12 @@
 /area/ruin/powered/hermit)
 "e" = (
 /obj/item/cultivator/rake,
-/turf/open/floor/grass/fairy/icemoon,
+/turf/open/floor/grass/fairy,
 /area/icemoon/underground/explored)
 "f" = (
 /obj/machinery/hydroponics/soil,
 /obj/item/seeds/reishi,
-/turf/open/floor/grass/fairy/icemoon,
+/turf/open/floor/grass/fairy,
 /area/icemoon/underground/explored)
 "g" = (
 /turf/closed/wall/mineral/wood,
@@ -39,13 +37,13 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 5
 	},
+/obj/structure/closet/crate/wooden/storage_barrel,
 /turf/open/floor/wood,
 /area/ruin/powered/hermit)
 "j" = (
-/obj/structure/closet/crate/wooden/storage_barrel,
-/obj/item/aquarium_upgrade/bioelec_gen,
-/obj/item/aquarium_upgrade,
 /obj/effect/turf_decal/siding/wood,
+/obj/structure/table/wood,
+/obj/item/knife/combat,
 /turf/open/floor/wood,
 /area/ruin/powered/hermit)
 "k" = (
@@ -98,11 +96,11 @@
 /area/ruin/powered/hermit)
 "r" = (
 /obj/structure/glowshroom/single,
-/turf/open/floor/grass/fairy/icemoon,
+/turf/open/floor/grass/fairy,
 /area/icemoon/underground/explored)
 "t" = (
 /obj/item/reagent_containers/cup/bucket/wooden,
-/turf/open/floor/grass/fairy/icemoon,
+/turf/open/floor/grass/fairy,
 /area/icemoon/underground/explored)
 "u" = (
 /obj/effect/turf_decal/siding/wood{
@@ -123,23 +121,14 @@
 /turf/open/floor/wood,
 /area/ruin/powered/hermit)
 "w" = (
-/turf/open/water/hot_spring/icemoon,
+/turf/open/water/beach,
 /area/icemoon/underground/explored)
 "x" = (
-/obj/structure/railing/wooden_fencing{
-	dir = 8
-	},
-/obj/structure/railing/wooden_fencing{
-	dir = 1
-	},
-/turf/open/floor/grass/fairy/icemoon,
+/obj/structure/mineral_door/manual_colony_door,
+/turf/open/floor/plating,
 /area/icemoon/underground/explored)
 "y" = (
-/obj/structure/railing/wooden_fencing{
-	dir = 8
-	},
-/obj/structure/railing/wooden_fencing,
-/turf/open/floor/grass/fairy/icemoon,
+/turf/open/water/deep_beach,
 /area/icemoon/underground/explored)
 "z" = (
 /obj/structure/closet/cabinet,
@@ -171,9 +160,8 @@
 /area/ruin/powered/hermit)
 "E" = (
 /obj/structure/table/wood,
-/obj/item/pickaxe/improvised,
-/obj/item/knife/combat,
 /obj/effect/turf_decal/siding/wood,
+/obj/item/tank/internals/emergency_oxygen/engi,
 /turf/open/floor/wood,
 /area/ruin/powered/hermit)
 "F" = (
@@ -197,7 +185,7 @@
 "G" = (
 /obj/machinery/hydroponics/soil,
 /obj/item/seeds/plump,
-/turf/open/floor/grass/fairy/icemoon,
+/turf/open/floor/grass/fairy,
 /area/icemoon/underground/explored)
 "H" = (
 /turf/template_noop,
@@ -218,7 +206,6 @@
 /obj/machinery/door/airlock/wood{
 	name = "Frozen Shack"
 	},
-/obj/structure/fans/tiny/invisible,
 /turf/open/floor/wood,
 /area/ruin/powered/hermit)
 "L" = (
@@ -250,10 +237,16 @@
 "Q" = (
 /obj/machinery/hydroponics/soil,
 /obj/item/seeds/glowshroom,
-/turf/open/floor/grass/fairy/icemoon,
+/turf/open/floor/grass/fairy,
 /area/icemoon/underground/explored)
 "R" = (
-/turf/open/misc/asteroid/snow/icemoon,
+/obj/item/pickaxe/improvised,
+/obj/structure/fans/tiny/invisible,
+/obj/item/clothing/mask/gas,
+/obj/structure/closet/generic/wall/empty{
+	pixel_y = 27
+	},
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/underground/explored)
 "S" = (
 /obj/effect/turf_decal/siding/wood,
@@ -286,10 +279,9 @@
 "X" = (
 /obj/machinery/hydroponics/soil,
 /obj/item/seeds/tower,
-/turf/open/floor/grass/fairy/icemoon,
+/turf/open/floor/grass/fairy,
 /area/icemoon/underground/explored)
 "Y" = (
-/obj/item/tank/internals/emergency_oxygen/engi,
 /obj/structure/table/wood,
 /obj/item/storage/toolbox/emergency,
 /obj/effect/turf_decal/siding/wood{
@@ -299,7 +291,7 @@
 /area/ruin/powered/hermit)
 "Z" = (
 /obj/structure/flora/tree/jungle/small/style_random,
-/turf/open/floor/grass/fairy/icemoon,
+/turf/open/floor/grass/fairy,
 /area/icemoon/underground/explored)
 
 (1,1,1) = {"
@@ -311,9 +303,9 @@ H
 H
 H
 W
-R
-R
-R
+O
+b
+O
 W
 W
 H
@@ -329,9 +321,9 @@ H
 H
 H
 W
+O
 R
-R
-R
+O
 W
 W
 H
@@ -349,8 +341,8 @@ H
 O
 O
 x
-b
-y
+O
+O
 O
 O
 H
@@ -439,8 +431,8 @@ g
 a
 a
 w
-w
-w
+y
+y
 w
 a
 O
@@ -458,7 +450,7 @@ a
 F
 M
 m
-w
+y
 w
 a
 O
@@ -475,8 +467,8 @@ g
 a
 a
 w
-w
-w
+y
+y
 w
 a
 O
