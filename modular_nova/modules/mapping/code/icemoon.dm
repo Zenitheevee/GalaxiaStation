@@ -66,9 +66,9 @@
 
 /datum/map_template/ruin/icemoon/underground/nova/hermit_fishing
 	prefix = "_maps/RandomRuins/IceRuins/nova/"
-	suffix = "icemoon_underground_hermit_fisher.dmm"
+	suffix = "icemoon_underground_hermit_fishing.dmm"
 	name = "Ice-Ruin Fishing Hermit"
-	id = "icemoon-hermitfisher"
+	id = "icemoon-hermitfishing"
 	description = "Just your average icefishing trip out in space."
 	never_spawn_with = list(/datum/map_template/ruin/icemoon/underground/hermit, /datum/map_template/ruin/icemoon/underground/nova/hermit_pod)
 	cost = 0 //testing

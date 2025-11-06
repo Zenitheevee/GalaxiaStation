@@ -69,3 +69,9 @@
 	power_equip = FALSE
 	power_environ = FALSE
 	power_light = FALSE
+
+/area/ruin/hermit_fishing
+	name = "\improper Fishing Biodome"
+	power_equip = FALSE
+	power_environ = FALSE
+	power_light = FALSE

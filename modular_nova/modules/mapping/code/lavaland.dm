@@ -85,7 +85,7 @@
 	prefix = "_maps/RandomRuins/LavaRuins/nova/"
 	suffix = "lavaland_surface_hermit_old.dmm" // Same as default hermit, but stone brick walls instead of rock wall to prevent accidental plascutter griefing
 	cost = 0 //5 // duo gets to be 5 but has 2 players, and this is 10 by default? Huh. Odd. I know its TG that made it 10 but huh.
-	never_spawn_with = list(/datum/map_template/ruin/lavaland/nova/hermit_crashed,
+	never_spawn_with = list(/datum/map_template/ruin/lavaland/nova/hermit_crashed,/datum/map_template/ruin/lavaland/nova/hermit_fishing
 		) // Only 1 solo act
 
 /datum/map_template/ruin/lavaland/nova/hermit_crashed
@@ -95,6 +95,17 @@
 	prefix = "_maps/RandomRuins/LavaRuins/nova/"
 	suffix = "lavaland_surface_hermit_crash.dmm"
 	allow_duplicates = FALSE
-	never_spawn_with = list(/datum/map_template/ruin/lavaland/hermit,
+	never_spawn_with = list(/datum/map_template/ruin/lavaland/hermit,/datum/map_template/ruin/lavaland/nova/hermit_fishing
+		)
+	cost = 0 //5
+
+/datum/map_template/ruin/lavaland/nova/hermit_fishing
+	name = "Lava-Ruin Fishing Tourist"
+	id = "lavaland-hermit-fishing"
+	description = "A hot-dropped mini-biodome with some unfortunate soul"
+	prefix = "_maps/RandomRuins/LavaRuins/nova/"
+	suffix = "lavaland_surface_hermit_crash.dmm"
+	allow_duplicates = FALSE
+	never_spawn_with = list(/datum/map_template/ruin/lavaland/hermit,/datum/map_template/ruin/lavaland/nova/hermit_crashed
 		)
 	cost = 0 //5

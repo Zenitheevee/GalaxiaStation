@@ -280,13 +280,13 @@
 	mob_type = /mob/living/carbon/human/species/lizard/ashwalker;
 	outfit = /datum/outfit/consumed_ashwalker
 
-/obj/effect/mob_spawn/ghost_role/human/better_hermit
+/obj/effect/mob_spawn/ghost_role/human/crashed_hermit
 	name = "skiff cryostasis sleeper"
 	desc = "A humming sleeper with a silhouetted occupant inside."
 	prompt_name = "a stranded hermit"
 	icon = 'icons/obj/mining_zones/spawners.dmi'
 	icon_state = "cryostasis_sleeper"
-	outfit = /datum/outfit/better_hermit
+	outfit = /datum/outfit/crashed_hermit
 	you_are_text = "Your escape skiff crashed on this planet after a horrible string of events, stranding you in this new hell."
 	flavour_text = "An explosion within the ship and the sirens started blaring, panic ensued as what was another cargo haul turned into an event that changed everything. \
 	With everyone else working to escape faster, you were left with a planetary skiff to barely survive landing. Some part of you wanted to stay on the failing ship, \
@@ -296,35 +296,48 @@
 	quirks_enabled = TRUE
 	random_appearance = FALSE
 
-/obj/effect/mob_spawn/ghost_role/human/better_hermit/Initialize(mapload)
+/obj/effect/mob_spawn/ghost_role/human/crashed_hermit/Initialize(mapload)
 	. = ..()
 	outfit = new outfit //who cares equip outfit works with outfit as a path or an instance
-	var/rp_stat = rand(1,3)
+	var/rp_stat = rand(1,2)
 	switch(rp_stat)
-		if(1)
+		if(1) //Icemoon Laser Musket
 			flavour_text += "Your mind was racing in panic in the minutes of the event. Did your prototype explode? Was this some sort of sabotage? \
 			 Was the lowest bidder on transport that untrustworthy? Was this pirates? You're not sure, but you were fully separate from your prototype \
 			 in the vital minutes. With what was left on the planetary skiff, you scraped together something you hope might help you on this prison of a planet"
 			outfit.l_hand = /obj/item/gun/energy/laser/musket/prime
-		if(2)
+		if(2) //New plasma gun + mag recharger
 			flavour_text += "Luck has prevailed with time and place. The prototype exhibit was right there and everyone already rushing to the pods... \
 			It didn't matter how much time you took, no one else was insane enough for the planetary skiff. You packed away the gun and its extra bits \
 			to help planet side, and what extra materials gave an easy patch-job."
 			outfit.l_hand = /obj/item/gun/ballistic/automatic/plasma_carbine
 			outfit.r_hand = /obj/item/storage/pouch/ammo/hermit
 			outfit.backpack_contents += list(/obj/item/charge_transformer)
-		if(3)
+		/*if(3)
 			flavour_text += "You were cursed when you got the job. Haul a ballistics researcher from station to station looking for one to accept them. \
 			Sounds simple, right? But this was the frontier and while the money was good, it couldn't be good enough. You hit your head when the explosion \
 			hit, a brief span of unconsciousness crept over you, and when you came to, there was only the skiff left, and all the time to prepare for your excursion. \
 			Though, asside from the already taken prototype, there weren't many, if any, ways to protect yourself left to scavenge. \
-			As the saying goes, you were up shit creek without a paddle... but atleast you still had a boat."
-			important_text += "Your Loadout is enabled for this spawn!"
-			loadout_enabled = TRUE
+			As the saying goes, you were up shit creek without a paddle... but atleast you still had a boat and some scraps."*/
 
-/obj/effect/mob_spawn/ghost_role/human/better_hermit/Destroy()
+/obj/effect/mob_spawn/ghost_role/human/crashed_hermit/Destroy()
 	new/obj/structure/fluff/empty_cryostasis_sleeper(get_turf(src))
 	return ..()
+
+/obj/effect/mob_spawn/ghost_role/human/fisher_hermit
+	name = "biodome cryostasis sleeper"
+	desc = "A humming sleeper with a silhouetted occupant inside."
+	prompt_name = "a stranded tourist"
+	icon = 'icons/obj/mining_zones/spawners.dmi'
+	icon_state = "cryostasis_sleeper"
+	outfit = /datum/outfit/fishing_hermit
+	you_are_text = "You were promised a fishing trip of a lifetime away from the so called \"stresses of life\"."
+	flavour_text = "An ad in your net-mail caught your eye, A 3 day lone vacation in a so-called budding \"Hot Drop\" business style, featuring \
+	a free cabin, fishing supplies, and a rare fresh water spring. While it was clearly a grift from the start, it wasn't until you were \
+	sat in the biodome and the doors shut that you realized why its business style was called such."
+	spawner_job_path = /datum/job/hermit
+	quirks_enabled = TRUE
+	random_appearance = FALSE
 
 //OUTFITS//
 /datum/outfit/syndicatespace/syndicrew
@@ -551,13 +564,24 @@
 	r_hand = /obj/item/gun/energy/laser/scatter/shotty // NOVA EDIT ADD - SPAWNS IN HAND INSTEAD OF ON MAP
 	id = /obj/item/card/id/away/hotel/security
 
-/datum/outfit/better_hermit
-	name = "Lavaland Survivalist"
+// Alternative Hermit Spawns: Survivalist and Fishing Tourist
+
+/datum/outfit/crashed_hermit
+	name = "Hermit Survivalist"
 	uniform = /obj/item/clothing/under/frontier_colonist
 	back = /obj/item/storage/backpack/explorer
 	mask = /obj/item/clothing/mask/gas/explorer
 	shoes = /obj/item/clothing/shoes/workboots/mining
 	l_pocket = /obj/item/tank/internals/emergency_oxygen/double
+	r_pocket = /obj/item/flashlight/lantern
+
+/datum/outfit/fishing_hermit
+	name = "Hermit Tourist"
+	uniform = /obj/item/clothing/under/shorts
+	suit = /obj/item/clothing/suit/costume/hawaiian
+	head = /obj/item/clothing/head/costume/scarecrow_hat //straw hat but o-wel
+	shoes = /obj/item/clothing/shoes/sandal/beach
+	back = /obj/item/storage/backpack/satchel/leather
 	r_pocket = /obj/item/flashlight/lantern
 
 //Lost Space Truckers: Six people stranded in deep space aboard a cargo freighter. They must survive their marooning and cooperate.

@@ -64,7 +64,9 @@
 /turf/open/floor/iron/colony/white,
 /area/ruin/powered/hermit)
 "t" = (
-/obj/effect/mob_spawn/ghost_role/human/better_hermit,
+/obj/machinery/door/poddoor/shutters/colony_fabricator{
+	id = "skiffwindows"
+	},
 /turf/open/floor/iron/colony/white,
 /area/ruin/powered/hermit)
 "w" = (
@@ -91,7 +93,7 @@
 /obj/machinery/door/airlock/titanium{
 	name = "Escape Pod Airlock"
 	},
-/turf/open/floor/mineral/titanium/blue,
+/turf/closed/mineral/snowmountain/icemoon/unscrapeable,
 /area/icemoon/underground/explored)
 "A" = (
 /obj/item/hatchet/wooden,
@@ -119,33 +121,29 @@
 /turf/closed/wall/prefab_plastic,
 /area/ruin/powered/hermit)
 "H" = (
-/obj/structure/railing/wooden_fencing{
-	dir = 8
-	},
-/turf/open/misc/asteroid/snow/icemoon,
-/area/icemoon/underground/explored)
+/obj/machinery/smartfridge/survival_pod/preloaded,
+/turf/open/floor/iron/colony/white,
+/area/ruin/powered/hermit)
 "I" = (
-/obj/effect/spawner/structure/window/reinforced/shuttle,
-/turf/open/floor/plating{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
-/area/icemoon/underground/explored)
+/turf/closed/wall/mineral/titanium/spaceship,
+/area/ruin/powered/hermit)
 "J" = (
 /obj/machinery/portable_atmospherics/canister/air,
 /obj/machinery/atmospherics/components/unary/portables_connector,
 /turf/open/floor/iron/colony/white,
 /area/ruin/powered/hermit)
 "K" = (
-/turf/closed/wall/mineral/titanium,
-/area/icemoon/underground/explored)
+/obj/effect/mob_spawn/ghost_role/human/crashed_hermit,
+/turf/open/floor/iron/colony/white,
+/area/ruin/powered/hermit)
 "L" = (
 /obj/machinery/power/shuttle_engine/propulsion/burst{
 	dir = 8
 	},
-/turf/closed/wall/mineral/titanium/interior,
+/turf/closed/mineral/snowmountain/icemoon/unscrapeable,
 /area/icemoon/underground/explored)
 "M" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/general/hidden,
+/obj/structure/fluff/empty_cryostasis_sleeper,
 /turf/open/floor/iron/colony/white,
 /area/ruin/powered/hermit)
 "N" = (
@@ -170,27 +168,27 @@
 /turf/open/misc/asteroid/snow/icemoon,
 /area/icemoon/underground/explored)
 "S" = (
-/turf/closed/wall/mineral/titanium/interior,
-/area/icemoon/underground/explored)
+/obj/machinery/button/door{
+	pixel_x = 8;
+	id = "skiffwindows"
+	},
+/turf/closed/wall/prefab_plastic,
+/area/ruin/powered/hermit)
 "U" = (
 /obj/structure/flora/tree/stump,
 /turf/open/misc/asteroid/snow/icemoon,
 /area/icemoon/underground/explored)
 "V" = (
-/obj/structure/railing/wooden_fencing{
+/obj/machinery/power/shuttle_engine/propulsion/burst{
 	dir = 8
 	},
-/obj/structure/railing/wooden_fencing{
-	dir = 1
-	},
-/obj/machinery/hydroponics/soil,
-/turf/open/misc/asteroid/snow/icemoon,
-/area/icemoon/underground/explored)
+/turf/closed/wall/mineral/titanium/spaceship,
+/area/ruin/powered/hermit)
 "X" = (
 /obj/structure/chair{
 	dir = 4
 	},
-/turf/open/floor/mineral/titanium/blue,
+/turf/closed/mineral/snowmountain/icemoon/unscrapeable,
 /area/icemoon/underground/explored)
 "Z" = (
 /turf/template_noop,
@@ -198,13 +196,13 @@
 
 (1,1,1) = {"
 Z
-Z
-Z
-Z
-Z
-Z
-Z
-Z
+k
+k
+k
+k
+k
+k
+k
 Z
 Z
 Z
@@ -215,15 +213,15 @@ Z
 Z
 "}
 (2,1,1) = {"
-Z
-Z
-Z
-Z
-Z
-Z
-Z
-Z
-Z
+k
+k
+V
+I
+I
+I
+V
+O
+O
 Z
 Z
 Z
@@ -234,14 +232,14 @@ Z
 "}
 (3,1,1) = {"
 k
-k
-k
-k
-k
-k
-k
-k
-k
+V
+I
+K
+H
+M
+I
+V
+O
 k
 k
 k
@@ -252,15 +250,15 @@ Z
 "}
 (4,1,1) = {"
 k
-G
-G
-G
-G
-G
-G
-G
-k
-V
+I
+p
+p
+P
+p
+Q
+I
+O
+j
 j
 f
 k
@@ -272,12 +270,12 @@ Z
 k
 G
 p
-t
+P
+P
+P
 p
-p
-Q
-G
-H
+y
+O
 O
 O
 E
@@ -291,7 +289,7 @@ k
 G
 p
 P
-P
+p
 P
 p
 y
@@ -305,14 +303,14 @@ k
 Z
 "}
 (7,1,1) = {"
-k
+A
 G
 p
 P
 p
 p
-p
-y
+x
+G
 O
 d
 D
@@ -323,13 +321,13 @@ k
 Z
 "}
 (8,1,1) = {"
-A
+k
 G
-p
+b
 P
 p
-p
-x
+G
+G
 G
 O
 O
@@ -343,12 +341,12 @@ Z
 (9,1,1) = {"
 k
 G
-b
-P
 p
-G
-G
-G
+P
+P
+N
+P
+F
 O
 O
 O
@@ -361,12 +359,12 @@ Z
 (10,1,1) = {"
 k
 G
+l
+r
 p
-P
-P
-N
-P
-F
+S
+G
+G
 O
 O
 O
@@ -379,11 +377,11 @@ Z
 (11,1,1) = {"
 k
 G
-l
+e
 r
 p
-G
-G
+p
+s
 G
 O
 O
@@ -397,11 +395,11 @@ Z
 (12,1,1) = {"
 k
 G
-e
+J
 r
+p
 P
-P
-s
+C
 G
 O
 U
@@ -414,17 +412,17 @@ Z
 "}
 (13,1,1) = {"
 k
-G
-J
-M
+I
 p
+P
+P
+P
 p
-C
-G
+I
 O
 O
 O
-L
+O
 z
 L
 k
@@ -432,55 +430,55 @@ Z
 "}
 (14,1,1) = {"
 k
-G
-G
-G
-G
-G
-G
-G
+t
+t
+p
+P
+p
+t
+t
 k
 k
 k
-K
+k
 X
-K
+Z
 Z
 Z
 "}
 (15,1,1) = {"
 k
 k
-k
-k
-k
-k
-k
+t
+t
+t
+t
+t
 k
 k
 Z
 Z
-K
-X
-K
+Z
+Z
+Z
 Z
 Z
 "}
 (16,1,1) = {"
 Z
+k
+k
+k
+k
+k
+k
+k
 Z
 Z
 Z
 Z
 Z
 Z
-Z
-Z
-Z
-Z
-S
-I
-S
 Z
 Z
 "}

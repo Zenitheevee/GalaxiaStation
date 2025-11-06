@@ -1,51 +1,51 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "a" = (
 /turf/open/floor/grass/fairy,
-/area/icemoon/underground/explored)
+/area/ruin/hermit_fishing)
 "b" = (
 /obj/structure/mineral_door/manual_colony_door,
 /turf/open/floor/plating/snowed/smoothed,
-/area/icemoon/underground/explored)
+/area/ruin/hermit_fishing)
 "c" = (
 /obj/item/shovel,
 /turf/open/floor/grass/fairy,
-/area/icemoon/underground/explored)
+/area/ruin/hermit_fishing)
 "d" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/hermit)
+/area/ruin/hermit_fishing)
 "e" = (
 /obj/item/cultivator/rake,
 /turf/open/floor/grass/fairy,
-/area/icemoon/underground/explored)
+/area/ruin/hermit_fishing)
 "f" = (
 /obj/machinery/hydroponics/soil,
 /obj/item/seeds/reishi,
 /turf/open/floor/grass/fairy,
-/area/icemoon/underground/explored)
+/area/ruin/hermit_fishing)
 "g" = (
 /turf/closed/wall/mineral/wood,
-/area/ruin/powered/hermit)
+/area/ruin/hermit_fishing)
 "h" = (
 /obj/structure/window/green_glass_pane,
 /obj/structure/curtain/bounty/start_closed,
 /turf/open/floor/wood,
-/area/ruin/powered/hermit)
+/area/ruin/hermit_fishing)
 "i" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 5
 	},
 /obj/structure/closet/crate/wooden/storage_barrel,
 /turf/open/floor/wood,
-/area/ruin/powered/hermit)
+/area/ruin/hermit_fishing)
 "j" = (
 /obj/effect/turf_decal/siding/wood,
 /obj/structure/table/wood,
 /obj/item/knife/combat,
 /turf/open/floor/wood,
-/area/ruin/powered/hermit)
+/area/ruin/hermit_fishing)
 "k" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 10
@@ -54,7 +54,7 @@
 	dir = 4
 	},
 /turf/open/floor/stone,
-/area/ruin/powered/hermit)
+/area/ruin/hermit_fishing)
 "l" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
@@ -63,7 +63,7 @@
 	dir = 8
 	},
 /turf/open/floor/stone,
-/area/ruin/powered/hermit)
+/area/ruin/hermit_fishing)
 "m" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
@@ -77,31 +77,31 @@
 	},
 /obj/effect/turf_decal/siding/wood/corner,
 /turf/open/floor/wood,
-/area/icemoon/underground/explored)
+/area/ruin/hermit_fishing)
 "o" = (
 /obj/effect/turf_decal/siding/wood,
-/obj/effect/mob_spawn/ghost_role/human/hermit,
+/obj/effect/mob_spawn/ghost_role/human/fisher_hermit,
 /turf/open/floor/carpet/red,
-/area/ruin/powered/hermit)
+/area/ruin/hermit_fishing)
 "p" = (
 /obj/structure/bonfire/dense/prelit,
 /turf/open/floor/stone,
-/area/ruin/powered/hermit)
+/area/ruin/hermit_fishing)
 "q" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /obj/effect/turf_decal/siding/wood{
 	dir = 6
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/hermit)
+/area/ruin/hermit_fishing)
 "r" = (
 /obj/structure/glowshroom/single,
 /turf/open/floor/grass/fairy,
-/area/icemoon/underground/explored)
+/area/ruin/hermit_fishing)
 "t" = (
 /obj/item/reagent_containers/cup/bucket/wooden,
 /turf/open/floor/grass/fairy,
-/area/icemoon/underground/explored)
+/area/ruin/hermit_fishing)
 "u" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
@@ -109,9 +109,11 @@
 /obj/structure/bed/double/pod{
 	dir = 1
 	},
-/obj/effect/spawner/random/bedsheet/any/double,
+/obj/effect/spawner/random/bedsheet/any/double{
+	dir = 1
+	},
 /turf/open/floor/carpet/red,
-/area/ruin/powered/hermit)
+/area/ruin/hermit_fishing)
 "v" = (
 /obj/structure/table/wood,
 /obj/item/flashlight/lantern/on,
@@ -119,17 +121,17 @@
 	dir = 9
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/hermit)
+/area/ruin/hermit_fishing)
 "w" = (
 /turf/open/water/beach,
-/area/icemoon/underground/explored)
+/area/ruin/hermit_fishing)
 "x" = (
 /obj/structure/mineral_door/manual_colony_door,
 /turf/open/floor/plating,
-/area/icemoon/underground/explored)
+/area/ruin/hermit_fishing)
 "y" = (
 /turf/open/water/deep_beach,
-/area/icemoon/underground/explored)
+/area/ruin/hermit_fishing)
 "z" = (
 /obj/structure/closet/cabinet,
 /obj/item/clothing/suit/hooded/wintercoat,
@@ -137,7 +139,7 @@
 	dir = 1
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/hermit)
+/area/ruin/hermit_fishing)
 "B" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 6
@@ -146,24 +148,24 @@
 	dir = 1
 	},
 /turf/open/floor/stone,
-/area/ruin/powered/hermit)
+/area/ruin/hermit_fishing)
 "C" = (
 /obj/structure/aquarium/prefilled,
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/hermit)
+/area/ruin/hermit_fishing)
 "D" = (
 /obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood,
-/area/ruin/powered/hermit)
+/area/ruin/hermit_fishing)
 "E" = (
 /obj/structure/table/wood,
 /obj/effect/turf_decal/siding/wood,
 /obj/item/tank/internals/emergency_oxygen/engi,
 /turf/open/floor/wood,
-/area/ruin/powered/hermit)
+/area/ruin/hermit_fishing)
 "F" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
@@ -181,12 +183,12 @@
 	dir = 4
 	},
 /turf/open/floor/wood,
-/area/icemoon/underground/explored)
+/area/ruin/hermit_fishing)
 "G" = (
 /obj/machinery/hydroponics/soil,
 /obj/item/seeds/plump,
 /turf/open/floor/grass/fairy,
-/area/icemoon/underground/explored)
+/area/ruin/hermit_fishing)
 "H" = (
 /turf/template_noop,
 /area/template_noop)
@@ -195,22 +197,20 @@
 	dir = 5
 	},
 /turf/open/floor/carpet/red,
-/area/ruin/powered/hermit)
+/area/ruin/hermit_fishing)
 "J" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 10
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/hermit)
+/area/ruin/hermit_fishing)
 "K" = (
-/obj/machinery/door/airlock/wood{
-	name = "Frozen Shack"
-	},
+/obj/structure/mineral_door/manual_colony_door,
 /turf/open/floor/wood,
-/area/ruin/powered/hermit)
+/area/ruin/hermit_fishing)
 "L" = (
 /turf/open/floor/wood,
-/area/ruin/powered/hermit)
+/area/ruin/hermit_fishing)
 "M" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
@@ -219,10 +219,10 @@
 	dir = 8
 	},
 /turf/open/floor/wood,
-/area/icemoon/underground/explored)
+/area/ruin/hermit_fishing)
 "O" = (
 /turf/closed/wall/mineral/snow,
-/area/icemoon/underground/explored)
+/area/ruin/hermit_fishing)
 "P" = (
 /obj/structure/table/wood,
 /obj/item/storage/box/fishing_lures,
@@ -233,12 +233,12 @@
 /obj/item/fishing_line,
 /obj/item/fishing_hook,
 /turf/open/floor/wood,
-/area/ruin/powered/hermit)
+/area/ruin/hermit_fishing)
 "Q" = (
 /obj/machinery/hydroponics/soil,
 /obj/item/seeds/glowshroom,
 /turf/open/floor/grass/fairy,
-/area/icemoon/underground/explored)
+/area/ruin/hermit_fishing)
 "R" = (
 /obj/item/pickaxe/improvised,
 /obj/structure/fans/tiny/invisible,
@@ -247,14 +247,14 @@
 	pixel_y = 27
 	},
 /turf/open/floor/plating/snowed/smoothed,
-/area/icemoon/underground/explored)
+/area/ruin/hermit_fishing)
 "S" = (
 /obj/effect/turf_decal/siding/wood,
 /obj/structure/railing{
 	dir = 1
 	},
 /turf/open/floor/stone,
-/area/ruin/powered/hermit)
+/area/ruin/hermit_fishing)
 "T" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
@@ -263,24 +263,21 @@
 	dir = 4
 	},
 /turf/open/floor/stone,
-/area/ruin/powered/hermit)
+/area/ruin/hermit_fishing)
 "U" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 6
 	},
 /turf/open/floor/carpet/red,
-/area/ruin/powered/hermit)
+/area/ruin/hermit_fishing)
 "V" = (
 /turf/closed/wall/mineral/stone,
-/area/ruin/powered/hermit)
-"W" = (
-/turf/closed/mineral/snowmountain/icemoon/unscrapeable,
-/area/icemoon/underground/explored)
+/area/ruin/hermit_fishing)
 "X" = (
 /obj/machinery/hydroponics/soil,
 /obj/item/seeds/tower,
 /turf/open/floor/grass/fairy,
-/area/icemoon/underground/explored)
+/area/ruin/hermit_fishing)
 "Y" = (
 /obj/structure/table/wood,
 /obj/item/storage/toolbox/emergency,
@@ -288,11 +285,11 @@
 	dir = 4
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/hermit)
+/area/ruin/hermit_fishing)
 "Z" = (
 /obj/structure/flora/tree/jungle/small/style_random,
 /turf/open/floor/grass/fairy,
-/area/icemoon/underground/explored)
+/area/ruin/hermit_fishing)
 
 (1,1,1) = {"
 H
@@ -302,12 +299,12 @@ H
 H
 H
 H
-W
+H
 O
 b
 O
-W
-W
+H
+H
 H
 H
 H
@@ -320,12 +317,12 @@ H
 H
 H
 H
-W
+H
 O
 R
 O
-W
-W
+H
+H
 H
 H
 H

@@ -114,7 +114,6 @@
 	pixel_y = 28
 	},
 /obj/item/xenoarch/brush,
-/obj/item/xenoarch/tape_measure,
 /obj/item/storage/bag/xenoarch,
 /turf/open/floor/pod/dark,
 /area/ruin/hermit_skiff)
@@ -139,7 +138,7 @@
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/lavaland/surface/outdoors)
 "GY" = (
-/obj/effect/mob_spawn/ghost_role/human/better_hermit,
+/obj/effect/mob_spawn/ghost_role/human/crashed_hermit,
 /turf/open/floor/pod/dark,
 /area/ruin/hermit_skiff)
 "Ho" = (
