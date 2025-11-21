@@ -9303,6 +9303,7 @@
 #include "modular_nova\modules\tarkon\code\machines\windoors.dm"
 #include "modular_nova\modules\tarkon\code\misc_fluff\card.dm"
 #include "modular_nova\modules\tarkon\code\misc_fluff\fluff.dm"
+#include "modular_nova\modules\tarkon\code\misc_fluff\puzzle_pieces.dm"
 #include "modular_nova\modules\tarkon\code\misc_fluff\radio.dm"
 #include "modular_nova\modules\tarkon\code\misc_fluff\research.dm"
 #include "modular_nova\modules\tarkon\code\misc_fluff\spawner.dm"

@@ -145,6 +145,9 @@
 	name = "P-T Backup Power Storage"
 	icon_state = "engie"
 
+/area/ruin/space/has_grav/port_tarkon/engilounge
+	name = "P-T Engineering Lounge"
+
 // Command
 
 /area/ruin/space/has_grav/port_tarkon/comms
@@ -169,12 +172,12 @@
 	icon_state = "mining_dock"
 
 /area/ruin/space/has_grav/port_tarkon/storage
-	name = "P-T Warehouse"
+	name = "P-T Loading Bay"
 	icon_state = "cargo_warehouse"
 
 /area/ruin/space/has_grav/port_tarkon/cargoexpand
-	name = "P-T Project Room"
-	icon_state = "engie"
+	name = "P-T Warehouse"
+	icon_state = "cargo_warehouse"
 
 // Lesser Departments
 
