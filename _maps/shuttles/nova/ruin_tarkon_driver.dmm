@@ -65,6 +65,15 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/closed/wall/mineral/titanium/spaceship,
 /area/shuttle/tarkon_driver)
+"hJ" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 4
+	},
+/obj/effect/mob_spawn/ghost_role/human/tarkon/director{
+	dir = 4
+	},
+/turf/open/floor/mineral/titanium,
+/area/shuttle/tarkon_driver)
 "hT" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 1
@@ -74,6 +83,9 @@
 /area/shuttle/tarkon_driver)
 "hW" = (
 /obj/structure/chair/comfy/shuttle{
+	dir = 8
+	},
+/obj/effect/mob_spawn/ghost_role/human/tarkon/sec{
 	dir = 8
 	},
 /turf/open/floor/mineral/titanium,
@@ -169,8 +181,19 @@
 "vo" = (
 /turf/open/floor/catwalk_floor/iron,
 /area/shuttle/tarkon_driver)
+"wP" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 4
+	},
+/obj/effect/mob_spawn/ghost_role/human/tarkon{
+	dir = 4
+	},
+/turf/open/floor/mineral/titanium,
+/area/shuttle/tarkon_driver)
 "zo" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/chair/comfy/shuttle,
+/obj/effect/mob_spawn/ghost_role/human/tarkon,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/tarkon_driver)
 "zL" = (
@@ -190,6 +213,9 @@
 	},
 /obj/machinery/airalarm/directional/north,
 /obj/effect/mapping_helpers/airalarm/all_access,
+/obj/effect/mob_spawn/ghost_role/human/tarkon/sci{
+	dir = 4
+	},
 /turf/open/floor/mineral/titanium,
 /area/shuttle/tarkon_driver)
 "AX" = (
@@ -205,6 +231,9 @@
 /obj/machinery/airalarm/directional/east,
 /obj/effect/mapping_helpers/airalarm/all_access,
 /obj/structure/chair/comfy/shuttle{
+	dir = 8
+	},
+/obj/effect/mob_spawn/ghost_role/human/tarkon/ensign{
 	dir = 8
 	},
 /turf/open/floor/mineral/titanium,
@@ -263,6 +292,15 @@
 "HI" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/catwalk_floor/iron,
+/area/shuttle/tarkon_driver)
+"HN" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 8
+	},
+/obj/effect/mob_spawn/ghost_role/human/tarkon/engi{
+	dir = 8
+	},
+/turf/open/floor/mineral/titanium,
 /area/shuttle/tarkon_driver)
 "HY" = (
 /obj/machinery/door/airlock/titanium,
@@ -329,6 +367,9 @@
 	},
 /obj/machinery/airalarm/directional/north,
 /obj/effect/mapping_helpers/airalarm/all_access,
+/obj/effect/mob_spawn/ghost_role/human/tarkon/cargo{
+	dir = 8
+	},
 /turf/open/floor/mineral/titanium,
 /area/shuttle/tarkon_driver)
 "Ow" = (
@@ -352,6 +393,8 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/airalarm/directional/north,
 /obj/effect/mapping_helpers/airalarm/all_access,
+/obj/structure/chair/comfy/shuttle,
+/obj/effect/mob_spawn/ghost_role/human/tarkon,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/tarkon_driver)
 "Sd" = (
@@ -382,6 +425,9 @@
 /area/shuttle/tarkon_driver)
 "TS" = (
 /obj/structure/chair/comfy/shuttle{
+	dir = 4
+	},
+/obj/effect/mob_spawn/ghost_role/human/tarkon/med{
 	dir = 4
 	},
 /turf/open/floor/mineral/titanium,
@@ -522,7 +568,7 @@ JF
 tV
 Ap
 TS
-TS
+wP
 LG
 rr
 Kv
@@ -536,7 +582,7 @@ JS
 fE
 Fi
 gu
-TS
+hJ
 Ut
 Rg
 fg
@@ -611,7 +657,7 @@ Uu
 JF
 tV
 Nj
-hW
+HN
 hW
 LG
 GX

@@ -3,7 +3,7 @@
 /obj/effect/mob_spawn/ghost_role/human/tarkon
 	name = "Port Tarkon Crew Member"
 	prompt_name = "a port deck worker"
-	icon = 'icons/obj/machines/sleeper.dmi'
+	icon = 'modular_nova/modules/tarkon/icons/misc/spawner.dmi'
 	icon_state = "sleeper"
 	you_are_text = "You are a member of Tarkon Industries, recently assigned to a recently recovered asset known as Port Tarkon. Your supervisors are the Ensign and Site Director."
 	flavour_text = "On the recently reclaimed Port Tarkon, You are tasked to help finish construction and carry on any tasks given by the site director. It may be best to look at your departmental noteboard."
@@ -171,8 +171,6 @@
 /obj/effect/mob_spawn/ghost_role/human/tarkon/ensign
 	name = "Port Tarkon Ensign"
 	prompt_name = "an abandoned ensign"
-	icon = 'icons/obj/machines/sleeper.dmi'
-	icon_state = "sleeper-o"
 	you_are_text = "You were tasked by Tarkon Industries to Port Tarkon as a low-level command member. Your superior is the site director."
 	flavour_text = "Second in command, you are usually tasked with outward missions with other Tarkon members while the site director stays at the port. "
 	important_text = "This is Not a job ment for Non-Tarkon specific Characters. You are not to abandon Port Tarkon without reason. You are allowed to travel within available Z-levels and to the station, and are allowed to hold exploration parties."
@@ -190,8 +188,6 @@
 /obj/effect/mob_spawn/ghost_role/human/tarkon/director
 	name = "Port Tarkon Site Director"
 	prompt_name = "a port site director"
-	icon = 'icons/obj/machines/sleeper.dmi'
-	icon_state = "sleeper"
 	you_are_text = "You are a newly assigned Site Director for Port Tarkon. Your superiors are none except the will of yourself and Tarkon Industries."
 	flavour_text = "On the recently reclaimed Port Tarkon, You are tasked with overlooking your crew and keeping the port up and running."
 	important_text = "This is Not a job ment for Non-Tarkon specific Characters. You are not to abandon Port Tarkon. Check other sleepers for alternative jobs."
