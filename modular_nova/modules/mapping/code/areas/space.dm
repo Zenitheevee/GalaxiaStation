@@ -69,6 +69,10 @@
 	icon = 'icons/area/areas_station.dmi'
 	icon_state = "cryo"
 
+/area/ruin/space/has_grav/port_tarkon/dock
+	name = "P-T Docking Bay"
+	icon_state = "podbay"
+
 /area/ruin/space/has_grav/port_tarkon/kitchen
 	name = "P-T Kitchen"
 	icon_state = "cafeteria"
@@ -137,6 +141,10 @@
 	name = "P-T Atmospheric Center"
 	icon_state = "atmos"
 
+/area/ruin/space/has_grav/port_tarkon/turbine
+	name = "P-T Turbine Control"
+	icon_state = "engine_control"
+
 /area/ruin/space/has_grav/port_tarkon/power1
 	name = "P-T Solar Control"
 	icon_state = "engine"
@@ -146,7 +154,8 @@
 	icon_state = "engie"
 
 /area/ruin/space/has_grav/port_tarkon/engilounge
-	name = "P-T Engineering Lounge"
+	name = "P-T Project Room"
+	icon_state = "prototype_engine"
 
 // Command
 
@@ -161,6 +170,7 @@
 /area/ruin/space/has_grav/port_tarkon/apartment
 	name = "P-T Director's Apartment"
 	icon_state = "head_quarters"
+
 // Cargo
 
 /area/ruin/space/has_grav/port_tarkon/cargo
@@ -171,12 +181,16 @@
 	name = "P-T Mining Office"
 	icon_state = "mining_dock"
 
-/area/ruin/space/has_grav/port_tarkon/storage
+/area/ruin/space/has_grav/port_tarkon/loadbay
 	name = "P-T Loading Bay"
+	icon_state = "cargo_bay"
+
+/area/ruin/space/has_grav/port_tarkon/warehouse
+	name = "P-T Warehouse"
 	icon_state = "cargo_warehouse"
 
-/area/ruin/space/has_grav/port_tarkon/cargoexpand
-	name = "P-T Warehouse"
+/area/ruin/space/has_grav/port_tarkon/secure_storage
+	name = "P-T Secure Storage"
 	icon_state = "cargo_warehouse"
 
 // Lesser Departments
