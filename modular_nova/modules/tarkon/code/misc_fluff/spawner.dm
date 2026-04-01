@@ -329,4 +329,6 @@
 
 /obj/structure/closet/secure_closet/tarkon/engi
 	name = "Circuit Storage"
-	icon_state = "eng"
+	icon = 'modular_nova/modules/tarkon/icons/obj/storage.dmi'
+	icon_state = "tarkon"
+	icon_door = "tarkon"

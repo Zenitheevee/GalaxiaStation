@@ -127,6 +127,7 @@
 	},
 /obj/machinery/light/directional/west,
 /obj/structure/table/reinforced,
+/obj/item/disk/computer/ordnance,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/port_tarkon/developement)
 "au" = (
@@ -2376,7 +2377,6 @@
 /obj/item/raw_anomaly_core/random,
 /obj/item/transfer_valve,
 /obj/item/transfer_valve,
-/obj/item/computer_disk/ordnance,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/port_tarkon/developement)
 "jj" = (
@@ -5743,7 +5743,6 @@
 /area/ruin/space/has_grav/port_tarkon/warehouse)
 "wv" = (
 /obj/structure/closet/secure_closet/medical1,
-/obj/item/gun/medbeam/afad,
 /obj/item/clothing/suit/toggle/labcoat/medical,
 /obj/item/storage/bag/bio,
 /obj/effect/turf_decal/tile/blue/anticorner{
@@ -6237,9 +6236,9 @@
 	dir = 4
 	},
 /obj/item/surgery_tray/full,
-/obj/item/stack/sticky_tape/surgical,
 /obj/item/stack/medical/bone_gel,
 /obj/structure/table/rolling,
+/obj/item/stack/medical/wrap/sticky_tape/surgical,
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/port_tarkon/trauma)
 "yw" = (
@@ -12792,6 +12791,7 @@
 	dir = 1
 	},
 /obj/structure/table/reinforced,
+/obj/machinery/light_switch/directional/north,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/port_tarkon/cargo)
 "Yh" = (
