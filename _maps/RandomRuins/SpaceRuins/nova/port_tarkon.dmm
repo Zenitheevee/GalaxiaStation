@@ -368,13 +368,6 @@
 /obj/structure/lattice/catwalk,
 /turf/template_noop,
 /area/ruin/space/has_grav)
-"bs" = (
-/obj/structure/closet/generic/wall{
-	pixel_x = -32
-	},
-/obj/machinery/light/directional/north,
-/turf/open/floor/iron/dark/brick_corner,
-/area/ruin/space/has_grav/port_tarkon/sauna)
 "bt" = (
 /obj/structure/cable,
 /turf/open/floor/iron/brick,
@@ -562,12 +555,6 @@
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/port_tarkon/developement)
-"cr" = (
-/obj/structure/chair/sofa/bench/right{
-	dir = 8
-	},
-/turf/open/floor/wood/large,
-/area/ruin/space/has_grav/port_tarkon/sauna)
 "cs" = (
 /obj/effect/turf_decal/stripes/asteroid/line{
 	dir = 5
@@ -786,21 +773,6 @@
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/port_tarkon/developement)
-"dm" = (
-/obj/effect/spawner/liquids_spawner/shoulders,
-/obj/structure/chair/sofa/bench/left{
-	dir = 4
-	},
-/obj/effect/mist,
-/obj/machinery/button/polarizer{
-	id = "tarkon-dorm";
-	pixel_y = 25;
-	name = "polarizer button"
-	},
-/turf/open/floor/iron/pool/cobble/corner{
-	dir = 1
-	},
-/area/ruin/space/has_grav/port_tarkon/sauna)
 "dn" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -1002,9 +974,6 @@
 /obj/structure/disposalpipe/junction,
 /turf/open/floor/iron/dark/smooth_large,
 /area/ruin/space/has_grav/port_tarkon/comlobby)
-"eh" = (
-/turf/open/floor/iron/dark/brick,
-/area/ruin/space/has_grav/port_tarkon/sauna)
 "ei" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
@@ -1267,14 +1236,6 @@
 /obj/machinery/door/airlock/public/glass,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/port_tarkon/forehall)
-"fg" = (
-/obj/machinery/light/directional/north,
-/obj/machinery/light_switch/directional/east,
-/obj/structure/reagent_dispensers/watertank,
-/turf/open/floor/iron/dark/brick_corner{
-	dir = 8
-	},
-/area/ruin/space/has_grav/port_tarkon/sauna)
 "fj" = (
 /obj/effect/turf_decal/tile/blue/anticorner{
 	dir = 4
@@ -1342,13 +1303,6 @@
 "fz" = (
 /turf/closed/mineral/random/high_chance,
 /area/template_noop)
-"fA" = (
-/obj/effect/spawner/liquids_spawner/shoulders,
-/obj/effect/mist,
-/turf/open/floor/iron/pool/cobble/side{
-	dir = 1
-	},
-/area/ruin/space/has_grav/port_tarkon/sauna)
 "fC" = (
 /obj/machinery/power/apc/auto_name/directional/west,
 /obj/structure/cable,
@@ -2380,10 +2334,7 @@
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/port_tarkon/developement)
 "jj" = (
-/obj/machinery/vending/dorms,
-/turf/open/floor/iron/dark/brick_corner{
-	dir = 1
-	},
+/turf/open/floor/plating,
 /area/ruin/space/has_grav/port_tarkon/sauna)
 "jk" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -2874,10 +2825,6 @@
 /obj/structure/tank_dispenser,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/port_tarkon/developement)
-"lh" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/turf/open/floor/iron/dark/brick,
-/area/ruin/space/has_grav/port_tarkon/sauna)
 "li" = (
 /obj/effect/turf_decal/tile/purple/anticorner{
 	dir = 4
@@ -3238,11 +3185,9 @@
 /turf/template_noop,
 /area/template_noop)
 "mJ" = (
-/obj/machinery/airalarm/directional/north,
-/obj/effect/mapping_helpers/airalarm/all_access,
-/obj/effect/mapping_helpers/turn_off_lights_with_lightswitch,
-/turf/open/floor/iron/dark/brick_half,
-/area/ruin/space/has_grav/port_tarkon/sauna)
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/port_tarkon/power1)
 "mK" = (
 /obj/effect/mapping_helpers/turn_off_lights_with_lightswitch,
 /turf/open/floor/iron,
@@ -3501,15 +3446,6 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/port_tarkon/loadbay)
-"nF" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/disposalpipe/segment,
-/obj/structure/cable,
-/turf/open/floor/iron/dark/brick_half{
-	dir = 1
-	},
-/area/ruin/space/has_grav/port_tarkon/sauna)
 "nG" = (
 /obj/effect/turf_decal/loading_area{
 	dir = 8
@@ -3566,13 +3502,6 @@
 "nT" = (
 /turf/closed/wall,
 /area/ruin/space/has_grav)
-"nU" = (
-/obj/machinery/power/apc/auto_name/directional/north,
-/obj/structure/cable,
-/obj/effect/mapping_helpers/apc/unlocked,
-/obj/effect/mapping_helpers/apc/full_charge,
-/turf/open/floor/iron/dark/brick_half,
-/area/ruin/space/has_grav/port_tarkon/sauna)
 "nW" = (
 /obj/machinery/light/directional/east,
 /obj/effect/turf_decal/tile/blue/half{
@@ -3626,8 +3555,8 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/disposalpipe/junction/flip{
-	dir = 2
+/obj/structure/disposalpipe/segment{
+	dir = 6
 	},
 /turf/open/floor/iron/brick,
 /area/ruin/space/has_grav/port_tarkon/centerhall)
@@ -3788,17 +3717,6 @@
 "oO" = (
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/port_tarkon/porthall)
-"oT" = (
-/obj/effect/spawner/liquids_spawner/shoulders,
-/obj/structure/chair/sofa/bench/left{
-	dir = 8
-	},
-/obj/effect/mist,
-/obj/machinery/light/warm/directional/east,
-/turf/open/floor/iron/pool/cobble/corner{
-	dir = 4
-	},
-/area/ruin/space/has_grav/port_tarkon/sauna)
 "oU" = (
 /obj/machinery/light_switch/directional/east,
 /turf/open/floor/iron/brick_half{
@@ -3876,14 +3794,6 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/port_tarkon/dock)
-"po" = (
-/obj/structure/chair/sofa/bench/right{
-	dir = 1
-	},
-/turf/open/floor/iron/dark/brick_half{
-	dir = 1
-	},
-/area/ruin/space/has_grav/port_tarkon/sauna)
 "pp" = (
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
@@ -5334,15 +5244,6 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /turf/open/floor/grass,
 /area/ruin/space/has_grav/port_tarkon/garden)
-"vg" = (
-/obj/effect/spawner/liquids_spawner/shoulders,
-/obj/structure/chair/sofa/bench/right{
-	dir = 8
-	},
-/obj/effect/mist,
-/obj/machinery/light/warm/directional/east,
-/turf/open/floor/iron/pool/cobble/corner,
-/area/ruin/space/has_grav/port_tarkon/sauna)
 "vh" = (
 /obj/structure/closet,
 /obj/item/clothing/under/tarkon/med,
@@ -5781,22 +5682,12 @@
 	dir = 4
 	},
 /area/ruin/space/has_grav/port_tarkon/centerhall)
-"wD" = (
-/obj/structure/table/wood,
-/obj/structure/towel_bin,
-/turf/open/floor/iron/dark/brick_half,
-/area/ruin/space/has_grav/port_tarkon/sauna)
 "wE" = (
 /obj/effect/turf_decal/tile/purple/anticorner,
 /turf/open/floor/iron/dark/brick_corner{
 	dir = 1
 	},
 /area/ruin/space/has_grav/port_tarkon/sciencehall)
-"wF" = (
-/obj/structure/table/wood,
-/obj/machinery/light/warm/directional/west,
-/turf/open/floor/wood/large,
-/area/ruin/space/has_grav/port_tarkon/sauna)
 "wG" = (
 /obj/machinery/cell_charger,
 /obj/machinery/light/directional/east,
@@ -5806,15 +5697,6 @@
 /obj/structure/table/reinforced,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/port_tarkon/developement)
-"wH" = (
-/obj/structure/closet/generic/wall{
-	pixel_x = -32
-	},
-/obj/machinery/camera/directional/west,
-/turf/open/floor/iron/dark/brick_half{
-	dir = 4
-	},
-/area/ruin/space/has_grav/port_tarkon/sauna)
 "wI" = (
 /obj/structure/fluff/shower_drain,
 /obj/effect/turf_decal/siding/wideplating/light{
@@ -6271,14 +6153,6 @@
 /obj/structure/table/reinforced,
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/port_tarkon/restroom)
-"yA" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
-	dir = 4
-	},
-/obj/structure/cable,
-/turf/open/floor/iron/dark/brick,
-/area/ruin/space/has_grav/port_tarkon/sauna)
 "yB" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/door/poddoor/shutters{
@@ -6319,23 +6193,6 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/port_tarkon/atmos)
-"yK" = (
-/obj/effect/spawner/liquids_spawner/shoulders,
-/obj/structure/chair/sofa/bench/right{
-	dir = 4
-	},
-/obj/effect/mist,
-/obj/machinery/button/door{
-	id = "trkdorm2";
-	name = "Pool Bolts";
-	pixel_y = -25;
-	normaldoorcontrol = 1;
-	specialfunctions = 4
-	},
-/turf/open/floor/iron/pool/cobble/corner{
-	dir = 8
-	},
-/area/ruin/space/has_grav/port_tarkon/sauna)
 "yL" = (
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
@@ -6791,12 +6648,6 @@
 /obj/machinery/camera/directional/east,
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/port_tarkon/trauma)
-"AK" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
-	dir = 4
-	},
-/turf/open/floor/iron/dark/brick,
-/area/ruin/space/has_grav/port_tarkon/sauna)
 "AL" = (
 /obj/structure/table/reinforced,
 /obj/effect/turf_decal/tile/yellow/anticorner{
@@ -6843,16 +6694,6 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/port_tarkon/forehall)
-"AY" = (
-/obj/machinery/button/door{
-	id = "trkdorm1";
-	name = "Sauna Bolts";
-	pixel_y = -25;
-	normaldoorcontrol = 1;
-	specialfunctions = 4
-	},
-/turf/open/floor/wood/large,
-/area/ruin/space/has_grav/port_tarkon/sauna)
 "Ba" = (
 /obj/structure/sign/poster/contraband/lusty_xenomorph/directional/east,
 /turf/open/floor/iron/brick_half{
@@ -7063,7 +6904,6 @@
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/port_tarkon/trauma)
 "BV" = (
-/mob/living/basic/cockroach,
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -7476,12 +7316,6 @@
 /obj/structure/noticeboard/directional/east,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/port_tarkon/kitchen)
-"DB" = (
-/obj/structure/chair/sofa/bench/left{
-	dir = 4
-	},
-/turf/open/floor/wood/large,
-/area/ruin/space/has_grav/port_tarkon/sauna)
 "DC" = (
 /obj/structure/alien/weeds/node,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -7619,8 +7453,8 @@
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/port_tarkon/lockerroom)
 "DZ" = (
-/turf/open/floor/wood/large,
-/area/ruin/space/has_grav/port_tarkon/sauna)
+/turf/closed/wall/r_wall,
+/area/ruin/space/has_grav/port_tarkon/forehall)
 "Eb" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -7897,22 +7731,6 @@
 	},
 /turf/closed/wall/r_wall,
 /area/ruin/space/has_grav/port_tarkon/engilounge)
-"Fq" = (
-/obj/structure/chair/sofa/bench/right{
-	dir = 4
-	},
-/obj/machinery/light/warm/directional/west,
-/turf/open/floor/wood/large,
-/area/ruin/space/has_grav/port_tarkon/sauna)
-"Fr" = (
-/obj/machinery/disposal/bin,
-/obj/structure/disposalpipe/trunk{
-	dir = 8
-	},
-/turf/open/floor/iron/dark/brick_half{
-	dir = 8
-	},
-/area/ruin/space/has_grav/port_tarkon/sauna)
 "Fs" = (
 /obj/machinery/door/window/brigdoor/tarkon/left/directional/east,
 /obj/machinery/door/window/brigdoor/tarkon/right/directional/west,
@@ -8120,31 +7938,12 @@
 /obj/structure/rack/shelf,
 /turf/open/floor/iron/large,
 /area/ruin/space/has_grav/port_tarkon/warehouse)
-"Gn" = (
-/obj/effect/spawner/structure/window/reinforced{
-	polarizer_id = "tarkon_sauna"
-	},
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/port_tarkon/sauna)
 "Gp" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/light/floor,
 /turf/open/floor/wood/large,
 /area/ruin/space/has_grav/port_tarkon/lounge)
-"Gq" = (
-/obj/structure/table/wood,
-/obj/item/reagent_containers/cup/bucket/wooden{
-	pixel_x = -9;
-	pixel_y = 7
-	},
-/obj/item/stack/sheet/mineral/wood/fifty{
-	pixel_x = 10
-	},
-/obj/machinery/airalarm/directional/north,
-/obj/effect/mapping_helpers/airalarm/all_access,
-/turf/open/floor/wood/large,
-/area/ruin/space/has_grav/port_tarkon/sauna)
 "Gr" = (
 /obj/structure/table/reinforced,
 /obj/machinery/vending/boozeomat,
@@ -8184,18 +7983,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/port_tarkon/dock)
-"GA" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/disposalpipe/segment,
-/obj/machinery/door/firedoor,
-/obj/machinery/door/airlock{
-	name = "Sauna";
-	id_tag = "trkdorm3"
-	},
-/obj/structure/cable,
-/turf/open/floor/iron/dark/smooth_large,
-/area/ruin/space/has_grav/port_tarkon/sauna)
 "GB" = (
 /obj/effect/turf_decal/tile/brown/half{
 	dir = 1
@@ -8337,11 +8124,6 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/port_tarkon/dock)
-"Hd" = (
-/turf/open/floor/iron/dark/brick_half{
-	dir = 1
-	},
-/area/ruin/space/has_grav/port_tarkon/sauna)
 "He" = (
 /obj/structure/table/wood,
 /obj/item/stack/cable_coil,
@@ -8629,11 +8411,6 @@
 /obj/structure/sign/warning/electric_shock,
 /turf/closed/wall/r_wall,
 /area/ruin/space/has_grav/port_tarkon/atmos)
-"Ik" = (
-/obj/effect/spawner/liquids_spawner/shoulders,
-/obj/effect/mist,
-/turf/open/floor/iron/pool/cobble/side,
-/area/ruin/space/has_grav/port_tarkon/sauna)
 "Il" = (
 /turf/open/floor/iron/brick_corner_inverse,
 /area/ruin/space/has_grav/port_tarkon/secure_storage)
@@ -9156,12 +8933,6 @@
 /mob/living/basic/carp,
 /turf/open/misc/asteroid/airless,
 /area/ruin/space/has_grav)
-"Ko" = (
-/obj/effect/spawner/structure/window/reinforced/tinted{
-	polarizer_id = "tarkon-dorm"
-	},
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/port_tarkon/sauna)
 "Kr" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -9309,12 +9080,6 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/port_tarkon/dock)
-"KR" = (
-/obj/machinery/door/airlock/wood{
-	id_tag = "trkdorm2"
-	},
-/turf/open/floor/noslip,
-/area/ruin/space/has_grav/port_tarkon/sauna)
 "KT" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -9334,11 +9099,6 @@
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/port_tarkon/kitchen)
-"KY" = (
-/obj/effect/spawner/liquids_spawner/shoulders,
-/obj/effect/mist,
-/turf/open/floor/iron/pool/cobble,
-/area/ruin/space/has_grav/port_tarkon/sauna)
 "KZ" = (
 /obj/machinery/door/airlock/research{
 	name = "Developement Center"
@@ -9957,16 +9717,6 @@
 /obj/machinery/door/firedoor,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/port_tarkon/porthall)
-"ND" = (
-/obj/effect/spawner/liquids_spawner/shoulders,
-/obj/structure/chair/sofa/bench{
-	dir = 4
-	},
-/obj/effect/mist,
-/turf/open/floor/iron/pool/cobble/side{
-	dir = 8
-	},
-/area/ruin/space/has_grav/port_tarkon/sauna)
 "NF" = (
 /obj/effect/turf_decal/tile/brown/half{
 	dir = 1
@@ -10053,16 +9803,6 @@
 "NR" = (
 /turf/open/floor/iron/brick_corner_inverse,
 /area/ruin/space/has_grav/port_tarkon/warehouse)
-"NS" = (
-/obj/effect/spawner/liquids_spawner/shoulders,
-/obj/structure/chair/sofa/bench{
-	dir = 8
-	},
-/obj/effect/mist,
-/turf/open/floor/iron/pool/cobble/side{
-	dir = 4
-	},
-/area/ruin/space/has_grav/port_tarkon/sauna)
 "NU" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 8
@@ -10368,15 +10108,6 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/port_tarkon/loadbay)
-"Pb" = (
-/obj/structure/chair/sofa/bench/left{
-	dir = 1
-	},
-/obj/machinery/firealarm/directional/south,
-/turf/open/floor/iron/dark/brick_half{
-	dir = 1
-	},
-/area/ruin/space/has_grav/port_tarkon/sauna)
 "Pc" = (
 /obj/effect/turf_decal/tile/purple,
 /turf/open/floor/iron/dark/brick_half{
@@ -10501,12 +10232,6 @@
 /obj/structure/closet/crate/freezer/blood,
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/port_tarkon/trauma)
-"Pw" = (
-/obj/structure/chair/sofa/bench/left{
-	dir = 8
-	},
-/turf/open/floor/wood/large,
-/area/ruin/space/has_grav/port_tarkon/sauna)
 "Py" = (
 /obj/machinery/power/apc/auto_name/directional/north,
 /obj/structure/cable,
@@ -10531,12 +10256,6 @@
 /obj/machinery/firealarm/directional/north,
 /turf/open/floor/grass,
 /area/ruin/space/has_grav/port_tarkon/garden)
-"PD" = (
-/obj/structure/chair/sofa/bench{
-	dir = 4
-	},
-/turf/open/floor/wood/large,
-/area/ruin/space/has_grav/port_tarkon/sauna)
 "PF" = (
 /obj/machinery/computer/atmos_control/tarkon/incinerator{
 	dir = 1
@@ -10612,13 +10331,6 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/port_tarkon/atmos)
-"PQ" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/disposalpipe/segment,
-/turf/open/floor/iron/brick_half,
-/area/ruin/space/has_grav/port_tarkon/centerhall)
 "PR" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/brick_corner_inverse{
@@ -11172,15 +10884,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/port_tarkon/porthall)
-"RP" = (
-/obj/structure/closet/generic/wall{
-	pixel_x = -32
-	},
-/obj/structure/extinguisher_cabinet/directional/south,
-/turf/open/floor/iron/dark/brick_corner{
-	dir = 4
-	},
-/area/ruin/space/has_grav/port_tarkon/sauna)
 "RQ" = (
 /obj/effect/turf_decal/tile/yellow/half{
 	dir = 8
@@ -11518,14 +11221,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/brick_half,
 /area/ruin/space/has_grav/port_tarkon/porthall)
-"Ti" = (
-/obj/structure/fans/tiny,
-/obj/machinery/door/airlock/wood{
-	name = "Sauna";
-	id_tag = "trkdorm1"
-	},
-/turf/open/floor/iron/dark,
-/area/ruin/space/has_grav/port_tarkon/sauna)
 "Tk" = (
 /obj/effect/turf_decal/tile/yellow/half{
 	dir = 4
@@ -11910,25 +11605,6 @@
 /obj/item/ammo_box/magazine/c35sol_pistol,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/port_tarkon/secoff)
-"UN" = (
-/obj/machinery/button/polarizer{
-	id = "tarkon_sauna";
-	pixel_y = -26;
-	name = "polarizer button";
-	pixel_x = 6
-	},
-/obj/machinery/button/door{
-	id = "trkdorm3";
-	name = "Sauna Bolts";
-	pixel_y = -26;
-	normaldoorcontrol = 1;
-	specialfunctions = 4;
-	pixel_x = -6
-	},
-/turf/open/floor/iron/dark/brick_half{
-	dir = 1
-	},
-/area/ruin/space/has_grav/port_tarkon/sauna)
 "UO" = (
 /obj/effect/turf_decal/tile/brown/anticorner{
 	dir = 4
@@ -12170,15 +11846,6 @@
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/iron/dark/smooth_large,
 /area/ruin/space/has_grav/port_tarkon/comlobby)
-"VK" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/disposalpipe/segment{
-	dir = 6
-	},
-/obj/structure/cable,
-/turf/open/floor/iron/dark/brick,
-/area/ruin/space/has_grav/port_tarkon/sauna)
 "VL" = (
 /obj/machinery/door/airlock{
 	name = "Bathroom"
@@ -12573,15 +12240,6 @@
 	},
 /turf/open/misc/asteroid/airless,
 /area/ruin/space/has_grav)
-"Xp" = (
-/obj/structure/sauna_oven,
-/obj/machinery/button/polarizer{
-	id = "tarkon-dorm";
-	pixel_y = 25;
-	name = "polarizer button"
-	},
-/turf/open/floor/wood/large,
-/area/ruin/space/has_grav/port_tarkon/sauna)
 "Xq" = (
 /obj/machinery/atmospherics/components/binary/pump/off/general{
 	dir = 4
@@ -12872,9 +12530,6 @@
 "Yx" = (
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/port_tarkon/lockerroom)
-"Yy" = (
-/turf/open/floor/iron/dark/brick_half,
-/area/ruin/space/has_grav/port_tarkon/sauna)
 "YA" = (
 /obj/structure/displaycase{
 	start_showpiece_type = /obj/item/gun/energy/recharge/resonant_system;
@@ -12931,9 +12586,7 @@
 /area/ruin/space/has_grav/port_tarkon/developement)
 "YK" = (
 /obj/machinery/light/directional/west,
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
-	dir = 4
-	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /turf/open/floor/iron/brick_corner,
 /area/ruin/space/has_grav/port_tarkon/centerhall)
 "YM" = (
@@ -14323,7 +13976,7 @@ Jf
 Wm
 kN
 Rj
-om
+kN
 Rj
 kN
 kN
@@ -14691,7 +14344,7 @@ fR
 fR
 fR
 kS
-kN
+om
 kN
 kN
 fR
@@ -17584,9 +17237,9 @@ wq
 wq
 wq
 vi
-xN
+mJ
 Ww
-eQ
+mJ
 UP
 VG
 mF
@@ -17948,9 +17601,9 @@ wq
 wq
 wq
 wq
-wq
-wq
-LK
+Jm
+Jm
+kN
 xN
 wo
 hk
@@ -18039,10 +17692,10 @@ wq
 wq
 wq
 wq
-wq
-wq
-LK
-fR
+Jm
+Jm
+kN
+kN
 xN
 Ji
 hX
@@ -18131,10 +17784,10 @@ wq
 wq
 wq
 wq
-wq
-LK
-fR
-fR
+Jm
+kN
+kN
+kN
 xN
 dz
 QA
@@ -18222,11 +17875,11 @@ wq
 wq
 wq
 wq
-wq
-wq
-fR
-fR
-LK
+Jm
+Jm
+kN
+kN
+kN
 xN
 Ug
 Tz
@@ -18314,11 +17967,11 @@ wq
 wq
 wq
 wq
-wq
-wq
-wq
-fR
-fR
+Jm
+Jm
+Jm
+kN
+kN
 xN
 eQ
 eQ
@@ -18405,13 +18058,13 @@ wq
 wq
 wq
 wq
-wq
-wq
-wq
-wq
-wq
-wq
-AS
+Jm
+Jm
+Jm
+Jm
+Jm
+Jm
+DZ
 LJ
 Ob
 ey
@@ -18497,13 +18150,13 @@ IO
 wq
 wq
 wq
-wq
-wq
-wq
-wq
-wq
-wq
-AS
+Jm
+Jm
+Jm
+Jm
+Jm
+Jm
+DZ
 wx
 ka
 OH
@@ -18589,13 +18242,13 @@ IO
 wq
 wq
 wq
-wq
-wq
-wq
-wq
-wq
-wq
-AS
+Jm
+Jm
+Jm
+Jm
+Jm
+Jm
+DZ
 My
 ID
 rX
@@ -18680,13 +18333,13 @@ IO
 IO
 wq
 wq
-fR
-fR
-LK
-LK
-fR
-fR
-fR
+kN
+kN
+kN
+kN
+kN
+kN
+kN
 BB
 UH
 UH
@@ -18770,24 +18423,24 @@ wq
 wq
 wq
 nT
-LK
-fR
-fR
-LK
-fR
-LK
-LK
-LK
-LK
+kN
+kN
+kN
+kN
+kN
+kN
+kN
+kN
+kN
 BB
-wF
-DB
-PD
-Fq
-UH
-bs
-wH
-RP
+jj
+jj
+jj
+jj
+jj
+jj
+jj
+jj
 UH
 ob
 GO
@@ -18861,25 +18514,25 @@ IO
 wq
 LK
 fR
-fR
-fR
-fR
-LK
-LK
-fR
-fR
-LK
-fR
-LK
+kN
+kN
+kN
+kN
+kN
+kN
+kN
+kN
+kN
+kN
 BB
-Gq
-DZ
-DZ
-AY
-UH
-wD
-eh
-Pb
+jj
+jj
+jj
+jj
+jj
+jj
+jj
+jj
 UH
 yz
 Fe
@@ -18953,25 +18606,25 @@ nT
 fR
 fR
 fR
-LK
-fR
-LK
-fR
-fR
-LK
-LK
-fR
-LK
-fR
+kN
+kN
+kN
+kN
+kN
+kN
+kN
+kN
+kN
+kN
 BB
-Xp
-cr
-Pw
-DZ
-Ti
-Yy
-AK
-po
+jj
+jj
+jj
+jj
+jj
+jj
+jj
+jj
 UH
 xc
 hZ
@@ -19045,25 +18698,25 @@ fR
 fR
 LK
 LK
-fR
-fR
-LK
-LK
-fR
-LK
-fR
-fR
-LK
-fR
+kN
+kN
+kN
+kN
+kN
+kN
+kN
+kN
+kN
+kN
 BB
-Ko
-Ko
-Ko
-Ko
-UH
-mJ
-lh
-UN
+jj
+jj
+jj
+jj
+jj
+jj
+jj
+jj
 UH
 JN
 VL
@@ -19137,26 +18790,26 @@ MQ
 MQ
 MQ
 MQ
-fR
-LK
-fR
-LK
-LK
-fR
-fR
-LK
-fR
-LK
+kN
+kN
+kN
+kN
+kN
+kN
+kN
+kN
+kN
+kN
 BB
-dm
-ND
-ND
-yK
+jj
+jj
+jj
+jj
+jj
+jj
+jj
+jj
 UH
-nU
-yA
-Hd
-Gn
 YK
 bS
 Rl
@@ -19233,23 +18886,23 @@ Ns
 Ns
 Ns
 Ns
-LK
-fR
-LK
-fR
-LK
-fR
+kN
+kN
+kN
+kN
+kN
+kN
 BB
-fA
-KY
-KY
-Ik
-KR
-Yy
-VK
-nF
-GA
-PQ
+jj
+jj
+jj
+jj
+jj
+jj
+jj
+jj
+UH
+kv
 of
 FW
 FW
@@ -19332,15 +18985,15 @@ Ns
 Ns
 Ns
 BB
-vg
-NS
-NS
-oT
-UH
-fg
-Fr
 jj
-Gn
+jj
+jj
+jj
+jj
+jj
+jj
+jj
+UH
 kv
 uK
 JL

@@ -332,3 +332,20 @@
 	icon = 'modular_nova/modules/tarkon/icons/obj/storage.dmi'
 	icon_state = "tarkon"
 	icon_door = "tarkon"
+
+/mob/living/basic/bot/medbot/tarkon
+	name = "\improper Modified Medibot"
+	damage_type_healer = HEAL_ALL_DAMAGE
+	heal_threshold = 0
+	heal_amount = 5
+	req_one_access = list(ACCESS_TARKON)
+	radio_key = /obj/item/encryptionkey/headset_cargo/tarkon
+	radio_channel = RADIO_CHANNEL_TARKON
+	damage_type_healer = HEAL_ALL_DAMAGE
+	faction = list(FACTION_TARKON)
+	medical_mode_flags = MEDBOT_DECLARE_CRIT | MEDBOT_STATIONARY_MODE
+
+/mob/living/basic/bot/medbot/tarkon/Initialize(mapload, new_skin)
+	. = ..()
+	internal_radio.set_frequency(FREQ_TARKON)
+	internal_radio.freqlock = RADIO_FREQENCY_LOCKED
