@@ -258,7 +258,6 @@
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/port_tarkon/dock)
 "aV" = (
-/obj/item/reagent_containers/cup/glass/waterbottle/tea/nip,
 /obj/structure/table/wood,
 /obj/machinery/light_switch/directional/west,
 /turf/open/floor/wood/large,
@@ -891,9 +890,6 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/port_tarkon/dock)
-"dP" = (
-/turf/closed/wall/mineral/titanium/nodiagonal,
-/area/ruin/space/has_grav)
 "dQ" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -2253,12 +2249,6 @@
 /obj/structure/fans/tiny,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/port_tarkon/dock)
-"ja" = (
-/obj/item/stack/sheet/mineral/titanium{
-	amount = 3
-	},
-/turf/open/floor/plating/airless,
-/area/ruin/space/has_grav)
 "jb" = (
 /obj/structure/bed/nest,
 /turf/open/floor/plating,
@@ -4594,7 +4584,7 @@
 "sq" = (
 /obj/machinery/airalarm/directional/north,
 /obj/effect/mapping_helpers/airalarm/all_access,
-/obj/machinery/vending/cigarette,
+/obj/machinery/jukebox/no_access,
 /turf/open/floor/wood/large,
 /area/ruin/space/has_grav/port_tarkon/lounge)
 "st" = (
@@ -5184,11 +5174,8 @@
 /turf/open/misc/asteroid/airless,
 /area/ruin/space/has_grav)
 "uO" = (
-/obj/machinery/power/shuttle_engine/propulsion/burst{
-	dir = 8
-	},
-/turf/open/misc/asteroid/airless,
-/area/ruin/space/has_grav)
+/turf/closed/mineral/random,
+/area/template_noop)
 "uR" = (
 /obj/effect/turf_decal/tile/yellow/anticorner,
 /obj/structure/table,
@@ -6145,9 +6132,6 @@
 /obj/machinery/light/directional/north,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/port_tarkon/toolstorage)
-"yy" = (
-/turf/closed/wall/mineral/titanium,
-/area/ruin/space/has_grav)
 "yz" = (
 /obj/structure/towel_bin,
 /obj/structure/table/reinforced,
@@ -6502,6 +6486,8 @@
 /area/ruin/space/has_grav/port_tarkon/dock)
 "Ac" = (
 /obj/machinery/light/directional/east,
+/obj/effect/mob_spawn/corpse/human/skeleton,
+/obj/effect/decal/cleanable/ash/large,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/port_tarkon/atmos)
 "Ad" = (
@@ -7944,12 +7930,6 @@
 /obj/machinery/light/floor,
 /turf/open/floor/wood/large,
 /area/ruin/space/has_grav/port_tarkon/lounge)
-"Gr" = (
-/obj/structure/table/reinforced,
-/obj/machinery/vending/boozeomat,
-/obj/effect/turf_decal/tile/bar/opposingcorners,
-/turf/open/floor/iron/dark,
-/area/ruin/space/has_grav/port_tarkon/kitchen)
 "Gs" = (
 /obj/effect/turf_decal/tile/blue/half{
 	dir = 4
@@ -8273,10 +8253,6 @@
 /area/ruin/space/has_grav/port_tarkon/turbine)
 "HE" = (
 /obj/effect/turf_decal/siding/wood/corner,
-/obj/structure/bed/dogbed,
-/obj/effect/decal/cleanable/ash/large{
-	desc = "Hey its me, tarkonian- Hey did that pet just turn into sand?"
-	},
 /turf/open/floor/wood/large,
 /area/ruin/space/has_grav/port_tarkon/apartment)
 "HG" = (
@@ -8769,14 +8745,6 @@
 /obj/machinery/door/firedoor,
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/port_tarkon/medhall)
-"JE" = (
-/turf/open/floor/plating/airless,
-/area/ruin/space/has_grav)
-"JF" = (
-/obj/item/shard/titanium,
-/obj/structure/grille/broken,
-/turf/open/floor/plating/airless,
-/area/ruin/space/has_grav)
 "JG" = (
 /obj/effect/turf_decal/tile/purple/half{
 	dir = 1
@@ -10560,9 +10528,9 @@
 /turf/open/floor/engine,
 /area/ruin/space/has_grav/port_tarkon/turbine)
 "QK" = (
-/obj/structure/door_assembly/door_assembly_shuttle,
-/turf/open/floor/mineral/titanium/blue/airless,
-/area/ruin/space/has_grav)
+/obj/machinery/vending/boozeomat,
+/turf/closed/wall,
+/area/ruin/space/has_grav/port_tarkon/lounge)
 "QL" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 8
@@ -11945,7 +11913,7 @@
 /turf/open/floor/iron/brick_corner_inverse,
 /area/ruin/space/has_grav/port_tarkon/centerhall)
 "Wc" = (
-/obj/machinery/jukebox/no_access,
+/obj/structure/chair/stool/bar/directional/east,
 /turf/open/floor/iron/brick_corner{
 	dir = 8
 	},
@@ -11960,12 +11928,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/port_tarkon)
-"Wi" = (
-/obj/structure/chair/comfy/shuttle{
-	dir = 4
-	},
-/turf/open/floor/mineral/titanium/blue/airless,
-/area/ruin/space/has_grav)
 "Wj" = (
 /obj/machinery/vending/hydronutrients,
 /obj/effect/turf_decal/siding/wood{
@@ -12787,16 +12749,6 @@
 	dir = 4
 	},
 /area/ruin/space/has_grav/port_tarkon/mining)
-"ZC" = (
-/obj/item/shard/titanium,
-/obj/item/stack/rods{
-	amount = 3
-	},
-/obj/structure/chair/comfy/shuttle{
-	dir = 4
-	},
-/turf/open/floor/mineral/titanium/blue/airless,
-/area/ruin/space/has_grav)
 "ZE" = (
 /obj/effect/turf_decal/caution/stand_clear,
 /obj/effect/turf_decal/tile/brown/half,
@@ -13850,7 +13802,7 @@ wq
 wq
 wq
 fR
-kN
+fR
 wq
 wq
 LK
@@ -13942,9 +13894,9 @@ wq
 wq
 LK
 fR
-uO
-kN
-uO
+fR
+fR
+LK
 fR
 LK
 fR
@@ -14034,9 +13986,9 @@ fR
 fR
 fR
 LK
-dP
-QK
-dP
+fR
+LK
+fR
 LK
 LK
 fR
@@ -14126,9 +14078,9 @@ fR
 LK
 fR
 LK
-yy
-Wi
-yy
+LK
+LK
+fR
 LK
 fR
 LK
@@ -14218,9 +14170,9 @@ LK
 fR
 LK
 fR
-JE
-ZC
-yy
+LK
+fR
+LK
 LK
 LK
 dq
@@ -14310,9 +14262,9 @@ fR
 fR
 fR
 fR
-ja
-JF
-yy
+fR
+LK
+fR
 dq
 dq
 dq
@@ -17511,7 +17463,7 @@ wq
 wq
 wq
 wq
-wq
+uO
 xN
 xN
 eQ
@@ -17601,9 +17553,9 @@ wq
 wq
 wq
 wq
-Jm
-Jm
 kN
+fR
+fR
 xN
 wo
 hk
@@ -17692,10 +17644,10 @@ wq
 wq
 wq
 wq
-Jm
-Jm
 kN
 kN
+fR
+fR
 xN
 Ji
 hX
@@ -17784,10 +17736,10 @@ wq
 wq
 wq
 wq
-Jm
 kN
 kN
-kN
+fR
+fR
 xN
 dz
 QA
@@ -17875,11 +17827,11 @@ wq
 wq
 wq
 wq
-Jm
-Jm
 kN
 kN
 kN
+fR
+fR
 xN
 Ug
 Tz
@@ -17967,11 +17919,11 @@ wq
 wq
 wq
 wq
-Jm
-Jm
-Jm
 kN
 kN
+kN
+fR
+fR
 xN
 eQ
 eQ
@@ -18058,12 +18010,12 @@ wq
 wq
 wq
 wq
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
+kN
+kN
+kN
+kN
+fR
+fR
 DZ
 LJ
 Ob
@@ -18150,12 +18102,12 @@ IO
 wq
 wq
 wq
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
+kN
+kN
+kN
+kN
+fR
+fR
 DZ
 wx
 ka
@@ -18176,7 +18128,7 @@ kv
 nA
 fW
 Db
-Db
+QK
 mu
 mu
 sA
@@ -18242,12 +18194,12 @@ IO
 wq
 wq
 wq
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
+kN
+kN
+kN
+kN
+fR
+fR
 DZ
 My
 ID
@@ -18338,8 +18290,8 @@ kN
 kN
 kN
 kN
-kN
-kN
+fR
+fR
 BB
 UH
 UH
@@ -18423,15 +18375,15 @@ wq
 wq
 wq
 nT
+fR
+fR
 kN
 kN
 kN
 kN
 kN
-kN
-kN
-kN
-kN
+fR
+fR
 BB
 jj
 jj
@@ -18514,16 +18466,16 @@ IO
 wq
 LK
 fR
+fR
+fR
+fR
 kN
 kN
 kN
 kN
 kN
-kN
-kN
-kN
-kN
-kN
+fR
+fR
 BB
 jj
 jj
@@ -18606,16 +18558,16 @@ nT
 fR
 fR
 fR
+fR
+fR
+fR
 kN
 kN
 kN
 kN
 kN
-kN
-kN
-kN
-kN
-kN
+fR
+fR
 BB
 jj
 jj
@@ -18698,16 +18650,16 @@ fR
 fR
 LK
 LK
+fR
+fR
+fR
 kN
 kN
 kN
 kN
 kN
-kN
-kN
-kN
-kN
-kN
+fR
+fR
 BB
 jj
 jj
@@ -18790,16 +18742,16 @@ MQ
 MQ
 MQ
 MQ
-kN
-kN
-kN
-kN
-kN
-kN
-kN
-kN
-kN
-kN
+fR
+fR
+fR
+fR
+fR
+fR
+fR
+fR
+fR
+fR
 BB
 jj
 jj
@@ -18886,12 +18838,12 @@ Ns
 Ns
 Ns
 Ns
-kN
-kN
-kN
-kN
-kN
-kN
+fR
+fR
+fR
+fR
+fR
+fR
 BB
 jj
 jj
@@ -19189,7 +19141,7 @@ lG
 aj
 Ln
 pu
-Gr
+EI
 DO
 XC
 EI
